@@ -1,0 +1,201 @@
+    DAI ASSESSMENT GUIDELINES
+                         for
+
+               Capstone Projects
+
+                 PHASE - I (Odd Semester Part 3)
+Zeroth Review (NO Marks to be awarded)
+
+Objectives
+     To Assess the Problem Statement of the Project work prepared by the Student.
+     To Assess the Fundamental knowledge of the candidate in the area of work.
+
+Assessment Guidelines
+     The project idea can be approved or rejected based on the originality of the work and the
+         Student's confidence in completing the project.
+     Area of study and up to 3 topics can be considered.
+
+                PHASE - II (Even Semester Part 3)
+PROJECT PROPOSAL
+
+Objectives
+The candidate is expected to complete the following activities:
+
+     Background
+     Study of Base Paper and Problem Formulation (Problem Statement)
+
+                                                                                                                              1
+     Survey of literature relevant to the area of the work (Pre-literature review)
+     Motivation of work
+     Objectives
+     Justification
+     Proposed Solution to the Problem identified above (Student's own contribution).
+
+Review Guidelines
+The candidate shall submit a project proposal document and give a Powerpoint Presentation of the
+progress of work, thus far, to the panel of reviewers for duration of 10 minutes. The presentation is
+expected to contain the following information in the order specified:
+
+     Logical flow of ideas inspired from the survey which leads to the problem Statement
+     Clear and Concise description of the problem statement
+     Pros and Cons of existing solutions to the problem, if any.
+
+                PHASE - III (Odd Semester Part 4)
+CONCEPT DEVELOPMENT & EVALUATION REPORT
+
+Review - 1 (Gap Analysis)
+
+Objectives
+The candidate is expected to complete the following work:
+
+     Chapter 1 adoption from proposal
+     Chapter 2 adoption from pre-literature review
+     Formulation of the solution
+     Identification of tools to carry out experiments and test the project outcome.
+     Identification of development and test environment
+     First draft of the Formulated Solution
+     First draft of Development, Test Procedures
+     Initial Analysis of the Formulated Solution using UML diagrams
+
+                                                                                                                              2
+     Expected Outcome.
+
+Review Guidelines
+The candidate shall give a Powerpoint Presentation of the progress of work, thus far, to the panel of
+reviewers for a duration of 10 minutes. The presentation is expected to contain the following
+information in the order specified:
+
+     A Quick Recap of Phase II (Proposal), highlighting the problem statement and formulated
+         solution
+
+     Clear Discussion of the solution
+     Information about the development and test environment needed
+     Experimental procedures (Highlight the methodologies involved to conduct experiments)
+     Test procedures (highlight the different scenarios of test and the outcome), Data Collection etc
+     Analysis shall highlight the pros and cons of the formulated solution, impact of the outcome
+     Highlight the progress in identification of the development and test environment.
+
+Review - 2 (Design)
+
+Objectives
+The candidate is expected to have implemented the following:
+
+     Methodology adoption (Chapter 3)
+     Final Design of the Formulated Solution
+     Final Development, Test Procedures and Data Collection
+     Completion of Analysis of the Formulated Solution using UML diagrams
+     Acquiring development and test environment
+     First draft of the research survey paper.
+
+Review Guidelines
+The candidate shall submit two documents to the supervisor; the draft research paper and the concept
+development and evaluation report. The candidate will also give a PowerPoint Presentation of the
+
+                                                                                                                              3
+progress of work, thus far, to the panel of reviewers for duration of 10 minutes. The presentation is
+expected to contain the following information in the order specified:
+
+     A Quick Recap of Review 2 (Chapters 1 & 2), highlighting the problem statement and
+         formulated solution
+
+     Design may contain mathematical model of formulated solution, algorithm design, protocol
+         design, design of UML diagrams etc
+
+     Experimental procedures (Highlight the methodologies involved to conduct experiments), Test
+         procedures (highlight the different scenarios of test and the outcome), Data collection etc
+
+     Highlight the progress in the development and test environment
+     Review of the draft project report.
+     Submission of survey paper.
+
+                PHASE -IV (Even Semester Part 4)
+       PROTOTYPE/MODEL DEVELOPMENT AND
+
+                      EVALUATION REPORT
+
+Review - 3
+
+Objectives
+
+The candidate is expected to have completed the following stages:
+     Implementation of the work contained in the base paper
+     Formulation of proposed solution (Enhancement).
+         (It is expected that the student after implementation of the work contained in the base
+         paper, will identify enhancements to the research ideas contained in the base paper as
+         selected for the project.)
+     Analysis of the Results, if any
+     First draft of technical research paper for submission (library, conferences or journals)
+
+Review Guidelines
+
+The candidate shall give a PowerPoint Presentation of the progress of work, thus far, to the panel of
+
+                                                                                                                              4
+reviewers for duration of 10 minutes. The presentation is expected to contain the following information
+in the order specified:
+
+     A quick recap of phase III (Chapters 1 to 3)
+     Plan for implementation of proposed enhancement work and the expected outcome
+     Highlight the implementation done, thus far, with substantial proofs (screenshots, result data,
+
+         graphs etc.)
+     Analysis of the results
+     Review of the draft project report.
+     Update on the initial draft technical paper.
+
+Review - 4 (Final Viva voce/Oral presentation of project)
+
+Objectives
+
+The candidate is expected to present on the following:
+     Draft outline of the Research/Project.
+     Complete implementation of the enhanced project work.
+     Project Demonstration.
+
+Review Guidelines
+     The candidate shall present on the completed research project to the department. The candidate
+         shall also give a demo of their completed project work, with substantial proofs of the study,
+         experiments, data collection and future enhancements.
+     Reviewers evaluate the mode of conduct of experiments and the results produced.
+     Submission of the final draft technical paper, for library or journal publication.
+
+SUBMISSION OF FINAL WRITTEN PROJECT REPORT
+
+Objectives
+     Assessment of final draft or capstone project report.
+     Submission of survey and technical paper as annexes to final project report.
+
+                                                                                                                              5
+ Similarity (Plagiarism check) below 15%.
+
+Review Guidelines
+     Reviewers shall review the final report of the capstone project as outlined in DAI Capstone
+         Guidelines.
+
+               PROPOSED REVIEW TIMELINES
+
+Objectives
+
+     To keep track of the leaners progress
+     To constantly align the leaners to the set project objectives and the requirements of the
+
+         university standards
+
+PHASE      REVIEW  ACTIVITY                                       DATE
+PHASE I         -  Zeroth review                                  N/A
+PHASE II        -                                                 12 - 13 Oct 2026
+PHASE III       1  Project proposal                               1 - 4 Dec 2026
+PHASE III       2  Concept development & evaluation report        TBA
+                   Research Methodology & submission of draft
+PHASE IV        3  survey paper                                   TBA
+                   Prototype/model development and evaluation
+PHASE IV        4  report                                         TBA
+                   Final viva voce/oral presentation of research
+PHASE IV        -  project & submission of draft technical paper  TBA
+                   Submission of the final capstone
+                   document(s)
+
+NB: The provisional review dates can be changed to suit the requirements of the university.
+
+                                                                                             6
+

@@ -1,0 +1,692 @@
+Faculty of Engineering Informatics and Communications
+           Department of Analytics and Informatics
+
+Guidelines for Students on
+      Capstone Project
+
+    HCF/HDS 460 & 461
+Project outline
+
+Title:           Capstone Project 1 & 2
+
+Duration:        1 Year
+
+Project Codes:   HCF/HDS 460 & 461
+
+Weighting:       30 + 30 credits
+
+Lecturers:       All academic members of the Department
+
+1.0 Preamble
+
+Research and Development (R&D) based Capstone Design Project is predominantly a
+fourth year student's research project course, which has been adjusted to commence from
+Level/Part 3 during work related learning (WRL), and continued until completion in
+Level/Part 4. The course seeks to bring out what potential students possess as far as R&D
+is concerned. It challenges students to find solutions to real-world, industrial challenges
+and generate new ideas and solutions for present day challenges. The subject is broad and
+stresses on freethinking and innovativeness in order to develop security technologies that
+would improve Zimbabwe and the world. Students will work as individuals, but can be
+allowed to team up in research groups, brainstorm and share ideas to solve the problem at
+hand. This is done to acquaint students with real world environment for problem solving.
+
+2.0 Aims and Objectives
+
+2.1 Aims
+
+By the end of the course the students should be able to:
+       i. Show appreciation of development of high-tech enterprises.
+      ii. Conduct R & D in line with education 5.0.
+
+     iii. Write technical reports.
+     iv. Solve real-life practical problem(s).
+
+2.2 Specific Objectives
+
+a. To provide the students with basic knowledge of conducting R & D.
+b. To encourage the students to do projects they can commercialize, i.e. the course
+
+    challenges the students to develop their techno-entrepreneurial skills
+c. To encourage the students to apply knowledge they acquired in earlier years in order
+
+    to solve problems of today and tomorrow.
+d. To inculcate in students the habit of conducting research that is need based.
+e. To develop students into innovative citizens.
+
+                                  Page 2 of 19
+3.0 Project Content
+
+The project content consist of project phases and project write up.
+
+3.1 Project Phases
+
+Execution of research and Development project is done in accordance to phases outlined
+in Table 1.
+
+Table 1: Phases in execution of Research and Development Project
+
+Project Phase           Action points                                Execution
+
+                                                                     Schedule
+
+1. Project Proposal      Search for practical problem arising Part 3
+
+                        out of life situation                        (Done during
+
+                         Analysis of the situation                   WRL period)
+
+                         Write down a short statement giving
+
+                        general outline of the problem
+
+                         Search literature for similar problems
+
+                        and how they were solved (Pre-
+
+                        literature review)
+
+2. Literature Review /   Critically analyse your situation and Semester 1
+
+Analysis of Existing    in relation to the literature                (Part 4)
+
+System(s), Processes,  Identify technology gaps that needs
+
+Models etc              solution
+
+                         Design way of finding solution to the
+
+                        situation
+
+3. System, Process, Model  Outline research methodology              Semester 1
+
+Analysis and Design  Choose best way of solving the (Part 4)
+
+                        problem
+
+                         Construct process flow chart
+
+                         Plan way of finding solution to the
+
+                        problem arising
+
+                         Drafting of data capture tools
+
+                         Evaluate capital costs of
+
+                        implementing the design
+
+                         E.g. Modelling (analysis, design)
+
+                        and/or Prototyping
+
+4. Implementation        Test performance of the suggested Semester 2
+
+                        solution                                     (Part 4)
+
+                         Evaluate innovativeness of the
+
+                        solution
+
+5. Discussion of Results,  Evaluate whether the problem has Semester 2
+
+Conclusion,             been solved or more research needs (Part 4)
+
+Recommendations &       to be done (Research Contributions)
+
+Future Works             Give recommendations
+
+                        Page 3 of 19
+3.2 Format for Writing the Report
+
+The final project should:
+     Have a minimum of 45 pages and maximum of 60
+     Have a font size 12, Times New Roman
+     Be presented in one and half spacing
+
+In the preliminary pages or front pages of the Capstone Design Project you present the
+following materials:
+
+     The title page
+     Abstract
+     Declaration
+     Copyright
+     Dedication
+     Acknowledgments
+     Abbreviations
+     Table of contents
+
+             o List of tables
+             o List of figures
+
+3.2.1 The title page (Appendix I)
+
+It is considered as page (i) but is left unnumbered. Titles are single spaced and are written
+in upper case. If the title is more than one line it should break in a logical place for easy
+reading. The title page shows:
+
+     UZ Logo
+     Faculty
+     Title of project
+     Name of writer
+     Purpose of the project
+     Name of the Institute & Department
+     Year
+
+3.2.2 Declaration ( Appendix II)
+
+This serves as official acknowledgment and acceptance of the research project as
+satisfactory. It is signed by your supervisor(s) and includes date submitted.
+
+3.2.3 Copyright (Appendix III)
+
+This is a form that grants the University of Zimbabwe permission to produce copies of the
+Research/Capstone Project and also reserves the authors' publication rights.
+
+                                              Page 4 of 19
+3.2.4 Dedication (Appendix IV)
+
+This serves as a tribute or recognition to a specific individual or individuals.
+
+3.2.5 The Abstract (Appendix V)
+
+The abstract is used by potential readers to determine at a glance, the contents of the
+capstone design project. You should present it as a precise and well written summary. Your
+abstract should contain:
+
+     A clear statement of the problem/ problems being solved.
+     The purpose of the project.
+     A summary of the methods used in the design of major equipment such as heat
+
+         exchangers, distillation columns etc.
+     A statement of source and type of physical data collected and its use. A summary
+
+         of experimental work undertaken and the type of data collected and its use in the
+         design.
+     A summary of the findings, conclusions, recommendations and suggestions for
+         further research. Your abstract should not be more than a page in length.
+
+3.2.6 Acknowledgements (Appendix VI)
+
+In this section you thank persons to whom you are indebted for guidance and assistance in
+making your study successful. You must present this section on a separate page.
+
+3.2.7 Table of Contents (Appendix VII)
+
+You present an outline of the components of your design project. These components
+include, the preliminaries and these are typed in lower case. They are arranged as follows:
+
+     Title Page (i)
+     Abstract (ii)
+     Declaration (iii)
+     Copyright (iv)
+     Dedication (v)
+     Acknowledgements (vi)
+     Table of Contents (vii)
+
+             o List of Tables (viii)
+             o List of Figures (ix)
+             o List of Appendices (x)
+     Abbreviations
+
+After the preliminaries you then list chapters and chapter headings and sub-headings giving
+the page(s) where these are located in your design project. Lastly, you present the back
+pages materials, which are references and appendices. For typing you should ensure
+
+                                              Page 5 of 19
+that:
+
+     Chapter numbers and preliminaries' pages are typed in Roman numerals.
+     Chapter titles and chapter numbers are typed in upper case.
+     Sub-headings of each chapter are typed in lower case and are single spaced.
+     Margins are 4.0cm on the left, 1.0 on the right hand side, 2.5cm at the top and 4.0cm
+
+         at the bottom of the page.
+     Numbering of the pages should be at the centre bottom edge.
+     Appendices are presented in Arabic numerals and typed in upper case. (Appendix
+
+         vii)
+
+3.2.8 List of Figures (Appendix VIII)
+
+Anything other than tables should be considered as a figure. You should write the figure
+number, title and reference page. Type these in lower case.
+
+3.2.9 List of Tables (Appendix IX)
+
+You should show the table number, its title and reference page. This should be done in
+lower case.
+
+3.2.10 Abbreviations
+
+All terms abbreviated in the project document should be specified in this category.
+
+4.0 Project Workshop
+
+This is conducted as follows:
+
+ Lectures of that approach to:
+         o Conduct R & D
+         o Phases that one goes through in executing a project
+         o Presentation of a final report
+
+Each student would be expected to read widely to enhance understanding of the approach
+taken in conducting R & D or executing projects.
+
+5.0 Assessment Procedure
+
+The course will be taken over a period of two semesters (excluding proposals) and will be
+examined by oral and written presentations of the project. The capstone project will be
+evaluated in reference to Table 2.
+
+                                              Page 6 of 19
+Course                    Table 2: Assessment Components                  % of Final
+            Work Component                                                Course mark
+Capstone 1                                                                50%
+Capstone 1  Concept development & evaluation review                       50%
+Capstone 2  Methodology & evaluation review                               30%
+            Model/Concept/Prototype development & evaluation
+Capstone 2  review                                                        30%
+            Final oral presentation of project/research (includes
+Capstone 2  practical presentation of prototype/model developed)          40%
+            Final written project report
+
+Evaluation can be split into two main categories; written report and oral presentation
+
+5.1 Written Report
+
+Report writing is a key skill in presentation of information. As such students should show
+a mastery of this. Assessment of the written report will be upon the following basis:
+
+ Typography - spelling and grammar
+ Information flow - coherence and cohesion of information
+ Referencing - knowledge of referencing skills, e.g. Harvard Style
+ Content - relevance of information in the document toward solving the problem
+ Adherence to set rules - following the prescribed procedure
+
+Final report assessment is based on the guidance given in table 3 below:
+
+                    Table 3: Final Report Assessment guidelines
+
+Performance Task        Performance Criteria    Score
+
+                                                (Total 100)
+
+Information Presentation Typography             10
+
+                        Information flow
+
+                        Following guidelines
+
+Problem Identification  Innovativeness          10
+
+                        Value creation
+
+                        Wealth creation
+
+                        Political needs
+
+                        Problem solving
+
+Literature Survey       Systematic review       20
+
+                        Relevant literature
+
+                        Scientific conventions
+
+                        Survey paper
+
+                        Page 7 of 19
+Research Methodology     Research Methods            20
+
+Process/Concept/Model    Laboratory work
+Design
+                         Data collection & analysis
+Conclusion,
+Recommendations and      Project Development
+Future work
+Presentation and         Rational
+Production Standard
+                         Process workflow            20
+
+                         Modelling
+
+                         Prototype
+
+                         Technical paper
+
+                         Design results discussion 10
+
+                         Innovativeness
+
+                         Research contributions
+
+                         Citations                   10
+
+                         References threshold met
+
+                         Clarity of writing
+
+5.2 Oral Presentation
+
+Four presentations are expected to be done in the whole year, two presentations in each
+semester. The first presentation, unless advised, will be on the concept development
+(assuming project proposals were thorough) and the other two will be on the project
+progress, while the fourth will be the final. The total oral presentation for a member shall
+not be more than 10 minutes on each session, with additional 5 minutes for discussion and
+answering questions. The presentation will be evaluated on the following basis:
+
+     Organisation - systematic, logical and integrate
+     Clarity - easy to follow and understand
+     Presentation skills - good voice projection and eye contact, comfortable
+     Visual aids - readable, understandable and pertinent
+     Content - relevance of the information presented and appropriateness to the trends,
+
+         datasets, strategies etc. used in solving the problem, and good results
+     Conclusions - rationale provided and defensible
+     Ability to answer questions effectively.
+
+The mark allocation is awarded according to Table 4(a) - (d) below:
+
+              Table 4(a): Mark allocation for first oral presentation
+
+Performance Task /Criterion Total possible score Mark awarded
+
+Introduction                        10
+
+Motivation of the Study             5
+
+Pre-Literature Review               15
+
+Research Gap                        10
+
+Problem Statement                   10
+
+Research Question(s)                10
+
+Research Objectives                 15
+
+                         Page 8 of 19
+Appropriate Methodology                 10
+
+Research Outline                        5
+
+Presentation                            5
+
+Answering Questions                     5
+
+Total marks awarded                     100
+
+              Table 4(b): Mark allocation for second oral presentation
+
+Performance Task /Criterion Total possible score Mark awarded
+
+Organisation                    5
+
+Clarity                         5
+
+Presentation Skills             5
+
+Scientific/Technical Analysis 15
+
+Literature Review               15
+
+Research Methods                20
+
+Visual Aids                     5
+
+Conclusions                     10
+
+Answering Questions             20
+
+Total marks awarded             100
+
+                     Table 4(c): Mark allocation third oral presentation
+
+Performance Task /Criterion Total possible score Mark awarded
+
+Organisation                       5
+
+Clarity                            5
+
+Presentation Skills                5
+
+System/Concept/Model Analysis 20
+
+System/Concept/Model Design 30
+
+Visual Aids                        5
+
+Conclusions                        10
+
+Answering Questions                20
+
+Total marks awarded                100
+
+                  Table 4(d): Mark allocation fourth oral presentation
+
+Performance Task /Criterion                  Total possible score Mark awarded
+
+Introduction/Background                      5
+
+Problem Statement                            5
+
+Research Questions                           5
+
+Research Aim & Objectives                    10
+
+Literature Review                            15
+
+Methodology                                  15
+
+Results/Artefact/Demonstration               20
+
+Innovation/Technical Content/Contributions 10
+
+Conclusions                                  10
+
+Presentation                                 5
+
+                                      Page 9 of 19
+Total marks awarded                         100
+
+5.3 Survey and Technical Papers
+
+The survey and technical paper will be marked separately, following the issued DAI
+template. All assessments will be guided by IEEE and/or UZ standards for conferences,
+and journal writing.
+
+6.0 Recommended Texts
+
+1. Research textbooks
+2. Security or AI and related ML textbooks
+3. Internet
+4. Journals
+
+                                 Page 10 of 19
+APPENDIX I
+
+            Title Page Sample
+
+                                              UZ LOGO
+
+                                UNIVERSITY OF ZIMBABWE
+       FACULTY OF COMPUTER ENGINEERING INFORMATICS AND
+
+                                      COMMUNICATIONS
+               DEPARTMENT OF ANALYTICS AND INFORMATICS
+
+                         SECURE DESKTOP CHAT APPLICATION
+
+                                                  BY
+
+                                    MARY JONES R2020067S
+
+                                         SUPERVISED BY
+
+                                    PROFESSOR C. XAVIER
+                                      MR M. LIVINGSTONE
+
+       THIS CAPSTONE RESEARCH PROJECT WAS SUBMITTED TO THE
+UNIVERSITY OF ZIMBABWE IN PARTIAL FULFILMENT OF THE BACHELOR
+OF SCIENCE (HONOURS) DEGREE IN CYBERSECURITY AND DATASCIENCE
+
+                                                  2030
+APPENDIX II
+                                      Declaration Sample Page
+
+DECLARATION
+I, Waza Mumba hereby do declare that this work has not previously been accepted in
+substance for any degree and is not being concurrently submitted in candidature for any
+degree.
+Student's Signature: ..................................... Date ...............................
+(Waza Mumba)
+Supervisors Signature: ................................... Date ...............................
+(Dr. S. Mudono)
+
+                                                      i
+APPENDIX III
+                                       Copyright Sample page
+
+All rights reserved. No part of this capstone design project may be reproduced, stored in
+any retrieval system, or transmitted in any form or by any means, electronic, mechanical,
+photocopying, recording or otherwise from scholarly purpose, without the prior written
+permission of the author or of University of Zimbabwe on behalf of the author.
+
+                                                          ii
+APPENDIX IV
+
+             Dedication Sample
+
+DEDICATION
+Firstly I would like to dedicate this piece of work to my mum and dad (Mr. and Mrs.
+Chazara) for the love and care they have given to me.
+
+             iii
+APPENDIX V
+
+                                           Abstract sample
+
+Abstract
+
+The number of Internet of Things (IoT) devices has increased considerably in the past few
+years, resulting in a large growth of cyber attacks on IoT infrastructure. As part of a defense
+in depth approach to cybersecurity, intrusion detection systems (IDSs) have acquired a key
+role in attempting to detect malicious activities efficiently. Most modern approaches to IDS
+in IoT are based on machine learning (ML) techniques. The majority of these are
+centralised, which implies the sharing of data from source devices to a central server for
+classification. This presents potentially crucial issues related to privacy of user data as well
+as challenges in data transfers due to their volumes. In this research, we evaluate the use of
+federated learning (FL) as a method to implement intrusion detection in IoT environments.
+FL is an alternative, distributed method to centralised ML models, which has seen a surge
+of interest in IoT intrusion detection recently. In our implementation, we evaluate FL using
+a shallow artificial neural network (ANN) as the shared model and federated averaging
+(FedAvg) as the aggregation algorithm. The experiments are completed on the ToN_IoT
+and CICIDS2017 datasets in binary and multiclass classification. Classification is
+performed by the distributed devices using their own data. No sharing of data occurs among
+participants, maintaining data privacy. When compared against a centralised approach,
+results have shown that a collaborative FL IDS can be an efficient alternative, in terms of
+accuracy, precision, recall and F1-score, making it a viable option as an IoT IDS.
+Additionally, with these results as baseline, we have evaluated alternative aggregation
+algorithms, namely FedAvgM, FedAdam and FedAdagrad, in the same setting by using the
+Flower FL framework. The results from the evaluation show that, in our scenario, FedAvg
+and FedAvgM tend to perform better compared to the two adaptive algorithms, FedAdam
+and FedAdagrad.
+
+Keywords: Internet of Things; intrusion detection systems; federated learning; deep
+learning
+
+                                                   iv
+APPENDIX VI
+
+             Acknowledgements Sample
+
+ACKNOWLEDGEMENTS
+
+Firstly I would like to thank the Lord God almighty for his mercies and for seeing me
+through in this research and throughout my life.
+Secondary I would like to thank my supervisor Dr. M. Murambatsvina for his guidance
+through which I managed to come up with the dissertation and his time he set aside to
+supervise me.
+Thirdly I would like to thank mum and dad for their encouragement and support. Special
+appreciation goes to all my friends for the encouragement and technical support.
+Lastly my sincere gratitude goes to all lecturers in the XYZ Department, without them it
+would have been impossible for me to acquire the knowledge and be able to undertake this
+project.
+
+             v
+APPENDIX VII
+
+                   ToC Sample
+
+TABLE OF CONTENTS
+
+Declaration............................................................................................ ii
+Dedication .......................................................................................... iii
+Acknowledgement ................................................................................. iv
+List of figures ......................................................................................... vii
+List of tables ........................................................................................ viii
+Abstract ........................................................................................ ....... ix
+1. CHAPTER 1. INTRODUCTION
+
+1.1. Background ................................................................................. . 1
+
+1.2. Problem statement ..................................................................... 2
+
+1.3. Significance of the Project .........................................................  2
+
+1.4. Research Questions .......................................................................... 3
+
+1.5. Project Objectives ..................................................................... . 3
+
+1.6. Limitations............................................................................4
+
+1.7. Delimitations..........................................................................4
+
+1.8. Ethical Considerations/Economic Analysis (if any)
+
+1.9. Chapter Summary/Report Layout/Capstone Organisation..............................5
+
+2. CHAPTER 2. LITERATURE REVIEW
+
+3. CHAPTER 3. RESEARCH METHODOLOGY
+
+    3.1. Experimental plan/Research Design/Project Design
+
+    3.2. Experimental procedure/Data Collection/Analysis/Project Evaluation
+
+    3.3. Process/Concept/Model Design
+
+    3.4. Chapter Summary
+
+4. CHAPTER 4. DISCUSSION/RESULTS AND ANALYSIS
+5. CHAPTER 5. CONCLUSION
+
+    5.1. Summary of Findings
+    5.2. Conclusion
+    5.3. Recommendations
+    5.4. Future work
+REFERENCES
+APPENDICES
+     A Relevant Source Code
+     B User Manual/Guide
+
+                                                       vi
+APPENDIX VIII
+
+               List of Figures Sample
+
+LIST OF FIGURES
+
+Value Addition............................................................................................2
+Conceptual Framework (Source: Own Compilation).......................................13
+
+               vii
+APPENDIX IX
+
+             List of Tables Sample
+
+LIST OF TABLES
+Table 4(d): Mark allocation fourth oral presentation ..........................................23
+
+             viii
+

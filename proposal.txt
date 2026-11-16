@@ -1,0 +1,170 @@
+
+AGROYIELD-ADAPT
+Maize-yield uncertainty in central Zambia
+REVISED RESEARCH PROPOSAL
+University of Zimbabwe
+[Confirm official faculty, department, programme and module codes]
+[Student name] | [Registration number]
+Supervisor: [Name]
+15 November 2026
+Supervisor-review version. Published dataset documentation has been checked; the underlying CSV has not been downloaded or audited in this revision. No experiment, completed systematic review, proven novelty, institutional approval or realised commercial benefit is claimed.
+Abstract
+This study will test whether a prespecified combination of environmental and management similarities improves maize-yield prediction intervals under geographic holdout in central Zambia. The primary source is the One Acre Fund dataset, whose version-v2 documentation reports 861 central Zambia observations within 14,773 quality-controlled records collected across five African regions during 2016–2022 (Aramburu Merlos et al., 2024). A compulsory feasibility gate will establish the usable regional sample and whether location provenance supports the intended validation.
+A common Random Forest predictor will support global split-conformal intervals and environment-only, management-only and composite kernel-weighted interval adaptations. Quantile Regression Forests provide a separate conditional-quantile baseline. A published calibrated-localisation benchmark will distinguish the proposed representation from an uncalibrated weighting heuristic. Empirical spatial coverage, width, interval score, unbounded intervals and calibration-support diagnostics will be reported together. The proposed contribution is an application-specific adaptation and controlled robustness evaluation, with novelty conditional on review. The task is retrospective end-of-season estimation, not prospective forecasting or causal agronomic inference.
+1. Problem, aim and scope
+1.1 Motivation
+The dataset combines measured maize yield with management reports and derived environmental information, providing a basis for investigating heterogeneous prediction uncertainty (Aramburu Merlos et al., 2024). The central question is not whether environmental and management variables affect yield causally, but whether their joint similarity provides more useful uncertainty intervals for geographically separated observations than either feature family alone.
+Split conformal prediction has marginal coverage under exchangeability, not universal coverage for every field or subgroup. Plain test-centred local weighting can fail even marginally; calibrated or randomly localised algorithms address different versions of this problem (Angelopoulos and Bates, 2023; Guan, 2023; Hore and Foygel Barber, 2024, sections 2–3). This distinction determines the method labels and permissible claims throughout this proposal.
+1.2 Aim and research questions
+Aim: develop and reproducibly evaluate a management-and-environment similarity adaptation for maize-yield uncertainty in an audited central Zambia case.
+RQ1: Does the audited dataset support geographically separated proper-training, calibration and test partitions?
+RQ2: Does composite similarity improve the coverage–width trade-off compared with global, environmental-only and management-only intervals?
+RQ3: Do any gains survive a calibrated-localisation benchmark and reasonable spatial-separation sensitivities?
+RQ4: Do low calibration support and wide intervals identify unreliable predictions?
+1.3 Boundary and intended use
+The primary case is central Zambia, not all Zambia or Southern Africa. The observation unit is a field-season record, subject to confirmation of identifiers and repeat visits. The prediction cutoff is harvest/end of season; the analysis does not claim pre-harvest forecasting. Confirm the target column, yield units, moisture basis and measurement aggregation before converting to tonnes per hectare. Coordinate-based validation requires actual location provenance, not merely numeric latitude/longitude.
+Intended users are agricultural analysts and extension-planning researchers. No farmer-income increase, prevented loss, insurance readiness, national representativeness or Zimbabwean validity is claimed. Study conclusions concern predictive associations and the observed validation setting, not causal effects of changing fertiliser or planting date.
+2. Evidence and research contribution
+2.1 Application versus method anchors
+Kenduiywo and Miller (2024) is a contextual African maize-modelling anchor, not a direct reproduction target. Its seasonal hybrid Earth-observation modelling task differs from this proposal’s field-level uncertainty task. Numerical performance comparisons are excluded until a full-text extraction establishes compatible targets, units, aggregation and evaluation. If the department requires enhancement of one exact base-paper algorithm, obtain approval for this separation before implementation.
+The methodological anchors are Random Forests (Breiman, 2001), QRF (Meinshausen, 2006), split conformal prediction (Angelopoulos and Bates, 2023), calibrated localised prediction (Guan, 2023), and the baseLCP/calLCP distinction (Hore and Foygel Barber, 2024). Romano et al. (2019) introduced Conformalized Quantile Regression, not QRF. No claim about a specific Zambian management finding is attributed to the GROW-Africa database paper; that earlier citation mismatch is removed rather than recycled.
+2.2 Bounded contribution
+The candidate contribution is a documented agronomic similarity representation plus a leakage-controlled spatial evaluation. Combining two feature blocks is not, by itself, a new conformal theory. An equivalent method may already exist. If review finds substantial overlap, describe the work as an adaptation/replication with spatial robustness evidence, not an invented framework. Method superiority remains a falsifiable hypothesis.
+2.3 Review protocol
+Report the review using PRISMA 2020 (Page et al., 2021). Search application and methods streams separately, including both localized/localised, maize/corn, management, uncertainty, kernel weighting, calibrated local prediction and spatial validation. Do not restrict methods prior art to Zambia or maize. Search accessible scholarly indexes and publisher/repository records; document inaccessible databases rather than implying they were searched.
+Record exact queries, dates, screening decisions, deduplication and full-text exclusions. Extract observation unit, sample size, feature timing, yield measurement, spatial/temporal splits, calibration algorithm, metrics and code availability. Disclose a single-reviewer process and any supervisor spot checks. No PRISMA counts or completed-review conclusions are invented.
+3. Data and measurement
+3.1 Verified published documentation
+The Zenodo record identifies version v2, published 6 May 2024, licensed CC BY 4.0. It reports 14,773 post-quality-control observations, including 861 in central Zambia. Yield, density and row spacing were measured in two randomly placed 36 m² boxes at harvest, avoiding edges. Overall location provenance is 70% field, 21% nearby town and 9% district; the latter two were used for climate retrieval (Aramburu Merlos et al., 2024). These are verified documentation claims, not independently reproduced CSV counts.
+Management practices and adversities were farmer-reported. About half of all fields belonged to One Acre Fund subscribers. Hybrid maturity and tolerance were assembled from seed catalogues. Soil covariates were retrieved for observations with field-level coordinates. GDD, aridity and temperature seasonality are attributed to WorldClim in the metadata and must not automatically be described as observed weather for each growing season (Aramburu Merlos et al., 2024).
+The documentation describes sowing deviation relative to climate-zone/season averages and rainfall windows based on planting/harvest distributions. These supplied derived variables may incorporate information from across an evaluation boundary. Their provenance must be reviewed explicitly; precomputed does not automatically mean leakage-free. The rainfall source narrative says CHIRP while its table links CHIRPS, and phase labels differ between narrative and table. Use neutral “provided seasonal rainfall summaries” until the underlying product and temporal windows are resolved (Aramburu Merlos et al., 2024).
+3.2 Mandatory audit
+Audit
+Evidence and decision
+File identity
+Record DOI/version, licence, access date and checksum. Published filename: One_Acre_Fund_MEL_maize_survey_data_2016-2022.csv; published MD5: 7856ff0693dce26817623bc73ac5fa7b.
+Target and units
+Confirm actual yield column, units, moisture convention, sample aggregation and missing labels.
+Regional support
+Count central Zambia observations, seasons, repeated fields/farms, usable coordinates and credible spatial groups.
+Location provenance
+Determine whether field/town/district status exists in the CSV or can be recovered reliably. Repeated coordinates alone are not definitive provenance.
+Feature lineage
+Map each feature to a column, source, timing, missingness and transformation; identify group-derived quantities.
+Selection effects
+Compare retained/excluded records; document potential programme-selection and location-availability bias.
+Gate
+Supervisor approves feasibility and frozen experiment or records a scope change before outer-test inspection.
+Do not apply the overall 70% field-coordinate rate to central Zambia. Approximately 602 records is an illustrative scenario only. Do not repeat published outlier exclusions automatically: the downloadable dataset has already undergone quality control. A fixed five-fold design and practical sample sufficiency cannot be established from the headline 861 count.
+3.3 Core and expanded features
+Choose a small core set after inspecting metadata and proper-training availability, before outer-test outcomes. Candidate blocks are environmental summaries, soil/terrain and management intensity, density, spacing and seed class. Fit numeric imputation, robust scaling and categorical encoding on proper training only. Keep missing-target exclusion separate from covariate missingness; avoid complete-case filtering by default.
+Exclude supplied planting-date deviation from the primary feature set unless its reference can be reconstructed from proper-training data or justified as an externally fixed quantity. Likewise, audit planting/harvest-derived rainfall windows; if provenance cannot support the stated feature-time boundary, exclude the feature from the primary set and label any inclusion sensitivity as exploratory. Disease/pest indicators refer to reported yield effects and may encode retrospective outcome knowledge; place them in a clearly labelled expanded retrospective sensitivity, not the primary deployment feature set.
+Retain all usable records for the primary case only when their location precision is adequate. Coarse-location records may enter a separate sensitivity analysis with coarse units kept intact across partitions. If provenance cannot be established, revise the design; do not claim a field-geolocated experiment was performed.
+4. Validation and models
+4.1 Frozen spatial design
+Use three to five outer spatial-group folds only if audited support permits. Keep repeated fields/farms together. Within each outer remainder allocate distinct groups to proper training and calibration; use inner proper-training splits for tuning. All methods share outer test records, exclusions and training/calibration partitions. Spatial blocking and buffered leave-one-location-out are different procedures, not interchangeable names (Roberts et al., 2017; Valavi et al., 2019).
+The primary experiment is spatial-group holdout. Add a prespecified exclusion buffer only when support remains adequate; otherwise retain the unbuffered spatial design with its limitations or seek a scope change. Select group construction and plausible separation distances using coordinates, agronomic context and training-only diagnostics, never whichever test outcome looks best. Report train/calibration/test counts and buffer losses per fold. Neither blocking nor buffering establishes exchangeability.
+4.2 Model roles
+ID
+Model
+Role
+B0/B1
+Training mean / ridge
+Point baselines.
+B2
+Random Forest
+Common point predictor for C0–C3.
+C0
+Global absolute-residual split conformal
+Main interval baseline.
+C1
+Environmental baseLCP-style weighting
+Single-block ablation; no automatic coverage guarantee.
+C2
+Management baseLCP-style weighting
+Single-block ablation; no automatic coverage guarantee.
+C3
+Composite baseLCP-style weighting
+Proposed empirical adaptation.
+C4
+QRF, 5th–95th conditional quantiles
+Non-conformal interval baseline; Meinshausen (2006).
+C5
+Published calLCP algorithm with composite localizer
+Calibrated-localisation reference; implement faithfully or disclose inability.
+C5 is a methodological credibility gate: use Guan’s published calibrated procedure or an auditable implementation of it, with verified quantile conventions and score inversion. Do not relabel C3 as calLCP. If C5 cannot be implemented within scope, obtain supervisor agreement to an explicitly empirical baseLCP robustness study and withdraw any strong claim of advancing calibrated conformal prediction. CQR is optional and is not substituted for QRF by a name change.
+4.3 Distance and weighted threshold
+Encode mixed predictors with proper-training transformations. Define each block distance as the mean of prespecified feature contributions, so block dimension alone does not set influence. Use scaled squared differences for numeric features and prespecified mismatch contributions for categorical features. Keep within-block weights equal unless a different rule is frozen on inner data. Audit redundant rainfall summaries so they are not inadvertently overweighted.
+Composite localizer: S(x,x_i) = exp[−dE(x,x_i)²/(2hE²) − dM(x,x_i)²/(2hM²)], with positive bandwidths selected from a small frozen grid on inner data. C1 and C2 omit the other term. Residual score: a_i = |y_i−f(x_i)|. Set w_i = S(x,x_i), w_test = S(x,x) = 1, D = sum_i w_i + 1, p_i = w_i/D, p_test = 1/D.
+For C1–C3 define q(x) = Q_(1−alpha)[sum_i p_i delta_(a_i) + p_test delta_(+infinity)], and interval [f(x)−q(x), f(x)+q(x)], with alpha = 0.10. Q is the left quantile, the smallest value whose cumulative mass reaches 1−alpha. This is the baseLCP construction, not Guan’s calibrated algorithm. Hore and Foygel Barber (2024, section 2) explicitly explain why baseLCP may fail marginal coverage despite its self-weight/infinity atom. C5 must instead follow the published level adjustment and score inversion (Guan, 2023).
+C0 uses k = ceil((n_cal+1)(1−alpha)); if k&gt;n_cal, return infinity. Preserve infinity in all methods when finite mass is insufficient. Do not cap at the largest residual or omit failed cases. At 90% and unit self-weight, sum_i w_i≥9 is necessary for a finite threshold when calibration scores are finite; this algebraic condition is not a statistical-stability guarantee. Equal kernel weights must reproduce C0.
+4.4 Calibration-support plan
+Define ESS = (sum_i w_i)²/sum_i w_i² on calibration weights, with zero for no calibration mass. It measures weight concentration, not independent information or a coverage guarantee. Report raw calibration count, ESS, maximum normalised weight and self-mass at each test point. Small bandwidths can cause insufficient effective support and infinity thresholds (Hore and Foygel Barber, 2024, section 2.1).
+Planning trigger
+Prespecified response
+Fewer than 200 usable records or 10 groups
+Feasibility review; these are project heuristics, not sufficient-sample theorems.
+Calibration allocation
+Aim for ≥50 per fit where possible; &lt;30 prompts design review, not automatic claims of invalidity.
+ESS below 20
+Flag low support; report sensitivity at 10 and 30 as engineering choices.
+Support-only widening
+Freeze a finite sequence of bandwidth increases using inner data; no outer labels involved.
+Fallback
+Report a separate prespecified policy falling back to C0; retain raw local outputs and disclose fallback rate.
+Support cannot sustain design
+Simplify features/group allocation or stop and request an approved scope change; never tune spatial separation to test accuracy.
+Widening/fallback policies are themselves methods and must be evaluated separately. They do not automatically inherit marginal, conditional or spatial coverage guarantees. Lowering the number of folds does not by itself ensure larger calibration sets; examine actual group allocations. Select tuning candidates on inner interval score subject to an empirical coverage constraint, recording the rule for cases in which no candidate qualifies.
+5. Evaluation and inference
+Primary metrics are empirical coverage, mean/median width, interval score and unbounded-interval frequency. Report MAE and RMSE in confirmed yield units. Interval score at error rate alpha is (U−L)+(2/alpha)(L−y)1(y&lt;L)+(2/alpha)(y−U)1(y&gt;U) (Gneiting and Raftery, 2007). Infinity outputs make overall mean width/score infinite; finite-only summaries are supplementary and must show their denominator.
+Show coverage successes/total and every fold’s support and buffer losses. Provide pooled observation-weighted and equal-fold summaries, noting their different estimands. With only a few spatial groups, use descriptive paired block differences rather than treating all fields or folds as independent replicates. A block bootstrap is optional only when enough defensible resampling units exist; no confidence interval is represented as fixing dependence automatically.
+Primary comparisons are C3−C0, C3−C1, C3−C2 and C3−C5. The exploratory engineering target is ≥5% narrower width than C0 with ≤3 percentage-point coverage loss; additionally report absolute coverage versus 90%. Meeting this relative target when both methods materially under-cover is not a successful reliability result. No p-value or positive result is promised.
+Report core versus expanded predictors, one alternate spatial separation, low-support/fallback frequency and a second nominal level only if support/time permits. Examine error by support/width quartile and retention curves with rules fixed on inner data. Avoid small-subgroup rankings; disclose counts. Null results, poor spatial transfer, severe undercoverage and infeasibility are legitimate findings.
+6. Execution and feasibility
+Weeks
+Milestone and gate
+1–4
+Download/audit CSV; complete contextual-paper extraction and novelty scoping; approve case and location provenance.
+5–8
+Freeze features, folds, calibration allocation, tuning grid and failure policy; implement C0/QRF.
+9–14
+Implement C1–C3 and C5; verify formula and leakage unit tests.
+15–20
+Run locked outer evaluation and ablations once; retain all failures.
+21–24
+Finalise review, technical report, code archive and optional local viewer.
+Unit tests cover equal-weight equivalence, quantile ties, zero mass, infinity, repeated identifiers, partition disjointness, preprocessing isolation and invariance to outer-label changes. Pin software versions, seeds, manifests, feature lineage and checksums. Archive permitted predictions and one-command reproduction instructions; do not redistribute precise coordinates without checking disclosure requirements.
+Deliver a survey paper, technical report, audited pipeline and a notebook/static viewer displaying yield interval and support warning. No live ingestion, mobile app or commercial backend is required. A failure to establish usable calibration is reported scientifically rather than concealed by a dashboard.
+7. Ethics and economic assumptions
+Confirm institutional ethics, data-governance and current departmental requirements. Public data and CC BY licensing do not remove re-identification concerns. Any usability participants require appropriate consent; convenience feedback cannot validate predictive performance or willingness to pay. Confirm official faculty/programme wording and current submission templates before release.
+Indicative incremental six-month cash budget in USD: connectivity 90–180, storage 20–40 and printing 15–30; subtotal 125–250, 20% contingency 25–50, total 150–300. These are planning assumptions, not quotations. Existing equipment and unpaid effort are in-kind costs. A managed analytical service is only a possible later pathway; no revenue, avoided losses or farmer benefit has been measured.
+8. Verification and release status
+Area
+Status
+Published metadata
+Zenodo v2 facts and feature descriptions checked; CSV audit remains pending.
+QRF/CQR
+Correctly distinguished and attributed.
+Conformal validity
+baseLCP/calLCP distinction explicit; spatial guarantees not asserted.
+Originality
+Unproven; bounded review and adaptation fallback specified.
+Sample sufficiency
+Unknown until regional, group and calibration audit.
+Institutional compliance
+Requires current guideline and supervisor sign-off.
+Final release
+Complete personal details, data audit, literature extraction, method implementation review and approval.
+References
+Angelopoulos, A.N. and Bates, S. (2023). Conformal prediction: A gentle introduction. Foundations and Trends in Machine Learning, 16(4), 494–591. https://doi.org/10.1561/2200000101
+Aramburu Merlos, F., Tenorio, F.A., Mashingaidze, N., Sananka, A., Aston, S. and Grassini, P. (2024). Maize management and yield of smallholder farmers in Sub-Saharan Africa between 2016 and 2022. Zenodo, v2. https://doi.org/10.5281/zenodo.11122388. Documentation checked 15 November 2026; CSV audit pending.
+Breiman, L. (2001). Random forests. Machine Learning, 45, 5–32. https://doi.org/10.1023/A:1010933404324
+Gneiting, T. and Raftery, A.E. (2007). Strictly proper scoring rules, prediction, and estimation. Journal of the American Statistical Association, 102(477), 359–378. https://doi.org/10.1198/016214506000001437
+Guan, L. (2023). Localized conformal prediction: A generalized inference framework for conformal prediction. Biometrika, 110(1), 33–50. https://doi.org/10.1093/biomet/asac067
+Hore, R. and Foygel Barber, R. (2024). Conformal prediction with local weights: randomization enables robust guarantees. arXiv:2310.07850, version 2, 13 June 2024. https://arxiv.org/html/2310.07850v2. This revision cites the checked preprint version rather than silently mixing it with later journal metadata.
+Kenduiywo, B.K. and Miller, S. (2024). Seasonal Maize yield forecasting in South and East African Countries using hybrid Earth observation models. Heliyon, 10(13), e33449. https://doi.org/10.1016/j.heliyon.2024.e33449. Contextual anchor; full extraction required before numerical comparisons.
+Meinshausen, N. (2006). Quantile Regression Forests. Journal of Machine Learning Research, 7(35), 983–999. https://jmlr.csail.mit.edu/papers/v7/meinshausen06a.html
+Page, M.J. et al. (2021). The PRISMA 2020 statement: an updated guideline for reporting systematic reviews. BMJ, 372, n71. https://doi.org/10.1136/bmj.n71
+Roberts, D.R. et al. (2017). Cross-validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure. Ecography, 40(8), 913–929. https://doi.org/10.1111/ecog.02881
+Romano, Y., Patterson, E. and Candès, E. (2019). Conformalized quantile regression. Advances in Neural Information Processing Systems, 32. https://arxiv.org/abs/1905.03222
+Valavi, R., Elith, J., Lahoz-Monfort, J.J. and Guillera-Arroita, G. (2019). blockCV: an R package for generating spatially or environmentally separated folds for k-fold cross-validation of species distribution models. Methods in Ecology and Evolution, 10(2), 225–232. https://doi.org/10.1111/2041-210X.13107
