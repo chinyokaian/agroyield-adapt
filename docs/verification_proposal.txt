@@ -117,9 +117,12 @@ PASS 4 - layout
   PASS  table 4: explicit column widths
   PASS  table 4: total width 16.00 cm fits the 16.0 cm text block
   PASS  all 9 references use a hanging indent
+  PASS  candidate details present: IAN CHINYOKA
+  PASS  candidate details present: R231473B
+  PASS  candidate details present: MR ZIMOWA
+  PASS  declaration uses the candidate's name
+  PASS  no name placeholders remain
 
 ============================================================
 0 failures
-NOTE  placeholder left for the candidate: [Student name] [Registration number]
-NOTE  placeholder left for the candidate: [Supervisor name]
-NOTE  placeholder left for the candidate: [To be completed by the candidate
+NOTE  dedication page still holds the optional placeholder

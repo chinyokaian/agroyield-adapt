@@ -26,8 +26,8 @@ LOGO = "docs/assets/uz_logo.jpg"
 CONTENT_CM = 16.0  # A4 (21.0) minus 4.0 left and 1.0 right
 
 YEAR = "2026"
-CANDIDATE = "[Student name] [Registration number]"
-SUPERVISOR = "[Supervisor name]"
+CANDIDATE = "IAN CHINYOKA  R231473B"
+SUPERVISOR = "MR ZIMOWA"
 DEGREE = ("BACHELOR OF SCIENCE (HONOURS) DEGREE IN "
           "DATA SCIENCE AND INFORMATICS")
 TITLE = ("AGROYIELD-ADAPT: A DEPLOYMENT-READINESS AUDITOR FOR SMALLHOLDER "
@@ -294,7 +294,7 @@ run_in(p, "conformal prediction; interval calibration; distribution shift; "
 # ------------------------------------------------------------- declaration ---
 page_break()
 front_heading("DECLARATION")
-para("I, " + CANDIDATE + ", hereby declare that this work has not previously been accepted in "
+para("I, Ian Chinyoka (R231473B), hereby declare that this work has not previously been accepted in "
      "substance for any degree and is not being concurrently submitted in candidature for any "
      "degree.")
 para("")
@@ -323,7 +323,7 @@ para("[To be completed by the candidate: a short personal dedication, or this pa
 # ----------------------------------------------------------- acknowledgements ---
 page_break()
 front_heading("ACKNOWLEDGEMENTS")
-para("I wish to record my gratitude to my supervisor, " + SUPERVISOR + ", for guidance on "
+para("I wish to record my gratitude to my supervisor, Mr Zimowa, for guidance on "
      "framing the contribution and for insisting that every claim be evidenced.")
 para("I thank the Department of Analytics and Informatics for the use of its computing facilities "
      "and the Faculty of Computer Engineering Informatics and Communications for the review "

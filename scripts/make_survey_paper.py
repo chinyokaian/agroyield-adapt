@@ -14,8 +14,8 @@ from docx.shared import Cm, Pt, RGBColor
 
 OUT = "FINISHED/Survey_Paper_v1.docx"
 
-AUTHOR = "[Student name] [Registration number]"
-SUPERVISOR = "[Supervisor name]"
+AUTHOR = "IAN CHINYOKA  R231473B"
+SUPERVISOR = "MR ZIMOWA"
 TITLE = ("Uncertainty Quantification and Transfer Validation for Crop Yield "
          "Prediction: A Structured Review")
 

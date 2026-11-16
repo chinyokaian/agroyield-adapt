@@ -211,10 +211,13 @@ hanging = [p for p in refs if p.paragraph_format.first_line_indent is not None
            and p.paragraph_format.first_line_indent.cm < 0]
 check(len(hanging) == len(refs), f"all {len(refs)} references use a hanging indent")
 
-for placeholder in ["[Student name] [Registration number]", "[Supervisor name]",
-                    "[To be completed by the candidate"]:
-    if placeholder in flat:
-        notes.append(f"placeholder left for the candidate: {placeholder}")
+for value in ["IAN CHINYOKA", "R231473B", "MR ZIMOWA"]:
+    check(value in flat, f"candidate details present: {value}")
+check("Ian Chinyoka" in flat, "declaration uses the candidate's name")
+check("[Student name]" not in flat and "[Supervisor name]" not in flat,
+      "no name placeholders remain")
+if "[To be completed by the candidate" in flat:
+    notes.append("dedication page still holds the optional placeholder")
 
 print("\n" + "=" * 60)
 print(f"{len(failures)} failures")
