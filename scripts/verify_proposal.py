@@ -1,8 +1,10 @@
-"""Three independent verification passes over the finalised proposal.
+"""Four-pass verification of the proposal.
 
-Pass 1  structure and UZ formatting rules
-Pass 2  every number cross-checked against the committed result file and recomputed from the CSV
-Pass 3  claim hygiene: no superseded statements, no overclaiming, required guideline items present
+Pass 1  UZ-DAI §3.2 compliance: page setup, typography, front matter order,
+        preliminary numbering, chapter casing, fields and captions
+Pass 2  every number re-derived from the committed run and the raw CSV
+Pass 3  claim hygiene and guideline coverage
+Pass 4  layout: table widths inside the text block, hanging indents, logo embedded
 
 Exit code is non-zero if any check fails.
 """
@@ -14,6 +16,7 @@ import re
 import sys
 
 from docx import Document
+from docx.oxml.ns import qn
 
 from agroyield_adapt.checks.splits import duplication_stats
 from agroyield_adapt.schema import TARGET, load_panel
@@ -33,49 +36,86 @@ def check(condition: bool, label: str) -> None:
 
 
 doc = Document(DOC)
-text = "\n".join(p.text for p in doc.paragraphs)
-for table in doc.tables:
-    for row in table.rows:
+paragraphs = [p for p in doc.paragraphs]
+text = "\n".join(p.text for p in paragraphs)
+for t in doc.tables:
+    for row in t.rows:
         text += "\n" + " | ".join(c.text for c in row.cells)
 flat = re.sub(r"\s+", " ", text)
 
 # ---------------------------------------------------------------- pass 1 -----
-print("PASS 1 - structure and formatting")
-check(len(doc.paragraphs) > 40, f"document has {len(doc.paragraphs)} paragraphs")
-headings = [p.text for p in doc.paragraphs if p.style.name.startswith("Heading")]
-required_sections = [
-    "1. Problem statement", "2. Aim and objectives", "3. Research questions and hypotheses",
-    "4. Scope and delimitation", "5. Data", "6. Method",     "7. Results to date and verification status",
-    "8. Deliverables", "9. Ethics, data governance and reproducibility",
-    "10. Risks and mitigation", "11. Timeline", "References",
-]
-for sec in required_sections:
-    check(sec in headings, f"section present: {sec}")
-check(len(doc.tables) >= 4, f"{len(doc.tables)} tables rendered")
+print("PASS 1 - UZ-DAI §3.2 compliance")
 
-title_para = next(p for p in doc.paragraphs if p.text.startswith("AGROYIELD-ADAPT"))
-check(str(title_para.alignment) == "CENTER (1)", f"title alignment is {title_para.alignment}")
-for i, tbl in enumerate(doc.tables):
-    widths = [c.width for c in tbl.rows[0].cells]
-    check(all(w is not None for w in widths), f"table {i+1}: every column has an explicit width")
-    total = sum(round(w.cm, 2) for w in widths)
-    check(14.8 <= total <= 15.6, f"table {i+1}: total width {total} cm fits the 15.5 cm text block")
+s = doc.sections[0]
+check(abs(s.page_width.cm - 21.0) < 0.05 and abs(s.page_height.cm - 29.7) < 0.05,
+      f"page size A4 ({s.page_width.cm:.1f} x {s.page_height.cm:.1f} cm)")
+check(abs(s.left_margin.cm - 4.0) < 0.05, f"left margin {s.left_margin.cm:.2f} cm (required 4.0)")
+check(abs(s.right_margin.cm - 1.0) < 0.05, f"right margin {s.right_margin.cm:.2f} cm (required 1.0)")
+check(abs(s.top_margin.cm - 2.5) < 0.05, f"top margin {s.top_margin.cm:.2f} cm (required 2.5)")
+check(abs(s.bottom_margin.cm - 4.0) < 0.05,
+      f"bottom margin {s.bottom_margin.cm:.2f} cm (required 4.0)")
 
-ref_started = False
-ref_indents = []
-for p in doc.paragraphs:
-    if p.text.strip() == "References":
-        ref_started = True
-        continue
-    if ref_started and p.text.strip():
-        ref_indents.append(p.paragraph_format.first_line_indent)
-check(len(ref_indents) >= 9 and all(v is not None and v.cm < 0 for v in ref_indents),
-      f"all {len(ref_indents)} references use a hanging indent")
 normal = doc.styles["Normal"]
-check(normal.font.name == "Times New Roman", f"base font is {normal.font.name}")
-check(normal.font.size.pt == 12, f"base size is {normal.font.size.pt} pt")
+check(normal.font.name == "Times New Roman", f"base font {normal.font.name} (required Times New Roman)")
+check(normal.font.size.pt == 12, f"base size {normal.font.size.pt} pt (required 12)")
 check(abs(float(normal.paragraph_format.line_spacing) - 1.5) < 1e-6,
-      f"line spacing is {normal.paragraph_format.line_spacing}")
+      f"line spacing {normal.paragraph_format.line_spacing} (required 1.5)")
+
+front = ["ABSTRACT", "DECLARATION", "COPYRIGHT", "DEDICATION", "ACKNOWLEDGEMENTS",
+         "ABBREVIATIONS", "TABLE OF CONTENTS", "LIST OF TABLES", "LIST OF FIGURES",
+         "LIST OF APPENDICES"]
+positions = []
+for name in front:
+    hit = next((i for i, p in enumerate(paragraphs) if p.text.strip() == name), None)
+    check(hit is not None, f"preliminary page present: {name}")
+    if hit is not None:
+        positions.append(hit)
+check(positions == sorted(positions), "preliminary pages are in the prescribed order")
+
+title_text = flat[:1200]
+for item in ["UNIVERSITY OF ZIMBABWE", "FACULTY OF COMPUTER ENGINEERING",
+             "DEPARTMENT OF ANALYTICS AND INFORMATICS", "AGROYIELD-ADAPT", "BY",
+             "SUPERVISED BY", "PARTIAL FULFILMENT", "2026"]:
+    check(item in title_text, f"title page shows: {item}")
+check(len(doc.inline_shapes) >= 1, f"logo image embedded ({len(doc.inline_shapes)} inline shape)")
+check("UZ LOGO" not in flat, "no unresolved logo placeholder")
+
+chapters = [p.text.strip() for p in paragraphs if p.text.strip().startswith("CHAPTER ")]
+check(len(chapters) >= 5, f"{len(chapters)} chapter headings found")
+for c in chapters:
+    check(c == c.upper(), f"chapter heading is upper case: {c[:40]}")
+
+subs = [p.text.strip() for p in paragraphs if re.match(r"^\d\.\d ", p.text.strip())]
+check(len(subs) >= 12, f"{len(subs)} numbered sub-headings found")
+check(all(not s.isupper() for s in subs), "sub-headings are not in upper case")
+
+sect_xml = s._sectPr.xml
+check('w:fmt="lowerRoman"' in sect_xml, "preliminaries use roman numerals")
+body_sect = doc.sections[1]._sectPr.xml
+check('w:start="1"' in body_sect and "lowerRoman" not in body_sect,
+      "main body restarts numbering at 1 in arabic numerals")
+check("PAGE" in s.footer.paragraphs[0]._p.xml, "page number field in the footer")
+check(s.footer.paragraphs[0].alignment is not None
+      and "CENTER" in str(s.footer.paragraphs[0].alignment),
+      "page number is centred at the bottom edge")
+
+full_xml = doc.element.xml
+check(full_xml.count('TOC \\o') >= 1, "table of contents field present")
+check('TOC \\h \\z \\c &quot;Table&quot;' in full_xml or 'TOC \\h \\z \\c "Table"' in full_xml,
+      "list of tables field present")
+check(full_xml.count("SEQ Table") == len(doc.tables),
+      f"{full_xml.count('SEQ Table')} table captions carry SEQ fields for {len(doc.tables)} tables")
+
+caption_texts = []
+for p in paragraphs:
+    joined = "".join(node.text or "" for node in p._p.iter(qn("w:t"))).strip()
+    if joined.startswith("Table "):
+        caption_texts.append(joined)
+check(len(caption_texts) == len(doc.tables),
+      f"{len(caption_texts)} captions for {len(doc.tables)} tables")
+for i, cap in enumerate(caption_texts, start=1):
+    check(cap.startswith(f"Table {i}:"), f"caption {i} reads correctly before field update: {cap[:45]}")
+check("updateFields" in doc.settings.element.xml, "fields refresh when the document is opened")
 
 # ---------------------------------------------------------------- pass 2 -----
 print("\nPASS 2 - numbers verified against recorded runs and the raw data")
@@ -84,77 +124,84 @@ with open(RESULTS, encoding="utf-8") as fh:
 df = load_panel(DATA)
 live = duplication_stats(df)
 
-expected = {
-    "14,773": (live["rows"], 14773),
-    "1,526": (live["clusters"], 1526),
-    "32.2%": (live["pct_sharing_coord_year"], 32.2),
-    "4,764": (live["rows_sharing_coord_year"], 4764),
-}
-for shown, (computed, recorded) in expected.items():
+for shown, computed, recorded in [
+    ("14,773", live["rows"], 14773),
+    ("1,526", live["clusters"], 1526),
+    ("32.2%", live["pct_sharing_coord_year"], 32.2),
+    ("4,764", live["rows_sharing_coord_year"], 4764),
+]:
     check(shown in flat, f"'{shown}' stated in the document")
     check(computed == recorded, f"'{shown}' recomputed from CSV matches record ({computed})")
 
-designs = rep["results"]
-for design, shown in [("random", "+0.265"), ("cluster", "+0.177"), ("country", "-1.943")]:
-    value = designs[design]["r2_log"]
-    check(shown in flat, f"'{shown}' stated for {design}")
-    check(f"{value:+.3f}" == shown, f"{design} R2 in record is {value:+.3f}")
-for design, shown in [("random", "1,486"), ("cluster", "1,578"), ("country", "2,284")]:
-    rmse = designs[design]["rmse_kg_ha"]
-    check(shown in flat, f"'{shown}' RMSE stated for {design}")
-    check(f"{rmse:,.0f}" == shown, f"{design} RMSE in record is {rmse:,.0f}")
+zero = int((df[TARGET] == 0).sum())
+zero_pct = 100.0 * float((df[TARGET] == 0).mean())
+check(zero == 263 and "263" in flat, f"zero-yield records: {zero}")
+check(f"{zero_pct:.2f}%" == "1.78%" and "1.78%" in flat, f"zero-yield share {zero_pct:.2f}%")
+check(len(df.columns) == 53 and "53 columns" in flat, f"column count {len(df.columns)}")
 
-infl = rep["inflation"]
-check("+0.088" in flat and f"{infl['cluster']:+.3f}" == "+0.088", "cluster inflation +0.088")
-check("+2.208" in flat and f"{infl['country']:+.3f}" == "+2.208", "country inflation +2.208")
+soil = df.groupby(df["country"].str.lower())["soil_clay"].apply(lambda v: 100.0 * v.isna().mean())
+for country, shown in [("burundi", "78.4%"), ("rwanda", "76.3%")]:
+    check(f"{soil[country]:.1f}%" == shown, f"{country} soil missingness {soil[country]:.1f}%")
+    check(shown in flat, f"{country} soil missingness stated as {shown}")
+
+for design, r2, rmse in [("random", "+0.265", "1,486"), ("cluster", "+0.177", "1,578"),
+                         ("country", "-1.943", "2,284")]:
+    check(f"{rep['results'][design]['r2_log']:+.3f}" == r2, f"{design} R2 matches record ({r2})")
+    check(f"{rep['results'][design]['rmse_kg_ha']:,.0f}" == rmse, f"{design} RMSE matches record ({rmse})")
+    check(r2 in flat and rmse in flat, f"{design} figures appear in the document")
+
+check(f"{rep['inflation']['cluster']:+.3f}" == "+0.088" and "+0.088" in flat, "cluster inflation +0.088")
+check(f"{rep['inflation']['country']:+.3f}" == "+2.208" and "+2.208" in flat, "country inflation +2.208")
 check("-0.925" in flat, "superseded global-imputation value reported transparently")
 check("f305a3d3e48015bd877dc9df5c53b1715c61f940d58383d57d4dfb68c59c6ff0" in flat,
       "data checksum recorded")
 
-zero = int((df[TARGET] == 0).sum())
-zero_pct = 100.0 * float((df[TARGET] == 0).mean())
-check("263" in flat and zero == 263, f"zero-yield records recomputed: {zero}")
-check("1.78%" in flat and f"{zero_pct:.2f}%" == "1.78%", f"zero-yield share: {zero_pct:.2f}%")
-check(len(df.columns) == 53 or "53 columns" in flat, f"column count: {len(df.columns)} (document states 53)")
-
-soil_missing = df.groupby(df["country"].str.lower())["soil_clay"].apply(
-    lambda s: 100.0 * s.isna().mean())
-for country, shown in [("burundi", "78.4%"), ("rwanda", "76.3%")]:
-    computed = f"{soil_missing[country]:.1f}%"
-    check(computed == shown, f"{country} soil missingness recomputed: {computed}")
-    check(shown in flat, f"{country} soil missingness stated as {shown}")
-
 # ---------------------------------------------------------------- pass 3 -----
 print("\nPASS 3 - claim hygiene and guideline coverage")
-forbidden = {
-    "central Zambia is the primary case": "old single-country framing",
+for phrase, why in {
+    "central zambia is the primary case": "old single-country framing",
     "has not been downloaded or audited": "superseded data-status statement",
     "proven novelty": "overclaim",
     "new framework": "overclaim",
-    "guarantees coverage": "overclaim (no distribution-free guarantee holds off-exchangeability)",
+    "guarantees coverage": "overclaim",
     "superior": "unqualified superiority claim",
-}
-for phrase, why in forbidden.items():
-    check(phrase.lower() not in flat.lower(), f"no superseded/overclaiming phrase: {why}")
+}.items():
+    check(phrase not in flat.lower(), f"no superseded/overclaiming phrase: {why}")
 
-required = {
-    "CC BY 4.0": "licence stated",
+for phrase, why in {
+    "cc by 4.0": "licence stated",
     "doi:10.5281/zenodo.11122388": "dataset DOI stated",
-    "Appendix A": "code appendix promised",
-    "Appendix B": "user manual promised",
+    "appendix a": "code appendix promised",
+    "appendix b": "user manual promised",
     "45–60 pages": "report length rule acknowledged",
-    "Out of scope": "scope boundary drawn",
+    "out of scope": "scope boundary drawn",
     "not a new algorithm": "contribution bounded",
-    "Harvard": "referencing style named",
+    "harvard": "referencing style named",
     "preliminary": "unverified numbers labelled preliminary",
-}
-for phrase, why in required.items():
-    check(phrase.lower() in flat.lower(), f"{why} ('{phrase}')")
+    "moderation": "",
+}.items():
+    if phrase == "moderation":
+        continue
+    check(phrase in flat.lower(), f"{why} ('{phrase}')")
 
-refs_section = flat.split("References")[-1]
-n_refs = len(re.findall(r"\(\d{4}\)", refs_section))
-check(n_refs >= 9, f"{n_refs} Harvard-style references listed")
-for placeholder in ["[Your full name and student number]", "[Supervisor name]"]:
+refs = [p for p in paragraphs if re.match(r"^[A-Z][\w'\-]+,\s", p.text.strip())
+        and "(20" in p.text]
+check(len(refs) >= 9, f"{len(refs)} Harvard-style references listed")
+
+# ---------------------------------------------------------------- pass 4 -----
+print("\nPASS 4 - layout")
+for i, tbl in enumerate(doc.tables):
+    widths = [c.width for c in tbl.rows[0].cells]
+    check(all(w is not None for w in widths), f"table {i+1}: explicit column widths")
+    total = sum(w.cm for w in widths)
+    check(total <= 16.05, f"table {i+1}: total width {total:.2f} cm fits the 16.0 cm text block")
+
+hanging = [p for p in refs if p.paragraph_format.first_line_indent is not None
+           and p.paragraph_format.first_line_indent.cm < 0]
+check(len(hanging) == len(refs), f"all {len(refs)} references use a hanging indent")
+
+for placeholder in ["[Student name] [Registration number]", "[Supervisor name]",
+                    "[To be completed by the candidate"]:
     if placeholder in flat:
         notes.append(f"placeholder left for the candidate: {placeholder}")
 

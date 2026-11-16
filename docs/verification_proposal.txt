@@ -1,21 +1,55 @@
-PASS 1 - structure and formatting
-  PASS  document has 58 paragraphs
-  PASS  section present: 1. Problem statement
-  PASS  section present: 2. Aim and objectives
-  PASS  section present: 3. Research questions and hypotheses
-  PASS  section present: 4. Scope and delimitation
-  PASS  section present: 5. Data
-  PASS  section present: 6. Method
-  PASS  section present: 7. Results to date and verification status
-  PASS  section present: 8. Deliverables
-  PASS  section present: 9. Ethics, data governance and reproducibility
-  PASS  section present: 10. Risks and mitigation
-  PASS  section present: 11. Timeline
-  PASS  section present: References
-  PASS  5 tables rendered
-  PASS  base font is Times New Roman
-  PASS  base size is 12.0 pt
-  PASS  line spacing is 1.5
+PASS 1 - UZ-DAI §3.2 compliance
+  PASS  page size A4 (21.0 x 29.7 cm)
+  PASS  left margin 4.00 cm (required 4.0)
+  PASS  right margin 1.00 cm (required 1.0)
+  PASS  top margin 2.50 cm (required 2.5)
+  PASS  bottom margin 4.00 cm (required 4.0)
+  PASS  base font Times New Roman (required Times New Roman)
+  PASS  base size 12.0 pt (required 12)
+  PASS  line spacing 1.5 (required 1.5)
+  PASS  preliminary page present: ABSTRACT
+  PASS  preliminary page present: DECLARATION
+  PASS  preliminary page present: COPYRIGHT
+  PASS  preliminary page present: DEDICATION
+  PASS  preliminary page present: ACKNOWLEDGEMENTS
+  PASS  preliminary page present: ABBREVIATIONS
+  PASS  preliminary page present: TABLE OF CONTENTS
+  PASS  preliminary page present: LIST OF TABLES
+  PASS  preliminary page present: LIST OF FIGURES
+  PASS  preliminary page present: LIST OF APPENDICES
+  PASS  preliminary pages are in the prescribed order
+  PASS  title page shows: UNIVERSITY OF ZIMBABWE
+  PASS  title page shows: FACULTY OF COMPUTER ENGINEERING
+  PASS  title page shows: DEPARTMENT OF ANALYTICS AND INFORMATICS
+  PASS  title page shows: AGROYIELD-ADAPT
+  PASS  title page shows: BY
+  PASS  title page shows: SUPERVISED BY
+  PASS  title page shows: PARTIAL FULFILMENT
+  PASS  title page shows: 2026
+  PASS  logo image embedded (1 inline shape)
+  PASS  no unresolved logo placeholder
+  PASS  6 chapter headings found
+  PASS  chapter heading is upper case: CHAPTER 1: INTRODUCTION
+  PASS  chapter heading is upper case: CHAPTER 2: LITERATURE REVIEW AND EVIDENC
+  PASS  chapter heading is upper case: CHAPTER 3: RESEARCH METHODOLOGY
+  PASS  chapter heading is upper case: CHAPTER 4: PRELIMINARY RESULTS AND DISCU
+  PASS  chapter heading is upper case: CHAPTER 5: CONCLUSION AND RECOMMENDATION
+  PASS  chapter heading is upper case: CHAPTER 6: REFERENCES
+  PASS  17 numbered sub-headings found
+  PASS  sub-headings are not in upper case
+  PASS  preliminaries use roman numerals
+  PASS  main body restarts numbering at 1 in arabic numerals
+  PASS  page number field in the footer
+  PASS  page number is centred at the bottom edge
+  PASS  table of contents field present
+  PASS  list of tables field present
+  PASS  4 table captions carry SEQ fields for 4 tables
+  PASS  4 captions for 4 tables
+  PASS  caption 1 reads correctly before field update: Table 1: Validation design versus reported sk
+  PASS  caption 2 reads correctly before field update: Table 2: Deliverables mapped to guideline rev
+  PASS  caption 3 reads correctly before field update: Table 3: Work plan to the final review
+  PASS  caption 4 reads correctly before field update: Table 4: Project risks and their mitigation
+  PASS  fields refresh when the document is opened
 
 PASS 2 - numbers verified against recorded runs and the raw data
   PASS  '14,773' stated in the document
@@ -26,49 +60,58 @@ PASS 2 - numbers verified against recorded runs and the raw data
   PASS  '32.2%' recomputed from CSV matches record (32.2)
   PASS  '4,764' stated in the document
   PASS  '4,764' recomputed from CSV matches record (4764)
-  PASS  '+0.265' stated for random
-  PASS  random R2 in record is +0.265
-  PASS  '+0.177' stated for cluster
-  PASS  cluster R2 in record is +0.177
-  PASS  '-1.943' stated for country
-  PASS  country R2 in record is -1.943
-  PASS  '1,486' RMSE stated for random
-  PASS  random RMSE in record is 1,486
-  PASS  '1,578' RMSE stated for cluster
-  PASS  cluster RMSE in record is 1,578
-  PASS  '2,284' RMSE stated for country
-  PASS  country RMSE in record is 2,284
+  PASS  zero-yield records: 263
+  PASS  zero-yield share 1.78%
+  PASS  column count 53
+  PASS  burundi soil missingness 78.4%
+  PASS  burundi soil missingness stated as 78.4%
+  PASS  rwanda soil missingness 76.3%
+  PASS  rwanda soil missingness stated as 76.3%
+  PASS  random R2 matches record (+0.265)
+  PASS  random RMSE matches record (1,486)
+  PASS  random figures appear in the document
+  PASS  cluster R2 matches record (+0.177)
+  PASS  cluster RMSE matches record (1,578)
+  PASS  cluster figures appear in the document
+  PASS  country R2 matches record (-1.943)
+  PASS  country RMSE matches record (2,284)
+  PASS  country figures appear in the document
   PASS  cluster inflation +0.088
   PASS  country inflation +2.208
   PASS  superseded global-imputation value reported transparently
   PASS  data checksum recorded
-  PASS  zero-yield records recomputed: 263
-  PASS  zero-yield share: 1.78%
-  PASS  column count: 53 (document states 53)
-  PASS  burundi soil missingness recomputed: 78.4%
-  PASS  burundi soil missingness stated as 78.4%
-  PASS  rwanda soil missingness recomputed: 76.3%
-  PASS  rwanda soil missingness stated as 76.3%
 
 PASS 3 - claim hygiene and guideline coverage
   PASS  no superseded/overclaiming phrase: old single-country framing
   PASS  no superseded/overclaiming phrase: superseded data-status statement
   PASS  no superseded/overclaiming phrase: overclaim
   PASS  no superseded/overclaiming phrase: overclaim
-  PASS  no superseded/overclaiming phrase: overclaim (no distribution-free guarantee holds off-exchangeability)
+  PASS  no superseded/overclaiming phrase: overclaim
   PASS  no superseded/overclaiming phrase: unqualified superiority claim
-  PASS  licence stated ('CC BY 4.0')
+  PASS  licence stated ('cc by 4.0')
   PASS  dataset DOI stated ('doi:10.5281/zenodo.11122388')
-  PASS  code appendix promised ('Appendix A')
-  PASS  user manual promised ('Appendix B')
-  PASS  report length rule acknowledged ('45-60 pages')
-  PASS  scope boundary drawn ('Out of scope')
+  PASS  code appendix promised ('appendix a')
+  PASS  user manual promised ('appendix b')
+  PASS  report length rule acknowledged ('45–60 pages')
+  PASS  scope boundary drawn ('out of scope')
   PASS  contribution bounded ('not a new algorithm')
-  PASS  referencing style named ('Harvard')
+  PASS  referencing style named ('harvard')
   PASS  unverified numbers labelled preliminary ('preliminary')
-  PASS  10 Harvard-style references listed
+  PASS  9 Harvard-style references listed
+
+PASS 4 - layout
+  PASS  table 1: explicit column widths
+  PASS  table 1: total width 16.00 cm fits the 16.0 cm text block
+  PASS  table 2: explicit column widths
+  PASS  table 2: total width 16.00 cm fits the 16.0 cm text block
+  PASS  table 3: explicit column widths
+  PASS  table 3: total width 16.00 cm fits the 16.0 cm text block
+  PASS  table 4: explicit column widths
+  PASS  table 4: total width 16.00 cm fits the 16.0 cm text block
+  PASS  all 9 references use a hanging indent
 
 ============================================================
 0 failures
-NOTE  placeholder left for the candidate: [Your full name and student number]
+NOTE  placeholder left for the candidate: [Student name] [Registration number]
 NOTE  placeholder left for the candidate: [Supervisor name]
+NOTE  placeholder left for the candidate: [To be completed by the candidate
