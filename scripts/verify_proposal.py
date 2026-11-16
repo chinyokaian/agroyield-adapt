@@ -52,6 +52,25 @@ required_sections = [
 for sec in required_sections:
     check(sec in headings, f"section present: {sec}")
 check(len(doc.tables) >= 4, f"{len(doc.tables)} tables rendered")
+
+title_para = next(p for p in doc.paragraphs if p.text.startswith("AGROYIELD-ADAPT"))
+check(str(title_para.alignment) == "CENTER (1)", f"title alignment is {title_para.alignment}")
+for i, tbl in enumerate(doc.tables):
+    widths = [c.width for c in tbl.rows[0].cells]
+    check(all(w is not None for w in widths), f"table {i+1}: every column has an explicit width")
+    total = sum(round(w.cm, 2) for w in widths)
+    check(14.8 <= total <= 15.6, f"table {i+1}: total width {total} cm fits the 15.5 cm text block")
+
+ref_started = False
+ref_indents = []
+for p in doc.paragraphs:
+    if p.text.strip() == "References":
+        ref_started = True
+        continue
+    if ref_started and p.text.strip():
+        ref_indents.append(p.paragraph_format.first_line_indent)
+check(len(ref_indents) >= 9 and all(v is not None and v.cm < 0 for v in ref_indents),
+      f"all {len(ref_indents)} references use a hanging indent")
 normal = doc.styles["Normal"]
 check(normal.font.name == "Times New Roman", f"base font is {normal.font.name}")
 check(normal.font.size.pt == 12, f"base size is {normal.font.size.pt} pt")
@@ -123,7 +142,7 @@ required = {
     "doi:10.5281/zenodo.11122388": "dataset DOI stated",
     "Appendix A": "code appendix promised",
     "Appendix B": "user manual promised",
-    "45-60 pages": "report length rule acknowledged",
+    "45–60 pages": "report length rule acknowledged",
     "Out of scope": "scope boundary drawn",
     "not a new algorithm": "contribution bounded",
     "Harvard": "referencing style named",

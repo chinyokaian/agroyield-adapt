@@ -54,11 +54,16 @@ def table(rows, widths=None):
     t = doc.add_table(rows=0, cols=len(rows[0]))
     t.style = "Table Grid"
     t.alignment = WD_TABLE_ALIGNMENT.CENTER
+    t.autofit = False
     for r in rows:
         cells = t.add_row().cells
         for i, v in enumerate(r):
             cells[i].text = ""
+            if widths:
+                cells[i].width = Cm(widths[i])
             p = cells[i].paragraphs[0]
+            p.paragraph_format.line_spacing = 1.0
+            p.paragraph_format.space_after = Pt(2)
             run = p.add_run(str(v))
             run.font.name = "Times New Roman"
             run.font.size = Pt(11)
@@ -88,7 +93,7 @@ table([
     ["Supervisor", "[Supervisor name]"],
     ["Date", "November 2026"],
     ["Status", "Final draft for supervisor sign-off; supersedes proposal v1"],
-])
+], widths=[4.2, 11.2])
 
 # --- 1 -----------------------------------------------------------------------
 h("1. Problem statement", 1)
@@ -102,8 +107,8 @@ para(
     "region is unsafe, and costs the remedy."
 )
 para(
-    "This project addresses that gap by building, testing and evaluating a software artefact - a "
-    "deployment-readiness auditor - and by using it to measure how far common calibration "
+    "This project addresses that gap by building, testing and evaluating a software artefact – a "
+    "deployment-readiness auditor – and by using it to measure how far common calibration "
     "strategies actually travel across smallholder maize domains in Sub-Saharan Africa."
 )
 
@@ -159,12 +164,18 @@ para("The study uses the One Acre Fund smallholder maize panel (Aramburu Merlos 
      "dataset's own source publication (Aramburu-Merlos et al., 2024). The local copy has been "
      "audited and fingerprinted: 14,773 field-season records, 53 columns, seven countries "
      "(Kenya 7,258; Tanzania 3,710; Rwanda 2,080; Zambia 861; Burundi 640; Nigeria 115; "
-     "Uganda 109), survey years 2016-2020 and 2022, 263 zero-yield records (1.78%), 1,526 "
+     "Uganda 109), survey years 2016–2020 and 2022, 263 zero-yield records (1.78%), 1,526 "
      "spatial-temporal clusters at 0.1 degree plus year, and 4,764 records (32.2%) sharing a "
      "cluster with another record. Soil covariates are missing for 78.4% of Burundi records and "
      "76.3% of Rwandan records, a limitation carried forward to the analysis.")
-para("SHA-256 of the analysed file: "
-     "f305a3d3e48015bd877dc9df5c53b1715c61f940d58383d57d4dfb68c59c6ff0.")
+hash_p = doc.add_paragraph()
+hash_p.paragraph_format.line_spacing = 1.5
+hash_run = hash_p.add_run("SHA-256 of the analysed file: ")
+hash_run.font.name = "Times New Roman"
+hash_run.font.size = Pt(12)
+hash_val = hash_p.add_run("f305a3d3e48015bd877dc9df5c53b1715c61f940d58383d57d4dfb68c59c6ff0")
+hash_val.font.name = "Consolas"
+hash_val.font.size = Pt(9.5)
 
 # --- 6 -----------------------------------------------------------------------
 h("6. Method", 1)
@@ -193,7 +204,7 @@ table([
     ["Random 5-fold", "5", "+0.265", "1,486"],
     ["Cluster-grouped 5-fold (0.1 deg + year)", "5", "+0.177", "1,578"],
     ["Leave-one-country-out", "7", "-1.943", "2,284"],
-])
+], widths=[6.6, 1.6, 4.2, 3.0])
 para("Inflation relative to the random design is +0.088 R-squared when cluster structure is "
      "ignored and +2.208 when national structure is ignored. An earlier run that imputed missing "
      "values once, globally, before splitting produced -0.925 for the cross-country design; "
@@ -221,10 +232,10 @@ table([
     ["Final design: algorithm, UML set, database and interface design", "Review 2 objective", "Review 2"],
     ["Implemented and evaluated auditor (M1-M5), with test suite", "Prototype development and evaluation", "Review 3"],
     ["Project demonstration with before/after readiness report", "Final oral presentation", "Review 4"],
-    ["Final report, 45-60 pages, Harvard referencing", "Report format rules", "Final"],
+    ["Final report, 45–60 pages, Harvard referencing", "Report format rules", "Final"],
     ["Appendix A: source code repository; Appendix B: user manual", "Report appendices", "Final"],
     ["Systematic review and survey paper; technical paper", "Literature and presentation criteria", "Final"],
-])
+], widths=[6.4, 6.0, 3.0])
 
 # --- 9 -----------------------------------------------------------------------
 h("9. Ethics, data governance and reproducibility", 1)
@@ -243,18 +254,18 @@ table([
     ["Seven country domains give low statistical power", "Replicate at stratum level (25 strata) and across seeds; report effect sizes with uncertainty, and never treat fold-seeds as independent"],
     ["Auditor judged not to be a prototype", "Ship command-line tool, interface, report, user manual and test suite; seek written confirmation at Review 1"],
     ["Soil missingness confounds the diagnosis", "Optional iSDAsoil covariate layer; otherwise report the confound explicitly as a limitation"],
-    ["Scope creep beyond a 45-60 page report", "Five fixed modules; no live service, no accounts, no mobile client"],
-])
+    ["Scope creep beyond a 45–60 page report", "Five fixed modules; no live service, no accounts, no mobile client"],
+], widths=[5.0, 10.4])
 
 # --- 11 ----------------------------------------------------------------------
 h("11. Timeline", 1)
 table([
     ["Period", "Work"],
-    ["By Review 1 (1-4 December 2026)", "Proposal v2, environment specification, test procedures draft, initial UML, Module 1 running"],
-    ["December 2026 - January 2027", "Modules 2 and 3, systematic review, survey paper"],
+    ["By Review 1 (1–4 December 2026)", "Proposal v2, environment specification, test procedures draft, initial UML, Module 1 running"],
+    ["December 2026 – January 2027", "Modules 2 and 3, systematic review, survey paper"],
     ["February 2027", "Module 4 and label-budget evaluation; robustness runs"],
     ["March 2027", "Report drafting, technical paper, user manual, demonstration preparation"],
-])
+], widths=[4.4, 11.0])
 
 # --- references --------------------------------------------------------------
 h("References", 1)
