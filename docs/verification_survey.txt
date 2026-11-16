@@ -1,0 +1,35 @@
+PASS  title begins 'A Survey of'
+PASS  student name and number appear
+PASS  title page identifies the paper type
+PASS  document contains an explicit page break
+PASS  page break separates the title page from the body
+PASS  abstract present
+PASS  abstract length reasonable (198 words)
+PASS  abstract precedes the introduction
+PASS  index terms / keywords present
+PASS  introduction present
+PASS  introduction states what the paper presents
+PASS  problem description section present
+PASS  literature review section present
+PASS  foundational papers within 10-22 (15 cited)
+PASS  figures used liberally (3 figures + crest)
+PASS  comparison table present
+PASS  critical assessment of the base project present
+PASS  proposed solutions section present
+PASS  each paper critically discussed in the prose (missing: none)
+PASS  commentary ties each paper to the base project (30 mentions)
+PASS  proposed improvements are backed by cited literature
+PASS  conclusion and future work section present
+PASS  future research directions enumerated
+PASS  reference list present (15 entries)
+PASS  references numbered consecutively in IEEE style
+PASS  references carry IEEE volume/page/doi detail
+PASS  every reference cited, every citation resolvable ([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15])
+PASS  page count within 5-8 pages (Word: 8)
+PASS  word count near 4000 (Word: 4193)
+PASS  A4 page
+PASS  Times New Roman body
+PASS  no figure exceeds the text block (none)
+PASS  table fits the text block (15.8 cm)
+
+33 checks, 0 failures
