@@ -158,6 +158,28 @@ def caption(number, title):
     return p
 
 
+def fig_caption(number, title):
+    p = doc.add_paragraph()
+    p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    p.paragraph_format.line_spacing = 1.0
+    p.paragraph_format.space_before = Pt(4)
+    p.paragraph_format.space_after = Pt(12)
+    run_in(p, "Figure ", size=11, bold=True)
+    add_field(p, " SEQ Figure \\* ARABIC ", str(number))
+    run_in(p, f": {title}", size=11, bold=True)
+    return p
+
+
+def figure(path, number, title, width_cm=15.5):
+    p = doc.add_paragraph()
+    p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    p.paragraph_format.space_before = Pt(8)
+    p.paragraph_format.space_after = Pt(2)
+    p.paragraph_format.keep_with_next = True
+    p.add_run().add_picture(path, width=Cm(width_cm))
+    fig_caption(number, title)
+
+
 def table(rows, widths):
     assert abs(sum(widths) - CONTENT_CM) < 0.35, f"widths sum to {sum(widths)} cm"
     t = doc.add_table(rows=0, cols=len(rows[0]))
@@ -351,7 +373,10 @@ add_field(p, ' TOC \\h \\z \\c "Table" ',
 
 page_break()
 front_heading("LIST OF FIGURES")
-para("No figures are included in this proposal.", italic=True)
+p = doc.add_paragraph()
+p.paragraph_format.line_spacing = 1.0
+add_field(p, ' TOC \\h \\z \\c "Figure" ',
+          "Right-click here and choose Update Field to build the list of figures.")
 
 page_break()
 front_heading("LIST OF APPENDICES")
@@ -487,8 +512,25 @@ para(
 
 # ---------------------------------------------------------------- chapter 3 ---
 chapter_heading(3, "Research methodology")
-sub_heading("3.1 Artefact design")
-para("The artefact is developed as five modules, each independently testable:")
+sub_heading("3.1 System analysis and design")
+para(
+    "The formulated solution is modelled before it is built. Figure 1 shows the actors and the "
+    "services the auditor exposes; Figure 2 shows the audit run with its two decision points, "
+    "which is where the readiness verdict is produced; Figure 3 shows the five modules and the "
+    "data each holds; and Figure 4 shows what runs where, given that the tool is deliberately "
+    "single-machine and needs no server."
+)
+figure("docs/figures/fig1_usecase.png", 1,
+       "Use-case diagram of the deployment-readiness auditor")
+figure("docs/figures/fig2_activity.png", 2,
+       "Activity diagram of an audit run")
+figure("docs/figures/fig3_class.png", 3,
+       "Class diagram of the five auditor modules")
+figure("docs/figures/fig4_deployment.png", 4,
+       "Deployment diagram: components on the analyst's workstation")
+
+sub_heading("3.2 Artefact design")
+para("Each module is independently testable, and each maps to one objective in Section 1.3:")
 for mod in [
     "M1 Split integrity. Fits one model under random, cluster-grouped and leave-one-country-out "
     "validation and reports the resulting inflation.",
@@ -503,7 +545,7 @@ for mod in [
 ]:
     para(mod)
 
-sub_heading("3.2 Evaluation design")
+sub_heading("3.3 Evaluation design")
 para(
     "Evaluation uses three validation designs, three seeds and a second model family. Pooled "
     "calibration is compared with per-domain (Mondrian) calibration, label-free density-ratio "
@@ -513,7 +555,7 @@ para(
     "uncertainty, and fold-seeds are never treated as independent observations."
 )
 
-sub_heading("3.3 Reproducibility and data handling")
+sub_heading("3.4 Reproducibility and data handling")
 para(
     "All preprocessing is fold-internal: imputation statistics are estimated on training folds "
     "only, because global imputation silently uses test-set statistics. Every run is recorded "

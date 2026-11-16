@@ -77,8 +77,19 @@ for item in ["UNIVERSITY OF ZIMBABWE", "FACULTY OF COMPUTER ENGINEERING",
              "DEPARTMENT OF ANALYTICS AND INFORMATICS", "AGROYIELD-ADAPT", "BY",
              "SUPERVISED BY", "PARTIAL FULFILMENT", "2026"]:
     check(item in title_text, f"title page shows: {item}")
-check(len(doc.inline_shapes) >= 1, f"logo image embedded ({len(doc.inline_shapes)} inline shape)")
+check(len(doc.inline_shapes) >= 5,
+      f"{len(doc.inline_shapes)} images embedded (logo + four UML figures)")
+check('TOC \\h \\z \\c &quot;Figure&quot;' in doc.element.xml
+      or 'TOC \\h \\z \\c "Figure"' in doc.element.xml, "list of figures field present")
+fig_captions = ["".join(n.text or "" for n in p._p.iter(qn("w:t"))).strip()
+                for p in paragraphs]
+fig_captions = [c for c in fig_captions if c.startswith("Figure ")]
+check(len(fig_captions) == 4, f"{len(fig_captions)} figure captions found")
+for i, cap in enumerate(fig_captions, start=1):
+    check(cap.startswith(f"Figure {i}:"), f"caption {i} reads correctly: {cap[:45]}")
+check(doc.element.xml.count("SEQ Figure") == 4, "four figure captions carry SEQ fields")
 check("UZ LOGO" not in flat, "no unresolved logo placeholder")
+check("no figures are included" not in flat.lower(), "list of figures is a field, not a disclaimer")
 
 chapters = [p.text.strip() for p in paragraphs if p.text.strip().startswith("CHAPTER ")]
 check(len(chapters) >= 5, f"{len(chapters)} chapter headings found")

@@ -26,8 +26,16 @@ PASS 1 - UZ-DAI §3.2 compliance
   PASS  title page shows: SUPERVISED BY
   PASS  title page shows: PARTIAL FULFILMENT
   PASS  title page shows: 2026
-  PASS  logo image embedded (1 inline shape)
+  PASS  5 images embedded (logo + four UML figures)
+  PASS  list of figures field present
+  PASS  4 figure captions found
+  PASS  caption 1 reads correctly: Figure 1: Use-case diagram of the deployment-
+  PASS  caption 2 reads correctly: Figure 2: Activity diagram of an audit run
+  PASS  caption 3 reads correctly: Figure 3: Class diagram of the five auditor m
+  PASS  caption 4 reads correctly: Figure 4: Deployment diagram: components on t
+  PASS  four figure captions carry SEQ fields
   PASS  no unresolved logo placeholder
+  PASS  list of figures is a field, not a disclaimer
   PASS  6 chapter headings found
   PASS  chapter heading is upper case: CHAPTER 1: INTRODUCTION
   PASS  chapter heading is upper case: CHAPTER 2: LITERATURE REVIEW AND EVIDENC
@@ -35,7 +43,7 @@ PASS 1 - UZ-DAI §3.2 compliance
   PASS  chapter heading is upper case: CHAPTER 4: PRELIMINARY RESULTS AND DISCU
   PASS  chapter heading is upper case: CHAPTER 5: CONCLUSION AND RECOMMENDATION
   PASS  chapter heading is upper case: CHAPTER 6: REFERENCES
-  PASS  17 numbered sub-headings found
+  PASS  18 numbered sub-headings found
   PASS  sub-headings are not in upper case
   PASS  preliminaries use roman numerals
   PASS  main body restarts numbering at 1 in arabic numerals
