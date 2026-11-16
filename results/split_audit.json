@@ -1,0 +1,33 @@
+{
+  "stats": {
+    "rows": 14773,
+    "rows_sharing_coord_year": 4764,
+    "pct_sharing_coord_year": 32.2,
+    "clusters": 1526,
+    "countries": 7
+  },
+  "results": {
+    "random": {
+      "design": "random",
+      "folds": 5,
+      "r2_log": 0.265,
+      "rmse_kg_ha": 1486.3
+    },
+    "cluster": {
+      "design": "cluster",
+      "folds": 5,
+      "r2_log": 0.1767,
+      "rmse_kg_ha": 1578.2
+    },
+    "country": {
+      "design": "country",
+      "folds": 7,
+      "r2_log": -1.9428,
+      "rmse_kg_ha": 2283.5
+    }
+  },
+  "inflation": {
+    "cluster": 0.0883,
+    "country": 2.2078
+  }
+}
