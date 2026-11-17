@@ -669,6 +669,8 @@ for i, r in enumerate(order, 1):
     D.run(p, ieee_ref(r), size=10.5)
 
 os.makedirs("FINISHED", exist_ok=True)
+json.dump([(r["doi"] or r["title"]) for r in order],
+          open("docs/litreview/cited_keys.json", "w", encoding="utf-8"), indent=1)
 D.d.save(OUT)
 print(f"wrote {OUT}")
 print(f"corpus {len(corpus)} | cited {len(order)}")

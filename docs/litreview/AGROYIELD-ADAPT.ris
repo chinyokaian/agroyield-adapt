@@ -19,6 +19,24 @@ AB  - Many studies have applied machine learning to crop yield prediction with a
 ER  - 
 
 TY  - JOUR
+AU  - Sasmita Sahoo
+AU  - T. A. Russo
+AU  - Joshua W. Elliott
+AU  - Ian T Foster
+TI  - Machine learning algorithms for modeling groundwater level changes in agricultural regions of the U.S.
+PY  - 2017
+JO  - Water Resources Research
+PB  - Wiley
+VL  - 53
+IS  - 5
+SP  - 3878
+EP  - 3895
+DO  - 10.1002/2016wr019933
+UR  - https://doi.org/10.1002/2016wr019933
+AB  - Abstract Climate, groundwater extraction, and surface water flows have complex nonlinear relationships with groundwater level in agricultural regions. To better understand the relative importance of each driver and predict groundwater level change, we develop a new ensemble modeling framework based on spectral analysis, machine learning, and uncertainty analysis, as an alternative to complex and computationally expensive physical models. We apply and evaluate this new approach in the context of two aquifer systems supporting agricultural production in the United States: the High Plains aquifer (HPA) and the Mississippi River Valley alluvial aquifer (MRVA). We select input data sets by using a combination of mutual information, genetic algorithms, and lag analysis, and then use the selected data sets in a Multilayer Perceptron network architecture to simulate seasonal groundwater level change. As expected, model results suggest that irrigation demand has the highest influence on groundwater level change for a majority of the wells. The subset of groundwater observations not used in model training or cross‐validation correlates strongly (R > 0.8) with model results for 88 and 83% of 
+ER  - 
+
+TY  - JOUR
 AU  - Patricio Grassini
 AU  - Lenny G.J. van Bussel
 AU  - Justin Van Wart
@@ -108,6 +126,27 @@ AB  - Hyperspectral acquisitions have proven to be the most informative Earth ob
 ER  - 
 
 TY  - JOUR
+AU  - Juraj Balkovič
+AU  - Marijn van der Velde
+AU  - Erwin Schmid
+AU  - Rastislav Skalský
+AU  - Nikolay Khabarov
+AU  - Michael H. Obersteiner
+AU  - Bernhard Stürmer
+AU  - Wei Xiong
+TI  - Pan-European crop modelling with EPIC: Implementation, up-scaling and regional crop yield validation
+PY  - 2013
+JO  - Agricultural Systems
+PB  - Elsevier
+VL  - 120
+SP  - 61
+EP  - 75
+DO  - 10.1016/j.agsy.2013.05.008
+UR  - https://doi.org/10.1016/j.agsy.2013.05.008
+AB  - Justifiable usage of large-scale crop model simulations requires transparent, comprehensive and spatially extensive evaluations of their performance and associated accuracy. Simulated crop yields of a Pan-European implementation of the Environmental Policy Integrated Climate (EPIC) crop model were satisfactorily evaluated with reported regional yield data from EUROSTAT for four major crops, including winter wheat, rainfed and irrigated maize, spring barley and winter rye. European-wide land use, elevation, soil and daily meteorological gridded data were integrated in GIS and coupled with EPIC. Default EPIC crop and biophysical process parameter values were used with some minor adjustments according to suggestions from scientific literature. The model performance was improved by spatial calculations of crop sowing densities, potential heat units, operation schedules, and nutrient application rates. EPIC performed reasonable in the simulation of regional crop yields, with long-term averages predicted better than inter-annual variability: linear regression R2 ranged from 0.58 (maize) to 0.91 (spring barley) and relative estimation errors were between ±30% for most of the European regi
+ER  - 
+
+TY  - JOUR
 AU  - Bin Peng
 AU  - Kaiyu Guan
 AU  - Wang Ming Zhou
@@ -169,6 +208,28 @@ AB  - Early warning information on crop yield and production are very crucial fo
 ER  - 
 
 TY  - JOUR
+AU  - Dilli Paudel
+AU  - Hendrik Boogaard
+AU  - Allard J. W. de Wit
+AU  - Marijn van der Velde
+AU  - Martin Claverie
+AU  - Luigi Nisini
+AU  - Sander J. C. Janssen
+AU  - Sjoukje Osinga
+AU  - Ioannis N. Athanasiadis
+TI  - Machine learning for regional crop yield forecasting in Europe
+PY  - 2021
+JO  - Field Crops Research
+PB  - Elsevier
+VL  - 276
+SP  - 108377
+EP  - 108377
+DO  - 10.1016/j.fcr.2021.108377
+UR  - https://doi.org/10.1016/j.fcr.2021.108377
+AB  - Crop yield forecasting at national level relies on predictors aggregated from smaller spatial units to larger ones according to harvested crop areas. Such crop areas come from land cover maps or reported statistics, both of which can have errors and uncertainties. Sub-national or regional crop yield forecasting minimizes the propagation of these errors to some extent. In addition, regional forecasts provide added value and insights to stakeholders on regional differences within a country, which would otherwise compensate each other at national level. We propose a crop yield forecasting approach for multiple spatial levels based on regional crop yield forecasts from machine learning. Machine learning, with its data-driven approach, can leverage larger data sizes and capture nonlinear relationships between predictors and yield at regional level. We designed a generic machine learning workflow to demonstrate the benefits of regional crop yield forecasting in Europe. To evaluate the quality and usefulness of regional forecasts, we predicted crop yields for 35 case studies, including nine countries that are major producers of six crops (soft wheat, spring barley, sunflower, grain maize,
+ER  - 
+
+TY  - JOUR
 AU  - Michele Meroni
 AU  - François Waldner
 AU  - Lorenzo Seguini
@@ -184,6 +245,61 @@ EP  - 108555
 DO  - 10.1016/j.agrformet.2021.108555
 UR  - https://doi.org/10.1016/j.agrformet.2021.108555
 AB  - Forecasting crop yields is important for food security, in particular to predict where crop production is likely to drop. Climate records and remotely-sensed data have become instrumental sources of data for crop yield forecasting systems. Similarly, machine learning methods are increasingly used to process big Earth observation data. However, access to data necessary to train such algorithms is often limited in food-insecure countries. Here, we evaluate the performance of machine learning algorithms and small data to forecast yield on a monthly basis between the start and the end of the growing season. To do so, we developed a robust and automated machine-learning pipeline which selects the best features and model for prediction. Taking Algeria as case study, we predicted national yields for barley, soft wheat and durum wheat with an accuracy of 0.16–0.2 t/ha (13-14% of mean yield) within the season. The best machine-learning models always outperformed simple benchmark models. This was confirmed in low-yielding years, which is particularly relevant for early warning. Nonetheless, the differences in accuracy between machine learning and benchmark models were not always of practical
+ER  - 
+
+TY  - JOUR
+AU  - Pauline Paidamoyo Chivenge
+AU  - Shamie Zingore
+AU  - K.S. Ezui
+AU  - Samuel Njoroge
+AU  - Michelle Anne Bunquin
+AU  - Achim Dobermann
+AU  - Kazuki Saito
+TI  - Progress in research on site-specific nutrient management for smallholder farmers in sub-Saharan Africa
+PY  - 2022
+JO  - Field Crops Research
+PB  - Elsevier
+VL  - 281
+SP  - 108503
+EP  - 108503
+DO  - 10.1016/j.fcr.2022.108503
+UR  - https://doi.org/10.1016/j.fcr.2022.108503
+AB  - Increasing fertilizer access and use is an essential component for improving crop production and food security in sub-Saharan Africa (SSA). However, given the heterogeneous nature of smallholder farms, fertilizer application needs to be tailored to specific farming conditions to increase yield, profitability, and nutrient use efficiency. The site-specific nutrient management (SSNM) approach initially developed in the 1990 s for generating field-specific fertilizer recommendations for rice in Asia, has also been introduced to rice, maize and cassava cropping systems in SSA. The SSNM approach has been shown to increase yield, profitability, and nutrient use efficiency. Yield gains of rice and maize with SSNM in SSA were on average 24% and 69% when compared to the farmer practice, respectively, or 11% and 4% when compared to local blanket fertilizer recommendations. However, there is need for more extensive field evaluation to quantify the broader benefits of the SSNM approach in diverse farming systems and environments. Especially for rice, the SSNM approach should be expanded to rainfed systems, which are dominant in SSA and further developed to take into account soil texture and so
+ER  - 
+
+TY  - JOUR
+AU  - Gouri Sankar Bhunia
+AU  - Pravat Kumar Shit
+AU  - Rabindranath Chattopadhyay
+TI  - Assessment of spatial variability of soil properties using geostatistical approach of lateritic soil (West Bengal, India)
+PY  - 2018
+JO  - Annals of Agrarian Science
+PB  - Elsevier
+VL  - 16
+IS  - 4
+SP  - 436
+EP  - 443
+DO  - 10.1016/j.aasci.2018.06.003
+UR  - https://doi.org/10.1016/j.aasci.2018.06.003
+AB  - Degradation of soil due to unsuitable land management practices is a chief impairment of optimum land productivity. The spatial variability of soil properties is needed for agricultural productivity, food safety and environmental modeling. The present study was conducted in lateritic soils of West Bengal, India to understand the spatial variability of soil properties using a geostatistical model. Nitrogen (N), soil pH, electrical conductivity (EC), Phosphorus (P), Potassium (K) and organic carbon (OC) were measured. Surface maps of soil properties were prepared using the semivariogram model through Kriging techniques. A positive correlation was observed between OC and N. The Quantile-quantile plots showed a normal distribution of EC, K, pH, N, and OC. The value for nugget/sill of K, N, and EC were 0.25–0.75 indicating moderate spatial autocorrelation among the variables. Phosphorus (P) was highly concentrated in the eastern part, whereas the agglomeration of higher EC was found in the north east and south west corner of the study site. The cross validation results illustrated the smoothing effect of the spatial prediction. The present study suggests that the geostatistical model ca
+ER  - 
+
+TY  - JOUR
+AU  - Fulu Tao
+AU  - Masayuki Yokozawa
+AU  - Zhao Zhang
+AU  - Yinlong Xu
+AU  - Yousay Hayashi
+TI  - Remote sensing of crop production in China by production efficiency models: models comparisons, estimates and uncertainties
+PY  - 2004
+JO  - Ecological Modelling
+PB  - Elsevier
+VL  - 183
+IS  - 4
+SP  - 385
+EP  - 396
+DO  - 10.1016/j.ecolmodel.2004.08.023
+UR  - https://doi.org/10.1016/j.ecolmodel.2004.08.023
 ER  - 
 
 TY  - JOUR
@@ -276,6 +392,27 @@ AB  - ) is an important staple crop for food security in Sub-Saharan Africa. How
 ER  - 
 
 TY  - JOUR
+AU  - Ommolbanin Bazrafshan
+AU  - Mohammad Ehteram
+AU  - Sarmad Dashti Latif
+AU  - Yuk Feng Huang
+AU  - Fang Yenn Teo
+AU  - Ali Najah Ahmed
+AU  - Ahmed El‐Shafie
+TI  - Predicting crop yields using a new robust Bayesian averaging model based on multiple hybrid ANFIS and MLP models
+PY  - 2022
+JO  - Ain Shams Engineering Journal
+PB  - Elsevier
+VL  - 13
+IS  - 5
+SP  - 101724
+EP  - 101724
+DO  - 10.1016/j.asej.2022.101724
+UR  - https://doi.org/10.1016/j.asej.2022.101724
+AB  - Predicting crop yield is an important issue for farmers. Food security is important for decision-makers. The agriculture industry can more accurately supply human demand for food if the crop yield is predicted accurately. Tomato is one of the most important crops so that 160 million tonnes of tomatoes are produced annually around the world. In this study, tomato yield based on data of 40 cities of Iran country including annual average temperature (T), relative humidity (RH), effective rainfall (R), wind speed (WS), and Evapotranspiration (EV) for the period of 1968–2018 was predicted using a new Bayesian model averaging (BMA). The paper's main innovation is the use of the new BMA so that it allows the modellers to quantify the uncertainty of model parameters and inputs simultaneously. For this aim, first, the multiple Adaptive neuro-fuzzy interface system (ANFIS) and multi-layer perceptron (MLP) were used for predicting crop yield. To train the ANFIS and MLP model, a new algorithm, namely, multi verse optimization algorithm (MOA) was used. Also, the ability of MOA was benchmarked against the particle swarm optimization (PSO), and firefly algorithm (FFA). In the next level, the new 
+ER  - 
+
+TY  - JOUR
 AU  - Luthfan Nur Habibi
 AU  - Tsutomu Matsui
 AU  - Takashi Sonam Tashi Tanaka
@@ -289,6 +426,21 @@ EP  - 101096
 DO  - 10.1016/j.jafr.2024.101096
 UR  - https://doi.org/10.1016/j.jafr.2024.101096
 AB  - Crop yield prediction models are critical tools for evaluating growth performance and informing decisions during farm management. Developing yield prediction models that are robust not only in the ranges of the model spatial domain but also in additional locations using a data-driven approach is challenging. The main objective of this study was to investigate an appropriate cross-validation (CV) strategy for establishing transferable UAV-based yield prediction models across different spatial domains (i.e., meeting extrapolation mapping objectives). In this study, we compared three data splitting procedures for the CV protocols, including random data splitting (random CV), cluster-based spatial splitting (spatial CV), and field-specific hold-out data splitting (leave-one-field-out CV). Model optimization was also examined to determine whether these factors affect the transferability of the yield model, including performing recursive feature elimination (RFE) and comparing the effects of algorithms utilized in the yield prediction model. Three base learner algorithms, namely, random forest, XGBoost, and LASSO regression, were utilized, and a stacked ensemble technique model formed wi
+ER  - 
+
+TY  - JOUR
+AU  - Samuel Asante Gyamerah
+AU  - Philip Odhiambo Ngare
+AU  - Dennis C. Ikpe
+TI  - Probabilistic forecasting of crop yields via quantile random forest and Epanechnikov Kernel function
+PY  - 2019
+JO  - Agricultural and Forest Meteorology
+PB  - Elsevier
+VL  - 280
+SP  - 107808
+EP  - 107808
+DO  - 10.1016/j.agrformet.2019.107808
+UR  - https://doi.org/10.1016/j.agrformet.2019.107808
 ER  - 
 
 TY  - JOUR
@@ -347,26 +499,6 @@ AB  - • Integrated PBM-ML-RS approach improves crop yield and nutritional qual
 ER  - 
 
 TY  - JOUR
-AU  - Salman Naimi
-AU  - Shamsollah Ayoubi
-AU  - José Alexandre Melo Demattê
-AU  - Mojtaba Zeraatpisheh
-AU  - Merilyn Taynara Accorsi Amorim
-AU  - Fellipe Alcântara de Oliveira Mello
-TI  - Spatial prediction of soil surface properties in an arid region using synthetic soil image and machine learning
-PY  - 2021
-JO  - Geocarto International
-PB  - Taylor & Francis
-VL  - 37
-IS  - 25
-SP  - 8230
-EP  - 8253
-DO  - 10.1080/10106049.2021.1996639
-UR  - https://doi.org/10.1080/10106049.2021.1996639
-AB  - Evaluation of spatial variability and mapping of soil properties is critical for sustainable agricultural production in arid lands. The main objectives of the present study were to spatialize soil organic carbon (SOC), soil particle size distribution(clay, sand, and silt contents), and calcium carbonate equivalent (CCE) by integrating multisource environmental covariates, including digital elevation model (DEM) and remote sensing data by machine learning (Cubist, Cu and random forest, RF) in an arid region of Iran. Additionally, Synthetic Soil Images (SySI) were achieved from multi-temporal images of bare soil pixels based on Landsats 4, 5, 7, 8, and a DEM. Three hundred topsoil samples (0–30 cm depth) were collected based on the conditioned Latin hypercube sampling (cLHS) approach in Afzar district, Fars province, southern Iran. The models were calibrated and validated by the 10-fold cross-validation approach, and the performance was evaluated using root mean square error (RMSE), the ratio of the performance to interquartile distance (RPIQ), and coefficient of determination (R2). Also, the prediction accuracy was assessed by the relative RMSE (rRMSE). The performance of the best m
-ER  - 
-
-TY  - JOUR
 AU  - Kabindra Adhikari
 AU  - Marcelo Mancini
 AU  - Zamir Libohova
@@ -389,19 +521,36 @@ AB  - Assessment and proper management of sites contaminated with heavy metals r
 ER  - 
 
 TY  - JOUR
-AU  - Odunayo David Adeniyi
-AU  - Alexander Brenning
-AU  - Michael Maerker
-TI  - Spatial prediction of soil organic carbon: Combining machine learning with residual kriging in an agricultural lowland area (Lombardy region, Italy)
-PY  - 2024
-JO  - Geoderma
+AU  - Huidong Jin
+AU  - Ming Li
+AU  - Garry Hopwood
+AU  - Zvi Hochman
+AU  - K. Shuvo Bakar
+TI  - Improving early-season wheat yield forecasts driven by probabilistic seasonal climate forecasts
+PY  - 2022
+JO  - Agricultural and Forest Meteorology
 PB  - Elsevier
-VL  - 448
-SP  - 116953
-EP  - 116953
-DO  - 10.1016/j.geoderma.2024.116953
-UR  - https://doi.org/10.1016/j.geoderma.2024.116953
-AB  - Soil organic carbon (SOC) plays a crucial role in the global carbon cycle and in maintaining soil functions in the context of land use and climate change. Understanding the spatial distribution of SOC is essential for the management of agricultural land to optimize soil health and carbon storage. In this study, we investigated the spatial distribution of SOC in an agricultural lowland area of the Lombardy region, Italy, using machine learning (ML) techniques combined with residual kriging. ML models, including the artificial neural network (ANN), extreme learning machine (ELM), and random forest (RF), were trained on 120 SOC observations and eight environmental variables to predict SOC values across the study area. The performance of this ML approach was assessed using a ten-fold nested cross-validation process. The ELM and RF models showed better predictive performances based on the concordance correlation coefficient and root mean square error (RMSE), with RF slightly outperforming ELM based on the RMSE. The residuals of each iteration from the ML models were interpolated by ordinary kriging (OK) and added to the ML-based trend model in a hybrid regression-kriging approach. This 
+VL  - 315
+SP  - 108832
+EP  - 108832
+DO  - 10.1016/j.agrformet.2022.108832
+UR  - https://doi.org/10.1016/j.agrformet.2022.108832
+AB  - Seasonal climate forecasts (SCF) are evolving rapidly alongside improvements in climate modelling and downscaling research, and have great potential for weather-sensitive sectors, especially agriculture, by reducing weather-related risks and increasing productivity. Skilful yield forecasts at the beginning of, or before, a cropping season can provide farmers and other stakeholders in agribusiness with the necessary information for early planning and actions. Only a few yield forecast studies have a forecast lead time of four months or longer due to the problem complexity. To enable SCFs from Global Climate Models (GCMs) to be used for early-season yield forecasts, this paper uses a statistical downscaling technique, Extended Copula Post-Processing (ECPP) and the Schaake shuffle, to downscale four climate variables to generate weather-like daily data that are suitable for agricultural applications. Climate forecasts drive a process-based crop model APSIM (Agricultural Production Systems sIMulator) to simulate crop forecasts on 50 stations, well-distributed across the Australian grain zone. To focus on yield forecast skills attributable to SCF, we propose best practice management rul
+ER  - 
+
+TY  - JOUR
+AU  - Phillip D. Alderman
+AU  - Bryan Stanfill
+TI  - Quantifying model-structure- and parameter-driven uncertainties in spring wheat phenology prediction with Bayesian analysis
+PY  - 2016
+JO  - European Journal of Agronomy
+PB  - Elsevier
+VL  - 88
+SP  - 1
+EP  - 9
+DO  - 10.1016/j.eja.2016.09.016
+UR  - https://doi.org/10.1016/j.eja.2016.09.016
+AB  - Recent international efforts have brought renewed emphasis on the comparison of different agricultural systems models. Thus far, analysis of model-ensemble simulated results has not clearly differentiated between ensemble prediction uncertainties due to model structural differences per se and those due to parameter value uncertainties. Additionally, despite increasing use of Bayesian parameter estimation approaches with field-scale crop models, inadequate attention has been given to the full posterior distributions for estimated parameters. The objectives of this study were to quantify the impact of parameter value uncertainty on prediction uncertainty for modeling spring wheat phenology using Bayesian analysis and to assess the relative contributions of model-structure-driven and parameter-value-driven uncertainty to overall prediction uncertainty. This study used a random walk Metropolis algorithm to estimate parameters for 30 spring wheat genotypes using nine phenology models based on multi-location trial data for days to heading and days to maturity. Across all cases, parameter-driven uncertainty accounted for between 19 and 52% of predictive uncertainty, while model-structure-
 ER  - 
 
 TY  - JOUR
@@ -426,56 +575,6 @@ AB  - Abstract Question Can we predict where forest regrowth caused by abandonme
 ER  - 
 
 TY  - JOUR
-AU  - Qiming Zhou
-AU  - Ali Ismaeel
-TI  - Integration of maximum crop response with machine learning regression model to timely estimate crop yield
-PY  - 2021
-JO  - Geo-spatial Information Science
-PB  - Taylor & Francis
-VL  - 24
-IS  - 3
-SP  - 474
-EP  - 483
-DO  - 10.1080/10095020.2021.1957723
-UR  - https://doi.org/10.1080/10095020.2021.1957723
-AB  - Timely and reliable estimation of regional crop yield is a vital component of food security assessment, especially in developing regions. The traditional crop forecasting methods need ample time and labor to collect and process field data to release official yield reports. Satellite remote sensing data is considered a cost-effective and accurate way of predicting crop yield at pixel-level. In this study, maximum Enhanced Vegetation Index (EVI) during the crop-growing season was integrated with Machine Learning Regression (MLR) models to estimate wheat and rice yields in Pakistan’s Punjab province. Five MLR models were compared using a fivefold cross-validation method for their predictive accuracy. The study results revealed that the regression model based on the Gaussian process outperformed over other models. The best performing model attained coefficient of determination (R2), Root Mean Square Error (RMSE, t/ha), and Mean Absolute Error (MAE, t/ha) of 0.75, 0.281, and 0.236 for wheat; 0.68, 0.112, and 0.091 for rice, respectively. The proposed method made it feasible to predict wheat and rice 6–8 weeks before the harvest. The early prediction of crop yield and its spatial distrib
-ER  - 
-
-TY  - JOUR
-AU  - Stefan Stiller
-AU  - Kathrin Grahmann
-AU  - Gohar Ghazaryan
-AU  - Masahiro Ryo
-TI  - Improving spatial transferability of deep learning models for small-field crop yield prediction
-PY  - 2024
-JO  - ISPRS Open Journal of Photogrammetry and Remote Sensing
-PB  - Elsevier
-VL  - 12
-SP  - 100064
-EP  - 100064
-DO  - 10.1016/j.ophoto.2024.100064
-UR  - https://doi.org/10.1016/j.ophoto.2024.100064
-AB  - Predicting crop yield using deep learning (DL) and remote sensing is a promising technique in agriculture. In smallholder agriculture (< 2 ha), where 84% of the farms operate globally, it is crucial to build a model that can be useful across several fields (high spatial transferability). However, enhancing spatial model transferability in a small-scale setting faces significant challenges, including spatial autocorrelation, heterogeneity and scale dependence of spatial dynamics, as well as the need to address limited data points. This study aimed to test the hypothesis that spatial cross validation (SCV) is a more suitable model validation practice than random cross validation (RCV) to enhance model transferability for spatial prediction in a small-scale farming setting. We compared the performances of DL models that predict crop yield for several settings including three crop types and two DL architectures based on RCV with and without overlapping samples and SCV. Notably, we conducted model performance tests on external, equally sized fields instead of the field used for training. We used high resolution RGB imagery taken with a drone as input. Our results show that the models us
-ER  - 
-
-TY  - JOUR
-AU  - Sharareh Akbarian
-AU  - Cheng‐Yuan Xu
-AU  - Weijin Wang
-AU  - Stephen Ginns
-AU  - Samsung Lim
-TI  - Sugarcane yields prediction at the row level using a novel cross-validation approach to multi-year multispectral images
-PY  - 2022
-JO  - Computers and Electronics in Agriculture
-PB  - Elsevier
-VL  - 198
-SP  - 107024
-EP  - 107024
-DO  - 10.1016/j.compag.2022.107024
-UR  - https://doi.org/10.1016/j.compag.2022.107024
-ER  - 
-
-TY  - JOUR
 AU  - Soufiane Taia
 AU  - Andrea Scozzari
 AU  - Lamia Erraioui
@@ -497,6 +596,22 @@ AB  - The mitigation of uncertainties in the identification of natural systems i
 ER  - 
 
 TY  - JOUR
+AU  - Lin Liu
+AU  - Bruno Basso
+TI  - Linking field survey with crop modeling to forecast maize yield in smallholder farmers’ fields in Tanzania
+PY  - 2020
+JO  - Food Security
+PB  - Springer
+VL  - 12
+IS  - 3
+SP  - 537
+EP  - 548
+DO  - 10.1007/s12571-020-01020-3
+UR  - https://doi.org/10.1007/s12571-020-01020-3
+AB  - Abstract Short term food security issues require reliable crop forecasting data to identify the population at risk of food insecurity and quantify the anticipated food deficit. The assessment of the current early warning and crop forecasting system which was designed in mid 80’s identified a number of deficiencies that have serious impact on the timeliness and reliability of the data. We developed a new method to forecast maize yield across smallholder farmers’ fields in Tanzania (Morogoro, Kagera and Tanga districts) by integrating field-based survey with a process-based mechanistic crop simulation model. The method has shown to provide acceptable forecasts (r2 values of 0.94, 0.88 and 0.5 in Tanga, Morogoro and Kagera districts, respectively) 14–77 days prior to crop harvest across the three districts, in spite of wide range of maize growing conditions (final yields ranged from 0.2–5.9 t/ha). This study highlights the possibility of achieving accurate yield forecasts, and scaling up to regional levels for smallholder farming systems, where uncertainties in management conditions and field size are large.
+ER  - 
+
+TY  - JOUR
 AU  - Anela Mkhwenkwana
 AU  - Trylee Nyasha Matongera
 AU  - Ciara Blaauw
@@ -511,6 +626,25 @@ EP  - 104647
 DO  - 10.1016/j.jag.2025.104647
 UR  - https://doi.org/10.1016/j.jag.2025.104647
 AB  - Understanding soil moisture dynamics in crop production is critical for optimising water resource management. The Sentinel satellite missions have significantly contributed to soil moisture monitoring by providing high-resolution, multi-sensor data. This review examines advancements in soil moisture assessment using Sentinel datasets, particularly in crop production. It highlights key challenges, evaluates their impact on monitoring accuracy, and explores potential methodological improvements. Findings indicate that Sentinel-1′s synthetic aperture radar (SAR) data, particularly VV and VH polarizations, and Sentinel-2′s multispectral indices, such as NDVI and NDMI, are widely integrated with machine learning algorithms to enhance soil moisture estimation. However, dense vegetation and complex topography reduce retrieval accuracy, necessitating sensor fusion and calibration for improved reliability. Sentinel-3 provides valuable surface temperature and land condition data for indirect soil moisture estimation, but its application remains limited due to higher uncertainty compared to SAR and multispectral approaches. Emerging trends suggest that machine and deep learning techniques, su
+ER  - 
+
+TY  - JOUR
+AU  - Zhaozhi Wang
+AU  - T. Q. Zhang
+AU  - C. S. Tan
+AU  - Lulin Xue
+AU  - Melissa Bukovsky
+AU  - Zhiming Qi
+TI  - Modeling impacts of climate change on crop yield and phosphorus loss in a subsurface drained field of Lake Erie region, Canada
+PY  - 2021
+JO  - Agricultural Systems
+PB  - Elsevier
+VL  - 190
+SP  - 103110
+EP  - 103110
+DO  - 10.1016/j.agsy.2021.103110
+UR  - https://doi.org/10.1016/j.agsy.2021.103110
+AB  - Climate change is predicted to impose great pressures on crop yield and water quantity and quality. However, the connections among agriculture, climate condition, and water quality are supported by scant studies because of different scales of focus. The present study aimed on the interactions of crop yield, climate change, and water quality at field scale. Using the Environmental Policy Integrated Climate (EPIC) model, and drawing on 12 dynamically downscaled regional climate model (RCM) simulations, the impacts of climate change on crop yield, surface runoff, subsurface drainage, and dissolved reactive phosphorus (DRP) losses were determined for a field in the Lake Erie basin under a corn-soybean rotation receiving solid cattle manure fertilization. The combined and individual impacts of different weather variables were evaluated with each of the 12 simulations. The mean cross-model climate change impacts included 16% and 14% increases in corn and soybean yield, respectively, as well as 4% rise and 22% decline in runoff and subsurface drainage DRP, respectively, resulting in an overall 11% decline in total DRP losses. An increase of temperature alone increased crop yields (12% for
 ER  - 
 
 TY  - JOUR
@@ -568,6 +702,24 @@ AB  - With consecutive occurrences of drought disasters in China in recent years
 ER  - 
 
 TY  - JOUR
+AU  - Goetz Michael Richter
+AU  - Francesco Agostini
+AU  - Alexandra Barker
+AU  - Delphine Costomiris
+AU  - Aiming Qi
+TI  - Assessing on-farm productivity of Miscanthus crops by combining soil mapping, yield modelling and remote sensing
+PY  - 2015
+JO  - Biomass and Bioenergy
+PB  - Elsevier
+VL  - 85
+SP  - 252
+EP  - 261
+DO  - 10.1016/j.biombioe.2015.12.024
+UR  - https://doi.org/10.1016/j.biombioe.2015.12.024
+AB  - Biomass from agricultural land is a key component of any sustainable bioenergy strategy, and 2nd generation, ligno-cellulosic feedstocks are part of the UK government policy to meet the target of reduced CO2 emission. Pre-harvest estimates of the biomass supply potential are usually based on experimental evidence and little is known about the yield gap between biologically obtainable and actual achievable on-farm biomass yields. We propose a systematic integration of mapped information fit for estimating obtainable yields using an empirical model, observed on-farm yields and remote sensing. Thereby, one can identify the sources of yield variation and supply uncertainty. Spatially explicit Miscanthus potential yields are compared with delivered on-farm yields from established crops ≥5 years after planting, surveyed among participants in the Energy Crop Scheme. Actual on-farm yield averaged at 8.94 Mg ha−1 and it varied greatly (coefficient of variation 34%), largely irrespective of soil type. The average yield gap on clay soils was much larger than that on sandy or loamy soils (37% vs 10%). Miscanthus is noticeably slower to establish on clay soils as shown by fitting a logistic Gom
+ER  - 
+
+TY  - JOUR
 AU  - Alex Maynard
 AU  - Katsumi Shimotsu
 AU  - Nina Kuriyama
@@ -585,6 +737,44 @@ AB  - This paper studies inference in predictive quantile regressions when the p
 ER  - 
 
 TY  - JOUR
+AU  - Ehsan Eyshi Rezaei
+AU  - Gohar Ghazaryan
+AU  - Javier González
+AU  - Natalie Cornish
+AU  - Olena Dubovyk
+AU  - Stefan Siebert
+TI  - The use of remote sensing to derive maize sowing dates for large-scale crop yield simulations
+PY  - 2020
+JO  - International Journal of Biometeorology
+PB  - Springer
+VL  - 65
+IS  - 4
+SP  - 565
+EP  - 576
+DO  - 10.1007/s00484-020-02050-4
+UR  - https://doi.org/10.1007/s00484-020-02050-4
+AB  - Abstract One of the major sources of uncertainty in large-scale crop modeling is the lack of information capturing the spatiotemporal variability of crop sowing dates. Remote sensing can contribute to reducing such uncertainties by providing essential spatial and temporal information to crop models and improving the accuracy of yield predictions. However, little is known about the impacts of the differences in crop sowing dates estimated by using remote sensing (RS) and other established methods, the uncertainties introduced by the thresholds used in these methods, and the sensitivity of simulated crop yields to these uncertainties in crop sowing dates. In the present study, we performed a systematic sensitivity analysis using various scenarios. The LINTUL-5 crop model implemented in the SIMPLACE modeling platform was applied during the period 2001–2016 to simulate maize yields across four provinces in South Africa using previously defined scenarios of sowing dates. As expected, the selected methodology and the selected threshold considerably influenced the estimated sowing dates (up to 51 days) and resulted in differences in the long-term mean maize yield reaching up to 1.7 t ha−1
+ER  - 
+
+TY  - JOUR
+AU  - Joseph Balderas
+AU  - Dong Chen
+AU  - Yanbo Huang
+AU  - Li Wang
+AU  - Ren-cang Li C
+TI  - A comparative study of deep reinforcement learning for crop production management
+PY  - 2025
+JO  - Smart Agricultural Technology
+PB  - Elsevier
+VL  - 10
+SP  - 100853
+EP  - 100853
+DO  - 10.1016/j.atech.2025.100853
+UR  - https://doi.org/10.1016/j.atech.2025.100853
+AB  - Crop production management is essential for optimizing yield and minimizing a field's environmental impact to crop fields, yet it remains challenging due to the complex and stochastic processes involved. Recently, researchers have turned to machine learning to address these complexities. Specifically, reinforcement learning (RL), a cutting-edge approach designed to learn optimal decision-making strategies through trial and error in dynamic environments, has emerged as a promising tool for developing adaptive crop management policies. RL models aim to optimize long-term rewards by continuously interacting with the environment, making them well-suited for tackling the uncertainties and variability inherent in crop management. Studies have shown that RL can generate crop management policies that compete with, and even outperform, expert-designed policies within simulation-based crop models. In the gym-DSSAT crop model environment, one of the most widely used simulators for crop management, proximal policy optimization (PPO) and deep Q-networks (DQN) have shown promising results. However, these methods have not yet been systematically evaluated under identical conditions. In this study
+ER  - 
+
+TY  - JOUR
 AU  - Jayalakshmi Rajamanickam
 AU  - S. Mani
 TI  - Kullback chi square and Gustafson Kessel probabilistic neural network based soil fertility prediction
@@ -596,24 +786,6 @@ IS  - 24
 DO  - 10.1002/cpe.6460
 UR  - https://doi.org/10.1002/cpe.6460
 AB  - Abstract Agriculture plays a significant role in any country's wealth creation, fulfilling food security needs and employment generation thereby contributing immensely to the country's growth and GDP. However, certain characteristics such as climate and environmental changes have extensively become menacing factors in the agriculture output. As soil is an influential specification influencing the prediction of crop yield, soil analysis becomes imperative and can assist farmers in preliminary adaptations towards better crop planning thereby facilitating higher yields. Machine learning algorithms have materialized in soil fertility prediction as an encouraging method for enhancing production. However, the spread and usage of this method are still limited by the lack of clear applicability due to the uncertainties involved and therefore resulting in false predictions by farmers. In this work, we take into account and address both the problems by incorporating uncertainty quantification utilizing the fishers ratio preprocessing model and Kullback divergent chi‐square feature selection for soil fertility prediction. Next, Gustafson‐Kessel probabilistic neural network classification uses
-ER  - 
-
-TY  - JOUR
-AU  - Fabian Guignard
-AU  - David Ginsbourger
-AU  - Lilia Levy Häner
-AU  - Juan Manuel Herrera
-TI  - Some combinatorics of data leakage induced by clusters
-PY  - 2024
-JO  - Stochastic Environmental Research and Risk Assessment
-PB  - Springer
-VL  - 38
-IS  - 7
-SP  - 2815
-EP  - 2828
-DO  - 10.1007/s00477-024-02715-1
-UR  - https://doi.org/10.1007/s00477-024-02715-1
-AB  - Abstract Data leakage is a common issue that can lead to misleading generalisation error estimation and incorrect hyperparameter tuning. However, its mechanisms are not always well understood. In this work, we consider the case of clustered data and investigate the distribution of the number of elements in leakage when the data set is uniformly split. For both the validation and test sets, the first and second moments of the number of elements in leakage are derived analytically. Modelling consequences are investigated and exemplified on simulated data. In addition, the case of an actual agronomic feasibility study is presented. We demonstrate how data leakage can distort model performance estimation when an inadequate data splitting strategy is used. We provide an understanding of data leakage in the context of clustered data by quantifying its role in predictive modelling. This sheds light on related challenges that may impact the practice in agronomy and beyond.
 ER  - 
 
 TY  - JOUR
@@ -691,23 +863,6 @@ AB  - Machine learning modelling is becoming popular for estimating agricultural
 ER  - 
 
 TY  - JOUR
-AU  - Bojana Petrović
-AU  - Daniel Paluba
-AU  - Adenan Yandra Nofrizal
-AU  - Aleš Kučera
-TI  - Analyzing meteorological effects on crop yield and yield prediction through machine learning with different data partitioning approaches: A case study from Czech Republic
-PY  - 2026
-JO  - Journal of Agriculture and Food Research
-PB  - Elsevier
-VL  - 26
-SP  - 102662
-EP  - 102662
-DO  - 10.1016/j.jafr.2026.102662
-UR  - https://doi.org/10.1016/j.jafr.2026.102662
-AB  - Climate change and increasing weather variability pose significant challenges to agricultural productivity, particularly in temperate regions. This study examines climate impacts on yields of barley, rapeseed, rye, and wheat across the Czech Republic (2016–2024) using meteorological data and evaluates three machine learning models (Random Forest, Gradient Boosting, Support Vector Regression) for yield prediction solely on meteorological variables. Three validation strategies were tested: random (70/30%), spatial (region-based), and temporal (last three years). Random partitioning yielded the highest accuracy, but risks data leakage and is therefore not recommended for forecasting. Spatial partitioning showed low to moderate accuracy, suggesting ML approaches can partially interpolate yields in areas with no data (interpolation), particularly for barley and wheat. Temporal partitioning caused a substantial drop in predictive skill, producing unreliable forecasts for rye and rapeseed and indicating that meteorological data alone are insufficient for robust yield prediction. Support Vector Regression produced consistently negative R 2 values across all validation strategies, demonstra
-ER  - 
-
-TY  - JOUR
 AU  - Oliver Perkins
 AU  - James D. A. Millington
 TI  - The importance of agricultural yield elasticity for indirect land use change: a Bayesian network analysis for robust uncertainty quantification
@@ -737,6 +892,244 @@ EP  - 563
 DO  - 10.1007/s10032-026-00572-y
 UR  - https://doi.org/10.1007/s10032-026-00572-y
 AB  - Abstract Key Information Extraction (KIE) systems based on Deep Learning achieve strong token-level performance but offer no formal guarantees on prediction reliability, limiting their adoption in business-critical document workflows. In this work, we introduce a post hoc Uncertainty Quantification framework for KIE using Split Conformal Prediction (CP). After fine-tuning multimodal transformer models on a challenging receipt dataset, we reserve a held-out calibration set to derive nonconformity scores and construct entity-level prediction sets that satisfy a user-specified error rate. On unseen receipts, CP achieves tight marginal coverage (98.3% for $$\alpha =0.02$$ α = 0.02 ), with 70% of predictions being high-confidence singletons. A detailed analysis shows that highly structured fields such as dates and prices yield small, singleton sets with near–perfect reliability, whereas rare or semantically ambiguous fields such as tips or generic keywords produce larger sets and lower coverage. By exposing positional biases and common label confusions that standard F1-scores and document-accuracy metrics overlook, CP reveals critical risk areas for downstream automation. Finally, we de
+ER  - 
+
+TY  - JOUR
+AU  - Davoud Ashourloo
+AU  - Jason Brader
+AU  - Yan Zhao
+AU  - Ruizhu Jiang
+AU  - Miao Zhang
+AU  - Scott Cameron Chapman
+AU  - Graeme Hammer
+AU  - Andries B. Potgieter
+TI  - Machine learning approaches for wheat yield prediction integrating biophysical modeling and remote sensing: Effects of sample size, dimensionality, and transferability
+PY  - 2026
+JO  - Smart Agricultural Technology
+PB  - Elsevier
+VL  - 13
+SP  - 101936
+EP  - 101936
+DO  - 10.1016/j.atech.2026.101936
+UR  - https://doi.org/10.1016/j.atech.2026.101936
+AB  - Prediction of wheat yield plays a crucial role in mitigating the impacts of climate extremes and ensuring food security. While vegetation indices (VIs) derived from remote sensing have been widely used for this purpose, integrating biophysical variables, such as crop stress, simulated using a biophysical model has the potential to enhance model robustness. However, the role of integrating biophysical stress information in machine learning based yield prediction, particularly in terms of sample size efficiency, dimensionality reduction, and spatial transferability, remains insufficiently examined. In this study, we address this gap by systematically evaluating the impact of incorporating a Stress Index (SI) using three widely applied machine learning (ML) models Random Forest (RF), Gaussian Process Regression (GPR), and Extreme Gradient Boosting (XGBoost) to predict wheat yield across five Australian states. These models leveraged both Sentinel-2-derived VIs at the peak of greenness and a biophysical factor: the SI. The integration of the SI led to clear improvements in model performance. For XGBoost, the coefficient of determination (R²) increased from 0.65 to 0.73, and the RMSE de
+ER  - 
+
+TY  - JOUR
+AU  - David B. Lobell
+AU  - Gregory P. Asner
+AU  - Iván Ortiz‐Monasterio
+AU  - Tracy L. Benning
+TI  - Remote sensing of regional crop production in the Yaqui Valley, Mexico: estimates and uncertainties
+PY  - 2003
+JO  - Agriculture Ecosystems & Environment
+PB  - Elsevier
+VL  - 94
+IS  - 2
+SP  - 205
+EP  - 220
+DO  - 10.1016/s0167-8809(02)00021-x
+UR  - https://doi.org/10.1016/s0167-8809(02)00021-x
+ER  - 
+
+TY  - JOUR
+AU  - Salman Naimi
+AU  - Shamsollah Ayoubi
+AU  - José Alexandre Melo Demattê
+AU  - Mojtaba Zeraatpisheh
+AU  - Merilyn Taynara Accorsi Amorim
+AU  - Fellipe Alcântara de Oliveira Mello
+TI  - Spatial prediction of soil surface properties in an arid region using synthetic soil image and machine learning
+PY  - 2021
+JO  - Geocarto International
+PB  - Taylor & Francis
+VL  - 37
+IS  - 25
+SP  - 8230
+EP  - 8253
+DO  - 10.1080/10106049.2021.1996639
+UR  - https://doi.org/10.1080/10106049.2021.1996639
+AB  - Evaluation of spatial variability and mapping of soil properties is critical for sustainable agricultural production in arid lands. The main objectives of the present study were to spatialize soil organic carbon (SOC), soil particle size distribution(clay, sand, and silt contents), and calcium carbonate equivalent (CCE) by integrating multisource environmental covariates, including digital elevation model (DEM) and remote sensing data by machine learning (Cubist, Cu and random forest, RF) in an arid region of Iran. Additionally, Synthetic Soil Images (SySI) were achieved from multi-temporal images of bare soil pixels based on Landsats 4, 5, 7, 8, and a DEM. Three hundred topsoil samples (0–30 cm depth) were collected based on the conditioned Latin hypercube sampling (cLHS) approach in Afzar district, Fars province, southern Iran. The models were calibrated and validated by the 10-fold cross-validation approach, and the performance was evaluated using root mean square error (RMSE), the ratio of the performance to interquartile distance (RPIQ), and coefficient of determination (R2). Also, the prediction accuracy was assessed by the relative RMSE (rRMSE). The performance of the best m
+ER  - 
+
+TY  - JOUR
+AU  - Odunayo David Adeniyi
+AU  - Alexander Brenning
+AU  - Michael Maerker
+TI  - Spatial prediction of soil organic carbon: Combining machine learning with residual kriging in an agricultural lowland area (Lombardy region, Italy)
+PY  - 2024
+JO  - Geoderma
+PB  - Elsevier
+VL  - 448
+SP  - 116953
+EP  - 116953
+DO  - 10.1016/j.geoderma.2024.116953
+UR  - https://doi.org/10.1016/j.geoderma.2024.116953
+AB  - Soil organic carbon (SOC) plays a crucial role in the global carbon cycle and in maintaining soil functions in the context of land use and climate change. Understanding the spatial distribution of SOC is essential for the management of agricultural land to optimize soil health and carbon storage. In this study, we investigated the spatial distribution of SOC in an agricultural lowland area of the Lombardy region, Italy, using machine learning (ML) techniques combined with residual kriging. ML models, including the artificial neural network (ANN), extreme learning machine (ELM), and random forest (RF), were trained on 120 SOC observations and eight environmental variables to predict SOC values across the study area. The performance of this ML approach was assessed using a ten-fold nested cross-validation process. The ELM and RF models showed better predictive performances based on the concordance correlation coefficient and root mean square error (RMSE), with RF slightly outperforming ELM based on the RMSE. The residuals of each iteration from the ML models were interpolated by ordinary kriging (OK) and added to the ML-based trend model in a hybrid regression-kriging approach. This 
+ER  - 
+
+TY  - JOUR
+AU  - Qiming Zhou
+AU  - Ali Ismaeel
+TI  - Integration of maximum crop response with machine learning regression model to timely estimate crop yield
+PY  - 2021
+JO  - Geo-spatial Information Science
+PB  - Taylor & Francis
+VL  - 24
+IS  - 3
+SP  - 474
+EP  - 483
+DO  - 10.1080/10095020.2021.1957723
+UR  - https://doi.org/10.1080/10095020.2021.1957723
+AB  - Timely and reliable estimation of regional crop yield is a vital component of food security assessment, especially in developing regions. The traditional crop forecasting methods need ample time and labor to collect and process field data to release official yield reports. Satellite remote sensing data is considered a cost-effective and accurate way of predicting crop yield at pixel-level. In this study, maximum Enhanced Vegetation Index (EVI) during the crop-growing season was integrated with Machine Learning Regression (MLR) models to estimate wheat and rice yields in Pakistan’s Punjab province. Five MLR models were compared using a fivefold cross-validation method for their predictive accuracy. The study results revealed that the regression model based on the Gaussian process outperformed over other models. The best performing model attained coefficient of determination (R2), Root Mean Square Error (RMSE, t/ha), and Mean Absolute Error (MAE, t/ha) of 0.75, 0.281, and 0.236 for wheat; 0.68, 0.112, and 0.091 for rice, respectively. The proposed method made it feasible to predict wheat and rice 6–8 weeks before the harvest. The early prediction of crop yield and its spatial distrib
+ER  - 
+
+TY  - JOUR
+AU  - Stefan Stiller
+AU  - Kathrin Grahmann
+AU  - Gohar Ghazaryan
+AU  - Masahiro Ryo
+TI  - Improving spatial transferability of deep learning models for small-field crop yield prediction
+PY  - 2024
+JO  - ISPRS Open Journal of Photogrammetry and Remote Sensing
+PB  - Elsevier
+VL  - 12
+SP  - 100064
+EP  - 100064
+DO  - 10.1016/j.ophoto.2024.100064
+UR  - https://doi.org/10.1016/j.ophoto.2024.100064
+AB  - Predicting crop yield using deep learning (DL) and remote sensing is a promising technique in agriculture. In smallholder agriculture (< 2 ha), where 84% of the farms operate globally, it is crucial to build a model that can be useful across several fields (high spatial transferability). However, enhancing spatial model transferability in a small-scale setting faces significant challenges, including spatial autocorrelation, heterogeneity and scale dependence of spatial dynamics, as well as the need to address limited data points. This study aimed to test the hypothesis that spatial cross validation (SCV) is a more suitable model validation practice than random cross validation (RCV) to enhance model transferability for spatial prediction in a small-scale farming setting. We compared the performances of DL models that predict crop yield for several settings including three crop types and two DL architectures based on RCV with and without overlapping samples and SCV. Notably, we conducted model performance tests on external, equally sized fields instead of the field used for training. We used high resolution RGB imagery taken with a drone as input. Our results show that the models us
+ER  - 
+
+TY  - JOUR
+AU  - Sharareh Akbarian
+AU  - Cheng‐Yuan Xu
+AU  - Weijin Wang
+AU  - Stephen Ginns
+AU  - Samsung Lim
+TI  - Sugarcane yields prediction at the row level using a novel cross-validation approach to multi-year multispectral images
+PY  - 2022
+JO  - Computers and Electronics in Agriculture
+PB  - Elsevier
+VL  - 198
+SP  - 107024
+EP  - 107024
+DO  - 10.1016/j.compag.2022.107024
+UR  - https://doi.org/10.1016/j.compag.2022.107024
+ER  - 
+
+TY  - JOUR
+AU  - Nkulumo Zinyengere
+AU  - Olivier Crespo
+AU  - Sepo Hachigonta
+AU  - Mark Tadross
+TI  - Crop model usefulness in drylands of southern Africa: an application of DSSAT
+PY  - 2015
+JO  - South African Journal of Plant and Soil
+PB  - Taylor & Francis
+VL  - 32
+IS  - 2
+SP  - 95
+EP  - 104
+DO  - 10.1080/02571862.2015.1006271
+UR  - https://doi.org/10.1080/02571862.2015.1006271
+AB  - Crop models are useful tools for simulating impacts of climate and agricultural practices on crops. Models have to demonstrate the ability to simulate actual crop growth response in particular environments before application. Data limitations in southern Africa frequently hinder adequate assessment of crop models before application. The DSSAT model was used to test the usefulness of crop models under data-limited dryland conditions of southern Africa by validation using data from experimental trial reports and district-wide crop yield estimates. Two crops each were selected in three locations to represent varying cropping and physical conditions in southern Africa, i.e. maize and sorghum (Mohale's Hoek, Lesotho and Big Bend, Swaziland) and maize and groundnut (Lilongwe, Malawi). DSSAT performs well in simulating crop yields obtained from experimental trials. District-wide simulated mean crop yields were acceptable (relative difference ranged from −12.2% to +2.36%). However, the model's capture of seasonal yield variation for some locations and crops was uncertain due to climate extremes. It was concluded that satisfactory crop model testing before application is possible and that D
+ER  - 
+
+TY  - JOUR
+AU  - Rui Jiang
+AU  - Tongtong Wang
+AU  - Jin Shao
+AU  - Sheng Guo
+AU  - Wei Zhu
+AU  - Yajun Yu
+AU  - Shaolin Chen
+AU  - Ryusuke Hatano
+TI  - Modeling the biomass of energy crops: Descriptions, strengths and prospective
+PY  - 2017
+JO  - Journal of Integrative Agriculture
+PB  - Elsevier
+VL  - 16
+IS  - 6
+SP  - 1197
+EP  - 1210
+DO  - 10.1016/s2095-3119(16)61592-7
+UR  - https://doi.org/10.1016/s2095-3119(16)61592-7
+AB  - The assessment of the biomass of energy crops has garnered widespread interest since renewable bioenergy may become a substantial proportion of the future energy supply, and modeling has been widely used for the simulation of energy crops yields. A literature survey revealed that 23 models have been developed or adapted for simulating the biomass of energy crops, including Miscanthus, switchgrass, maize, poplar, willow, sugarcane, and Eucalyptus camaldulensis. Three categories (radiation model, water-controlled crop model, and integrated model with biochemical and photosynthesis and respiration approaches) were addressed for the selected models according to different principles or approaches used to simulate biomass production processes. EPIC, ALMANAC, APSIM, ISAM, MISCANMOD, MISCANFOR, SILVA, DAYCENT, APEX and SWAT are radiation models based on a radiation use efficiency approach (RUE) with few empirical and statistical parameters. The AquaCrop model is a typical water-crop model that emphasizes crop water use, the expression of canopy cover, and the separation of evapotranspiration to soil evaporation and plant transpiration to drive crop growth. CANEGRO, 3PG, CropSyst and DSSAT 
+ER  - 
+
+TY  - JOUR
+AU  - Xin Du
+AU  - Jiong Zhu
+AU  - Jingyuan Xu
+AU  - Qiangzi Li
+AU  - Zui Tao
+AU  - Yuan Zhang
+AU  - Hongyan Wang
+AU  - Haoxuan Hu
+TI  - Remote sensing-based winter wheat yield estimation integrating machine learning and crop growth multi-scenario simulations
+PY  - 2025
+JO  - International Journal of Digital Earth
+PB  - Taylor & Francis
+VL  - 18
+IS  - 1
+DO  - 10.1080/17538947.2024.2443470
+UR  - https://doi.org/10.1080/17538947.2024.2443470
+AB  - Accurate and timely winter wheat yield prediction is critical for effective agricultural management and food security. This study used the World Food Studies (WOFOST) model, a widely adopted crop growth simulation model, to dynamically simulate winter wheat yield under various growth scenarios to produce a simulated dataset. Based on this dataset, custom yield estimation models were developed based on available remote sensing data. Validation with field-measured and county-level statistics demonstrated a robust and spatially extensive capability for accurate yield estimation, with R2, RMSE, and MRE values of 0.57, 424.80 kg/ha, and 6.57% at the plot level, and 0.58, 345.53 kg/ha, and 4.93% at the county level, notably improving on traditional field-based methods (R2 = 0.03–0.46) that primarily rely on limited field surveys and statistical models. Model simplification showed that accuracy decreased when fewer remote sensing images were used, yet achieved reasonable estimates (two temporal phases: R2 of 0.41/0.40 at plot/county level). Findings highlighted that data collection during key growth stages is essential for accuracy, and that a dataset of at least 5,000 records suffices fo
+ER  - 
+
+TY  - JOUR
+AU  - Fabian Guignard
+AU  - David Ginsbourger
+AU  - Lilia Levy Häner
+AU  - Juan Manuel Herrera
+TI  - Some combinatorics of data leakage induced by clusters
+PY  - 2024
+JO  - Stochastic Environmental Research and Risk Assessment
+PB  - Springer
+VL  - 38
+IS  - 7
+SP  - 2815
+EP  - 2828
+DO  - 10.1007/s00477-024-02715-1
+UR  - https://doi.org/10.1007/s00477-024-02715-1
+AB  - Abstract Data leakage is a common issue that can lead to misleading generalisation error estimation and incorrect hyperparameter tuning. However, its mechanisms are not always well understood. In this work, we consider the case of clustered data and investigate the distribution of the number of elements in leakage when the data set is uniformly split. For both the validation and test sets, the first and second moments of the number of elements in leakage are derived analytically. Modelling consequences are investigated and exemplified on simulated data. In addition, the case of an actual agronomic feasibility study is presented. We demonstrate how data leakage can distort model performance estimation when an inadequate data splitting strategy is used. We provide an understanding of data leakage in the context of clustered data by quantifying its role in predictive modelling. This sheds light on related challenges that may impact the practice in agronomy and beyond.
+ER  - 
+
+TY  - JOUR
+AU  - Richard J. Hall
+AU  - Hua‐Liang Wei
+AU  - Simon Pearson
+AU  - Yihan Ma
+AU  - S. Fang
+AU  - Edward Hanna
+TI  - Complex Systems Modelling of UK Winter Wheat Yield
+PY  - 2022
+JO  - Computers and Electronics in Agriculture
+PB  - Elsevier
+VL  - 209
+SP  - 107855
+EP  - 107855
+DO  - 10.1016/j.compag.2023.107855
+UR  - https://doi.org/10.1016/j.compag.2023.107855
+AB  - Wheat is one of the most important global crops, understanding the drivers of wheat yield has significant societal benefits. Climate variables are particularly important in determining interannual variations in wheat yield, either as primary factors which directly influence the stages of wheat growth, or as secondary factors through their influence on pests, diseases and soil conditions. Here we present a new approach to model wheat yield; an empirical method based on nonlinear complex systems identification, known as NARMAX (Nonlinear AutoRegressive Moving Average with eXogenous inputs model). We deploy the NARMAX analytical approach for a specific site, Rothamsted, UK, where detailed meteorological variables are available, together with specific information on site conditions and crop growth stages. NARMAX yield forecasts are compared with those from the WOFOST crop model and nine state-of-the-art machine learning (ML) models; experimental results show that NARMAX outperforms all the compared methods in both prediction accuracy and model interpretability. We also develop regional wheat yield forecasts derived from a new gridded meteorological data product. The NARMAX approach pro
+ER  - 
+
+TY  - JOUR
+AU  - Bojana Petrović
+AU  - Daniel Paluba
+AU  - Adenan Yandra Nofrizal
+AU  - Aleš Kučera
+TI  - Analyzing meteorological effects on crop yield and yield prediction through machine learning with different data partitioning approaches: A case study from Czech Republic
+PY  - 2026
+JO  - Journal of Agriculture and Food Research
+PB  - Elsevier
+VL  - 26
+SP  - 102662
+EP  - 102662
+DO  - 10.1016/j.jafr.2026.102662
+UR  - https://doi.org/10.1016/j.jafr.2026.102662
+AB  - Climate change and increasing weather variability pose significant challenges to agricultural productivity, particularly in temperate regions. This study examines climate impacts on yields of barley, rapeseed, rye, and wheat across the Czech Republic (2016–2024) using meteorological data and evaluates three machine learning models (Random Forest, Gradient Boosting, Support Vector Regression) for yield prediction solely on meteorological variables. Three validation strategies were tested: random (70/30%), spatial (region-based), and temporal (last three years). Random partitioning yielded the highest accuracy, but risks data leakage and is therefore not recommended for forecasting. Spatial partitioning showed low to moderate accuracy, suggesting ML approaches can partially interpolate yields in areas with no data (interpolation), particularly for barley and wheat. Temporal partitioning caused a substantial drop in predictive skill, producing unreliable forecasts for rye and rapeseed and indicating that meteorological data alone are insufficient for robust yield prediction. Support Vector Regression produced consistently negative R 2 values across all validation strategies, demonstra
 ER  - 
 
 TY  - JOUR
@@ -771,6 +1164,22 @@ AB  - Abstract Machine learning (ML) is increasingly being used to enhance yield
 ER  - 
 
 TY  - JOUR
+AU  - Daniyal Durmuş Köksal
+AU  - Kwabena Ebo Bennin
+AU  - Bedir Tekinerdoğan
+TI  - Centralized and vertical federated learning for Climate-Based crop yield prediction
+PY  - 2026
+JO  - Computers and Electronics in Agriculture
+PB  - Elsevier
+VL  - 249
+SP  - 111851
+EP  - 111851
+DO  - 10.1016/j.compag.2026.111851
+UR  - https://doi.org/10.1016/j.compag.2026.111851
+AB  - Accurate crop yield assessment is critical for food security planning and climate impact analysis, yet centralized machine learning approaches are increasingly constrained by data privacy requirements and institutional fragmentation. Climate variables, crop model simulations, and yield data are often distributed across organizations, making centralized data integration impractical. This study evaluates federated learning as a privacy-preserving alternative for large-scale crop yield modeling by systematically comparing Centralized Federated Learning (CFL) and Vertical Federated Learning (VFL). Using Ethiopia as a case study, we integrate ERA5 climate variables with maize and wheat yield simulations from the LPJmL and DSSAT models under irrigated and rainfed conditions. While CFL assumes centralized access to all features and labels, VFL employs a split neural network in which data remain at separate institutions and only latent representations are exchanged. Results show that CFL achieves the highest predictive accuracy (R 2 = 0.88–0.91), while VFL exhibits a modest performance reduction (R 2 = 0.765–0.897) but maintains stable convergence and minimal train–test divergence. Validat
+ER  - 
+
+TY  - JOUR
 AU  - Bally Omary
 AU  - Mussa Ally Dida
 AU  - Devotha Godfrey Nyambo
@@ -787,24 +1196,21 @@ AB  - Accurate predictions of crop yields at the farm level are essential for im
 ER  - 
 
 TY  - JOUR
-AU  - Davoud Ashourloo
-AU  - Jason Brader
-AU  - Yan Zhao
-AU  - Ruizhu Jiang
-AU  - Miao Zhang
-AU  - Scott Cameron Chapman
-AU  - Graeme Hammer
-AU  - Andries B. Potgieter
-TI  - Machine learning approaches for wheat yield prediction integrating biophysical modeling and remote sensing: Effects of sample size, dimensionality, and transferability
-PY  - 2026
-JO  - Smart Agricultural Technology
+AU  - Eric Asamoah
+AU  - G.B.M. Heuvelink
+AU  - Vincent Logah
+AU  - J.G.B. Leenaars
+AU  - P.S. Bindraban
+TI  - Fertilizer recommendations for maize production in Ghana: Comparison of machine learning, semi-mechanistic and conventional approaches
+PY  - 2025
+JO  - European Journal of Agronomy
 PB  - Elsevier
-VL  - 13
-SP  - 101936
-EP  - 101936
-DO  - 10.1016/j.atech.2026.101936
-UR  - https://doi.org/10.1016/j.atech.2026.101936
-AB  - Prediction of wheat yield plays a crucial role in mitigating the impacts of climate extremes and ensuring food security. While vegetation indices (VIs) derived from remote sensing have been widely used for this purpose, integrating biophysical variables, such as crop stress, simulated using a biophysical model has the potential to enhance model robustness. However, the role of integrating biophysical stress information in machine learning based yield prediction, particularly in terms of sample size efficiency, dimensionality reduction, and spatial transferability, remains insufficiently examined. In this study, we address this gap by systematically evaluating the impact of incorporating a Stress Index (SI) using three widely applied machine learning (ML) models Random Forest (RF), Gaussian Process Regression (GPR), and Extreme Gradient Boosting (XGBoost) to predict wheat yield across five Australian states. These models leveraged both Sentinel-2-derived VIs at the peak of greenness and a biophysical factor: the SI. The integration of the SI led to clear improvements in model performance. For XGBoost, the coefficient of determination (R²) increased from 0.65 to 0.73, and the RMSE de
+VL  - 174
+SP  - 127925
+EP  - 127925
+DO  - 10.1016/j.eja.2025.127925
+UR  - https://doi.org/10.1016/j.eja.2025.127925
+AB  - Efficient fertilizer application is vital for enhancing maize production and profitability in Sub-Saharan Africa, where soil fertility varies widely across regions. This study aimed to develop a machine learning approach for generating site-specific fertilizer recommendations for maize production in Ghana and to evaluate its performance against conventional and semi-mechanistic approaches. A random forest machine learning model was trained on 482 maize yield experiments, consisting of 3136 yield observations collected from 1991 to 2020, to predict maize yield response to different fertilizer rates. The model incorporated multiple explanatory variables, including soil properties, climate conditions, and management practices, to generate fertilizer response curves from which fertilizer recommendations were derived for 14 sites across three agro-ecological zones in Ghana where field validation experiments were conducted. On these sites, the recommendations were compared with recommendations derived from the Quantitative Evaluation of the Fertility of Tropical Soils (QUEFTS), Conventional Fertilizer Dose Response (CFDR), and Updated Conventional Fertilizer Dose Response (UCFDR) approac
 ER  - 
 
 TY  - JOUR
@@ -836,6 +1242,24 @@ IS  - 1
 DO  - 10.1080/22797254.2026.2695909
 UR  - https://doi.org/10.1080/22797254.2026.2695909
 AB  - Evapotranspiration is an important process in croplands, linking water, energy, and carbon cycles. While direct measurement is resource-intensive, remote × sensing-based models offer spatial estimates but often require local calibration due to static parameterization. This study compares two energy balance models, Two-Source Energy Balance (TSEB) and Priestley-Taylor Jet Propulsion Laboratory (PT-JPL), and explores combining the better-performing model with machine learning to enhance accuracy without ground-based calibration. The models were driven by Landsat 7–9 and ERA5-Land reanalysis data and evaluated against eddy covariance data from 137 quality-filtered cropland stations in a wide range of climates. The PT-JPL model outperformed TSEB (R2 = 0.39, RMSE = 86.8 W m−2, ~25% lower RMSE) and was selected for optimization via a gradient boosting algorithm. A rigorous 70%–30% train-test split with spatial cross-validation prevented data leakage and overfitting. Five key residual drivers were identified: SAVI, NDMI, NDVI, relative humidity, and surface net solar radiation. Relative humidity was the most important predictor, with low values causing the largest PT-JPL errors. The final
+ER  - 
+
+TY  - JOUR
+AU  - Ziyi Wang
+AU  - Roshanak Darvishzadeh
+AU  - Nancy Castilla
+AU  - Alice G. Laborte
+AU  - Andrew Nelson
+TI  - Early detection of rice bacterial leaf blight disease using canopy hyperspectral data and machine learning
+PY  - 2026
+JO  - International Journal of Applied Earth Observation and Geoinformation
+PB  - Elsevier
+VL  - 153
+SP  - 105511
+EP  - 105511
+DO  - 10.1016/j.jag.2026.105511
+UR  - https://doi.org/10.1016/j.jag.2026.105511
+AB  - Bacterial leaf blight (BLB) remains a major biotic constraint to global rice production, requiring faster and scalable detection methods than conventional field scouting to minimise yield losses. Early detection of BLB is essential for timely intervention and yield protection, yet very few studies have examined the use of remote sensing, particularly during the early growth phase of the rice crop. This study evaluated the potential of canopy-level hyperspectral data for identifying BLB in early vegetative phase. Field trials were conducted at the International Rice Research Institute, where canopy hyperspectral reflectance was collected from healthy and inoculated plots at the stem elongation and booting stages of the rice crop. Biophysical and biochemical parameters were also collected during the stem elongation stage. Four spectral transformation techniques, including first and second derivatives (FD, SD), continuum removal (CR), and continuous wavelet transform (CWT), were applied to canopy spectral data to identify BLB-sensitive features. To reduce the high dimensionality of hyperspectral features, the top 5 % most separable features were extracted, and redundancies were remove
 ER  - 
 
 TY  - JOUR
@@ -882,428 +1306,4 @@ EP  - e70137
 DO  - 10.1002/jeq2.70137
 UR  - https://doi.org/10.1002/jeq2.70137
 AB  - Abstract Upscaling crop yield and nitrate‐N leaching loss from experimental sites to large areas under alternative crop rotations is crucial for assessing strategies and setting goals to protect groundwater quality at a regional scale. Nitrogen (N) rate field trials were used to calibrate the Environmental Policy Integrated Climate (EPIC) model for continuous‐corn ( Zea mays L.) (C‐C), corn‐soybean ( Glycine max L.) (C‐Sb), and alfalfa ( Medicago sativa L.)‐corn (A‐C), with or without rye ( Secale cereale L.) cover crop. Satellite estimates of crop evapotranspiration (ET c ) were used to upscale the EPIC model for crop yield and nitrate‐N leaching, using the irrigation‐water permitting data from 2010 to 2017 for 13,375 ha of sandy soils in Bonanza Valley, central Minnesota. Four alternative management scenarios were evaluated with EPIC: (1) reducing N fertilizer rate from the maximum return to N value (MRTN) (of 0.05 to a value of 0.1 (for the N price/crop value ratio), (2) adding rye cover crop at MRTN of 0.1, (3) irrigating with EPIC auto‐trigger in scenario 2, and (4) converting 50% of C‐C acreage in scenario 3 to A‐C. Nash‐Sutcliffe coefficients, normalized root‐mean‐square err
-ER  - 
-
-TY  - JOUR
-AU  - Sasmita Sahoo
-AU  - T. A. Russo
-AU  - Joshua W. Elliott
-AU  - Ian T Foster
-TI  - Machine learning algorithms for modeling groundwater level changes in agricultural regions of the U.S.
-PY  - 2017
-JO  - Water Resources Research
-PB  - Wiley
-VL  - 53
-IS  - 5
-SP  - 3878
-EP  - 3895
-DO  - 10.1002/2016wr019933
-UR  - https://doi.org/10.1002/2016wr019933
-AB  - Abstract Climate, groundwater extraction, and surface water flows have complex nonlinear relationships with groundwater level in agricultural regions. To better understand the relative importance of each driver and predict groundwater level change, we develop a new ensemble modeling framework based on spectral analysis, machine learning, and uncertainty analysis, as an alternative to complex and computationally expensive physical models. We apply and evaluate this new approach in the context of two aquifer systems supporting agricultural production in the United States: the High Plains aquifer (HPA) and the Mississippi River Valley alluvial aquifer (MRVA). We select input data sets by using a combination of mutual information, genetic algorithms, and lag analysis, and then use the selected data sets in a Multilayer Perceptron network architecture to simulate seasonal groundwater level change. As expected, model results suggest that irrigation demand has the highest influence on groundwater level change for a majority of the wells. The subset of groundwater observations not used in model training or cross‐validation correlates strongly (R > 0.8) with model results for 88 and 83% of 
-ER  - 
-
-TY  - JOUR
-AU  - David B. Lobell
-AU  - Gregory P. Asner
-AU  - Iván Ortiz‐Monasterio
-AU  - Tracy L. Benning
-TI  - Remote sensing of regional crop production in the Yaqui Valley, Mexico: estimates and uncertainties
-PY  - 2003
-JO  - Agriculture Ecosystems & Environment
-PB  - Elsevier
-VL  - 94
-IS  - 2
-SP  - 205
-EP  - 220
-DO  - 10.1016/s0167-8809(02)00021-x
-UR  - https://doi.org/10.1016/s0167-8809(02)00021-x
-ER  - 
-
-TY  - JOUR
-AU  - Juraj Balkovič
-AU  - Marijn van der Velde
-AU  - Erwin Schmid
-AU  - Rastislav Skalský
-AU  - Nikolay Khabarov
-AU  - Michael H. Obersteiner
-AU  - Bernhard Stürmer
-AU  - Wei Xiong
-TI  - Pan-European crop modelling with EPIC: Implementation, up-scaling and regional crop yield validation
-PY  - 2013
-JO  - Agricultural Systems
-PB  - Elsevier
-VL  - 120
-SP  - 61
-EP  - 75
-DO  - 10.1016/j.agsy.2013.05.008
-UR  - https://doi.org/10.1016/j.agsy.2013.05.008
-AB  - Justifiable usage of large-scale crop model simulations requires transparent, comprehensive and spatially extensive evaluations of their performance and associated accuracy. Simulated crop yields of a Pan-European implementation of the Environmental Policy Integrated Climate (EPIC) crop model were satisfactorily evaluated with reported regional yield data from EUROSTAT for four major crops, including winter wheat, rainfed and irrigated maize, spring barley and winter rye. European-wide land use, elevation, soil and daily meteorological gridded data were integrated in GIS and coupled with EPIC. Default EPIC crop and biophysical process parameter values were used with some minor adjustments according to suggestions from scientific literature. The model performance was improved by spatial calculations of crop sowing densities, potential heat units, operation schedules, and nutrient application rates. EPIC performed reasonable in the simulation of regional crop yields, with long-term averages predicted better than inter-annual variability: linear regression R2 ranged from 0.58 (maize) to 0.91 (spring barley) and relative estimation errors were between ±30% for most of the European regi
-ER  - 
-
-TY  - JOUR
-AU  - Dilli Paudel
-AU  - Hendrik Boogaard
-AU  - Allard J. W. de Wit
-AU  - Marijn van der Velde
-AU  - Martin Claverie
-AU  - Luigi Nisini
-AU  - Sander J. C. Janssen
-AU  - Sjoukje Osinga
-AU  - Ioannis N. Athanasiadis
-TI  - Machine learning for regional crop yield forecasting in Europe
-PY  - 2021
-JO  - Field Crops Research
-PB  - Elsevier
-VL  - 276
-SP  - 108377
-EP  - 108377
-DO  - 10.1016/j.fcr.2021.108377
-UR  - https://doi.org/10.1016/j.fcr.2021.108377
-AB  - Crop yield forecasting at national level relies on predictors aggregated from smaller spatial units to larger ones according to harvested crop areas. Such crop areas come from land cover maps or reported statistics, both of which can have errors and uncertainties. Sub-national or regional crop yield forecasting minimizes the propagation of these errors to some extent. In addition, regional forecasts provide added value and insights to stakeholders on regional differences within a country, which would otherwise compensate each other at national level. We propose a crop yield forecasting approach for multiple spatial levels based on regional crop yield forecasts from machine learning. Machine learning, with its data-driven approach, can leverage larger data sizes and capture nonlinear relationships between predictors and yield at regional level. We designed a generic machine learning workflow to demonstrate the benefits of regional crop yield forecasting in Europe. To evaluate the quality and usefulness of regional forecasts, we predicted crop yields for 35 case studies, including nine countries that are major producers of six crops (soft wheat, spring barley, sunflower, grain maize,
-ER  - 
-
-TY  - JOUR
-AU  - Pauline Paidamoyo Chivenge
-AU  - Shamie Zingore
-AU  - K.S. Ezui
-AU  - Samuel Njoroge
-AU  - Michelle Anne Bunquin
-AU  - Achim Dobermann
-AU  - Kazuki Saito
-TI  - Progress in research on site-specific nutrient management for smallholder farmers in sub-Saharan Africa
-PY  - 2022
-JO  - Field Crops Research
-PB  - Elsevier
-VL  - 281
-SP  - 108503
-EP  - 108503
-DO  - 10.1016/j.fcr.2022.108503
-UR  - https://doi.org/10.1016/j.fcr.2022.108503
-AB  - Increasing fertilizer access and use is an essential component for improving crop production and food security in sub-Saharan Africa (SSA). However, given the heterogeneous nature of smallholder farms, fertilizer application needs to be tailored to specific farming conditions to increase yield, profitability, and nutrient use efficiency. The site-specific nutrient management (SSNM) approach initially developed in the 1990 s for generating field-specific fertilizer recommendations for rice in Asia, has also been introduced to rice, maize and cassava cropping systems in SSA. The SSNM approach has been shown to increase yield, profitability, and nutrient use efficiency. Yield gains of rice and maize with SSNM in SSA were on average 24% and 69% when compared to the farmer practice, respectively, or 11% and 4% when compared to local blanket fertilizer recommendations. However, there is need for more extensive field evaluation to quantify the broader benefits of the SSNM approach in diverse farming systems and environments. Especially for rice, the SSNM approach should be expanded to rainfed systems, which are dominant in SSA and further developed to take into account soil texture and so
-ER  - 
-
-TY  - JOUR
-AU  - Gouri Sankar Bhunia
-AU  - Pravat Kumar Shit
-AU  - Rabindranath Chattopadhyay
-TI  - Assessment of spatial variability of soil properties using geostatistical approach of lateritic soil (West Bengal, India)
-PY  - 2018
-JO  - Annals of Agrarian Science
-PB  - Elsevier
-VL  - 16
-IS  - 4
-SP  - 436
-EP  - 443
-DO  - 10.1016/j.aasci.2018.06.003
-UR  - https://doi.org/10.1016/j.aasci.2018.06.003
-AB  - Degradation of soil due to unsuitable land management practices is a chief impairment of optimum land productivity. The spatial variability of soil properties is needed for agricultural productivity, food safety and environmental modeling. The present study was conducted in lateritic soils of West Bengal, India to understand the spatial variability of soil properties using a geostatistical model. Nitrogen (N), soil pH, electrical conductivity (EC), Phosphorus (P), Potassium (K) and organic carbon (OC) were measured. Surface maps of soil properties were prepared using the semivariogram model through Kriging techniques. A positive correlation was observed between OC and N. The Quantile-quantile plots showed a normal distribution of EC, K, pH, N, and OC. The value for nugget/sill of K, N, and EC were 0.25–0.75 indicating moderate spatial autocorrelation among the variables. Phosphorus (P) was highly concentrated in the eastern part, whereas the agglomeration of higher EC was found in the north east and south west corner of the study site. The cross validation results illustrated the smoothing effect of the spatial prediction. The present study suggests that the geostatistical model ca
-ER  - 
-
-TY  - JOUR
-AU  - Fulu Tao
-AU  - Masayuki Yokozawa
-AU  - Zhao Zhang
-AU  - Yinlong Xu
-AU  - Yousay Hayashi
-TI  - Remote sensing of crop production in China by production efficiency models: models comparisons, estimates and uncertainties
-PY  - 2004
-JO  - Ecological Modelling
-PB  - Elsevier
-VL  - 183
-IS  - 4
-SP  - 385
-EP  - 396
-DO  - 10.1016/j.ecolmodel.2004.08.023
-UR  - https://doi.org/10.1016/j.ecolmodel.2004.08.023
-ER  - 
-
-TY  - JOUR
-AU  - Ommolbanin Bazrafshan
-AU  - Mohammad Ehteram
-AU  - Sarmad Dashti Latif
-AU  - Yuk Feng Huang
-AU  - Fang Yenn Teo
-AU  - Ali Najah Ahmed
-AU  - Ahmed El‐Shafie
-TI  - Predicting crop yields using a new robust Bayesian averaging model based on multiple hybrid ANFIS and MLP models
-PY  - 2022
-JO  - Ain Shams Engineering Journal
-PB  - Elsevier
-VL  - 13
-IS  - 5
-SP  - 101724
-EP  - 101724
-DO  - 10.1016/j.asej.2022.101724
-UR  - https://doi.org/10.1016/j.asej.2022.101724
-AB  - Predicting crop yield is an important issue for farmers. Food security is important for decision-makers. The agriculture industry can more accurately supply human demand for food if the crop yield is predicted accurately. Tomato is one of the most important crops so that 160 million tonnes of tomatoes are produced annually around the world. In this study, tomato yield based on data of 40 cities of Iran country including annual average temperature (T), relative humidity (RH), effective rainfall (R), wind speed (WS), and Evapotranspiration (EV) for the period of 1968–2018 was predicted using a new Bayesian model averaging (BMA). The paper's main innovation is the use of the new BMA so that it allows the modellers to quantify the uncertainty of model parameters and inputs simultaneously. For this aim, first, the multiple Adaptive neuro-fuzzy interface system (ANFIS) and multi-layer perceptron (MLP) were used for predicting crop yield. To train the ANFIS and MLP model, a new algorithm, namely, multi verse optimization algorithm (MOA) was used. Also, the ability of MOA was benchmarked against the particle swarm optimization (PSO), and firefly algorithm (FFA). In the next level, the new 
-ER  - 
-
-TY  - JOUR
-AU  - Samuel Asante Gyamerah
-AU  - Philip Odhiambo Ngare
-AU  - Dennis C. Ikpe
-TI  - Probabilistic forecasting of crop yields via quantile random forest and Epanechnikov Kernel function
-PY  - 2019
-JO  - Agricultural and Forest Meteorology
-PB  - Elsevier
-VL  - 280
-SP  - 107808
-EP  - 107808
-DO  - 10.1016/j.agrformet.2019.107808
-UR  - https://doi.org/10.1016/j.agrformet.2019.107808
-ER  - 
-
-TY  - JOUR
-AU  - Huidong Jin
-AU  - Ming Li
-AU  - Garry Hopwood
-AU  - Zvi Hochman
-AU  - K. Shuvo Bakar
-TI  - Improving early-season wheat yield forecasts driven by probabilistic seasonal climate forecasts
-PY  - 2022
-JO  - Agricultural and Forest Meteorology
-PB  - Elsevier
-VL  - 315
-SP  - 108832
-EP  - 108832
-DO  - 10.1016/j.agrformet.2022.108832
-UR  - https://doi.org/10.1016/j.agrformet.2022.108832
-AB  - Seasonal climate forecasts (SCF) are evolving rapidly alongside improvements in climate modelling and downscaling research, and have great potential for weather-sensitive sectors, especially agriculture, by reducing weather-related risks and increasing productivity. Skilful yield forecasts at the beginning of, or before, a cropping season can provide farmers and other stakeholders in agribusiness with the necessary information for early planning and actions. Only a few yield forecast studies have a forecast lead time of four months or longer due to the problem complexity. To enable SCFs from Global Climate Models (GCMs) to be used for early-season yield forecasts, this paper uses a statistical downscaling technique, Extended Copula Post-Processing (ECPP) and the Schaake shuffle, to downscale four climate variables to generate weather-like daily data that are suitable for agricultural applications. Climate forecasts drive a process-based crop model APSIM (Agricultural Production Systems sIMulator) to simulate crop forecasts on 50 stations, well-distributed across the Australian grain zone. To focus on yield forecast skills attributable to SCF, we propose best practice management rul
-ER  - 
-
-TY  - JOUR
-AU  - Phillip D. Alderman
-AU  - Bryan Stanfill
-TI  - Quantifying model-structure- and parameter-driven uncertainties in spring wheat phenology prediction with Bayesian analysis
-PY  - 2016
-JO  - European Journal of Agronomy
-PB  - Elsevier
-VL  - 88
-SP  - 1
-EP  - 9
-DO  - 10.1016/j.eja.2016.09.016
-UR  - https://doi.org/10.1016/j.eja.2016.09.016
-AB  - Recent international efforts have brought renewed emphasis on the comparison of different agricultural systems models. Thus far, analysis of model-ensemble simulated results has not clearly differentiated between ensemble prediction uncertainties due to model structural differences per se and those due to parameter value uncertainties. Additionally, despite increasing use of Bayesian parameter estimation approaches with field-scale crop models, inadequate attention has been given to the full posterior distributions for estimated parameters. The objectives of this study were to quantify the impact of parameter value uncertainty on prediction uncertainty for modeling spring wheat phenology using Bayesian analysis and to assess the relative contributions of model-structure-driven and parameter-value-driven uncertainty to overall prediction uncertainty. This study used a random walk Metropolis algorithm to estimate parameters for 30 spring wheat genotypes using nine phenology models based on multi-location trial data for days to heading and days to maturity. Across all cases, parameter-driven uncertainty accounted for between 19 and 52% of predictive uncertainty, while model-structure-
-ER  - 
-
-TY  - JOUR
-AU  - Nkulumo Zinyengere
-AU  - Olivier Crespo
-AU  - Sepo Hachigonta
-AU  - Mark Tadross
-TI  - Crop model usefulness in drylands of southern Africa: an application of DSSAT
-PY  - 2015
-JO  - South African Journal of Plant and Soil
-PB  - Taylor & Francis
-VL  - 32
-IS  - 2
-SP  - 95
-EP  - 104
-DO  - 10.1080/02571862.2015.1006271
-UR  - https://doi.org/10.1080/02571862.2015.1006271
-AB  - Crop models are useful tools for simulating impacts of climate and agricultural practices on crops. Models have to demonstrate the ability to simulate actual crop growth response in particular environments before application. Data limitations in southern Africa frequently hinder adequate assessment of crop models before application. The DSSAT model was used to test the usefulness of crop models under data-limited dryland conditions of southern Africa by validation using data from experimental trial reports and district-wide crop yield estimates. Two crops each were selected in three locations to represent varying cropping and physical conditions in southern Africa, i.e. maize and sorghum (Mohale's Hoek, Lesotho and Big Bend, Swaziland) and maize and groundnut (Lilongwe, Malawi). DSSAT performs well in simulating crop yields obtained from experimental trials. District-wide simulated mean crop yields were acceptable (relative difference ranged from −12.2% to +2.36%). However, the model's capture of seasonal yield variation for some locations and crops was uncertain due to climate extremes. It was concluded that satisfactory crop model testing before application is possible and that D
-ER  - 
-
-TY  - JOUR
-AU  - Rui Jiang
-AU  - Tongtong Wang
-AU  - Jin Shao
-AU  - Sheng Guo
-AU  - Wei Zhu
-AU  - Yajun Yu
-AU  - Shaolin Chen
-AU  - Ryusuke Hatano
-TI  - Modeling the biomass of energy crops: Descriptions, strengths and prospective
-PY  - 2017
-JO  - Journal of Integrative Agriculture
-PB  - Elsevier
-VL  - 16
-IS  - 6
-SP  - 1197
-EP  - 1210
-DO  - 10.1016/s2095-3119(16)61592-7
-UR  - https://doi.org/10.1016/s2095-3119(16)61592-7
-AB  - The assessment of the biomass of energy crops has garnered widespread interest since renewable bioenergy may become a substantial proportion of the future energy supply, and modeling has been widely used for the simulation of energy crops yields. A literature survey revealed that 23 models have been developed or adapted for simulating the biomass of energy crops, including Miscanthus, switchgrass, maize, poplar, willow, sugarcane, and Eucalyptus camaldulensis. Three categories (radiation model, water-controlled crop model, and integrated model with biochemical and photosynthesis and respiration approaches) were addressed for the selected models according to different principles or approaches used to simulate biomass production processes. EPIC, ALMANAC, APSIM, ISAM, MISCANMOD, MISCANFOR, SILVA, DAYCENT, APEX and SWAT are radiation models based on a radiation use efficiency approach (RUE) with few empirical and statistical parameters. The AquaCrop model is a typical water-crop model that emphasizes crop water use, the expression of canopy cover, and the separation of evapotranspiration to soil evaporation and plant transpiration to drive crop growth. CANEGRO, 3PG, CropSyst and DSSAT 
-ER  - 
-
-TY  - JOUR
-AU  - Lin Liu
-AU  - Bruno Basso
-TI  - Linking field survey with crop modeling to forecast maize yield in smallholder farmers’ fields in Tanzania
-PY  - 2020
-JO  - Food Security
-PB  - Springer
-VL  - 12
-IS  - 3
-SP  - 537
-EP  - 548
-DO  - 10.1007/s12571-020-01020-3
-UR  - https://doi.org/10.1007/s12571-020-01020-3
-AB  - Abstract Short term food security issues require reliable crop forecasting data to identify the population at risk of food insecurity and quantify the anticipated food deficit. The assessment of the current early warning and crop forecasting system which was designed in mid 80’s identified a number of deficiencies that have serious impact on the timeliness and reliability of the data. We developed a new method to forecast maize yield across smallholder farmers’ fields in Tanzania (Morogoro, Kagera and Tanga districts) by integrating field-based survey with a process-based mechanistic crop simulation model. The method has shown to provide acceptable forecasts (r2 values of 0.94, 0.88 and 0.5 in Tanga, Morogoro and Kagera districts, respectively) 14–77 days prior to crop harvest across the three districts, in spite of wide range of maize growing conditions (final yields ranged from 0.2–5.9 t/ha). This study highlights the possibility of achieving accurate yield forecasts, and scaling up to regional levels for smallholder farming systems, where uncertainties in management conditions and field size are large.
-ER  - 
-
-TY  - JOUR
-AU  - Zhaozhi Wang
-AU  - T. Q. Zhang
-AU  - C. S. Tan
-AU  - Lulin Xue
-AU  - Melissa Bukovsky
-AU  - Zhiming Qi
-TI  - Modeling impacts of climate change on crop yield and phosphorus loss in a subsurface drained field of Lake Erie region, Canada
-PY  - 2021
-JO  - Agricultural Systems
-PB  - Elsevier
-VL  - 190
-SP  - 103110
-EP  - 103110
-DO  - 10.1016/j.agsy.2021.103110
-UR  - https://doi.org/10.1016/j.agsy.2021.103110
-AB  - Climate change is predicted to impose great pressures on crop yield and water quantity and quality. However, the connections among agriculture, climate condition, and water quality are supported by scant studies because of different scales of focus. The present study aimed on the interactions of crop yield, climate change, and water quality at field scale. Using the Environmental Policy Integrated Climate (EPIC) model, and drawing on 12 dynamically downscaled regional climate model (RCM) simulations, the impacts of climate change on crop yield, surface runoff, subsurface drainage, and dissolved reactive phosphorus (DRP) losses were determined for a field in the Lake Erie basin under a corn-soybean rotation receiving solid cattle manure fertilization. The combined and individual impacts of different weather variables were evaluated with each of the 12 simulations. The mean cross-model climate change impacts included 16% and 14% increases in corn and soybean yield, respectively, as well as 4% rise and 22% decline in runoff and subsurface drainage DRP, respectively, resulting in an overall 11% decline in total DRP losses. An increase of temperature alone increased crop yields (12% for
-ER  - 
-
-TY  - JOUR
-AU  - Goetz Michael Richter
-AU  - Francesco Agostini
-AU  - Alexandra Barker
-AU  - Delphine Costomiris
-AU  - Aiming Qi
-TI  - Assessing on-farm productivity of Miscanthus crops by combining soil mapping, yield modelling and remote sensing
-PY  - 2015
-JO  - Biomass and Bioenergy
-PB  - Elsevier
-VL  - 85
-SP  - 252
-EP  - 261
-DO  - 10.1016/j.biombioe.2015.12.024
-UR  - https://doi.org/10.1016/j.biombioe.2015.12.024
-AB  - Biomass from agricultural land is a key component of any sustainable bioenergy strategy, and 2nd generation, ligno-cellulosic feedstocks are part of the UK government policy to meet the target of reduced CO2 emission. Pre-harvest estimates of the biomass supply potential are usually based on experimental evidence and little is known about the yield gap between biologically obtainable and actual achievable on-farm biomass yields. We propose a systematic integration of mapped information fit for estimating obtainable yields using an empirical model, observed on-farm yields and remote sensing. Thereby, one can identify the sources of yield variation and supply uncertainty. Spatially explicit Miscanthus potential yields are compared with delivered on-farm yields from established crops ≥5 years after planting, surveyed among participants in the Energy Crop Scheme. Actual on-farm yield averaged at 8.94 Mg ha−1 and it varied greatly (coefficient of variation 34%), largely irrespective of soil type. The average yield gap on clay soils was much larger than that on sandy or loamy soils (37% vs 10%). Miscanthus is noticeably slower to establish on clay soils as shown by fitting a logistic Gom
-ER  - 
-
-TY  - JOUR
-AU  - Ehsan Eyshi Rezaei
-AU  - Gohar Ghazaryan
-AU  - Javier González
-AU  - Natalie Cornish
-AU  - Olena Dubovyk
-AU  - Stefan Siebert
-TI  - The use of remote sensing to derive maize sowing dates for large-scale crop yield simulations
-PY  - 2020
-JO  - International Journal of Biometeorology
-PB  - Springer
-VL  - 65
-IS  - 4
-SP  - 565
-EP  - 576
-DO  - 10.1007/s00484-020-02050-4
-UR  - https://doi.org/10.1007/s00484-020-02050-4
-AB  - Abstract One of the major sources of uncertainty in large-scale crop modeling is the lack of information capturing the spatiotemporal variability of crop sowing dates. Remote sensing can contribute to reducing such uncertainties by providing essential spatial and temporal information to crop models and improving the accuracy of yield predictions. However, little is known about the impacts of the differences in crop sowing dates estimated by using remote sensing (RS) and other established methods, the uncertainties introduced by the thresholds used in these methods, and the sensitivity of simulated crop yields to these uncertainties in crop sowing dates. In the present study, we performed a systematic sensitivity analysis using various scenarios. The LINTUL-5 crop model implemented in the SIMPLACE modeling platform was applied during the period 2001–2016 to simulate maize yields across four provinces in South Africa using previously defined scenarios of sowing dates. As expected, the selected methodology and the selected threshold considerably influenced the estimated sowing dates (up to 51 days) and resulted in differences in the long-term mean maize yield reaching up to 1.7 t ha−1
-ER  - 
-
-TY  - JOUR
-AU  - Xin Du
-AU  - Jiong Zhu
-AU  - Jingyuan Xu
-AU  - Qiangzi Li
-AU  - Zui Tao
-AU  - Yuan Zhang
-AU  - Hongyan Wang
-AU  - Haoxuan Hu
-TI  - Remote sensing-based winter wheat yield estimation integrating machine learning and crop growth multi-scenario simulations
-PY  - 2025
-JO  - International Journal of Digital Earth
-PB  - Taylor & Francis
-VL  - 18
-IS  - 1
-DO  - 10.1080/17538947.2024.2443470
-UR  - https://doi.org/10.1080/17538947.2024.2443470
-AB  - Accurate and timely winter wheat yield prediction is critical for effective agricultural management and food security. This study used the World Food Studies (WOFOST) model, a widely adopted crop growth simulation model, to dynamically simulate winter wheat yield under various growth scenarios to produce a simulated dataset. Based on this dataset, custom yield estimation models were developed based on available remote sensing data. Validation with field-measured and county-level statistics demonstrated a robust and spatially extensive capability for accurate yield estimation, with R2, RMSE, and MRE values of 0.57, 424.80 kg/ha, and 6.57% at the plot level, and 0.58, 345.53 kg/ha, and 4.93% at the county level, notably improving on traditional field-based methods (R2 = 0.03–0.46) that primarily rely on limited field surveys and statistical models. Model simplification showed that accuracy decreased when fewer remote sensing images were used, yet achieved reasonable estimates (two temporal phases: R2 of 0.41/0.40 at plot/county level). Findings highlighted that data collection during key growth stages is essential for accuracy, and that a dataset of at least 5,000 records suffices fo
-ER  - 
-
-TY  - JOUR
-AU  - Joseph Balderas
-AU  - Dong Chen
-AU  - Yanbo Huang
-AU  - Li Wang
-AU  - Ren-cang Li C
-TI  - A comparative study of deep reinforcement learning for crop production management
-PY  - 2025
-JO  - Smart Agricultural Technology
-PB  - Elsevier
-VL  - 10
-SP  - 100853
-EP  - 100853
-DO  - 10.1016/j.atech.2025.100853
-UR  - https://doi.org/10.1016/j.atech.2025.100853
-AB  - Crop production management is essential for optimizing yield and minimizing a field's environmental impact to crop fields, yet it remains challenging due to the complex and stochastic processes involved. Recently, researchers have turned to machine learning to address these complexities. Specifically, reinforcement learning (RL), a cutting-edge approach designed to learn optimal decision-making strategies through trial and error in dynamic environments, has emerged as a promising tool for developing adaptive crop management policies. RL models aim to optimize long-term rewards by continuously interacting with the environment, making them well-suited for tackling the uncertainties and variability inherent in crop management. Studies have shown that RL can generate crop management policies that compete with, and even outperform, expert-designed policies within simulation-based crop models. In the gym-DSSAT crop model environment, one of the most widely used simulators for crop management, proximal policy optimization (PPO) and deep Q-networks (DQN) have shown promising results. However, these methods have not yet been systematically evaluated under identical conditions. In this study
-ER  - 
-
-TY  - JOUR
-AU  - Richard J. Hall
-AU  - Hua‐Liang Wei
-AU  - Simon Pearson
-AU  - Yihan Ma
-AU  - S. Fang
-AU  - Edward Hanna
-TI  - Complex Systems Modelling of UK Winter Wheat Yield
-PY  - 2022
-JO  - Computers and Electronics in Agriculture
-PB  - Elsevier
-VL  - 209
-SP  - 107855
-EP  - 107855
-DO  - 10.1016/j.compag.2023.107855
-UR  - https://doi.org/10.1016/j.compag.2023.107855
-AB  - Wheat is one of the most important global crops, understanding the drivers of wheat yield has significant societal benefits. Climate variables are particularly important in determining interannual variations in wheat yield, either as primary factors which directly influence the stages of wheat growth, or as secondary factors through their influence on pests, diseases and soil conditions. Here we present a new approach to model wheat yield; an empirical method based on nonlinear complex systems identification, known as NARMAX (Nonlinear AutoRegressive Moving Average with eXogenous inputs model). We deploy the NARMAX analytical approach for a specific site, Rothamsted, UK, where detailed meteorological variables are available, together with specific information on site conditions and crop growth stages. NARMAX yield forecasts are compared with those from the WOFOST crop model and nine state-of-the-art machine learning (ML) models; experimental results show that NARMAX outperforms all the compared methods in both prediction accuracy and model interpretability. We also develop regional wheat yield forecasts derived from a new gridded meteorological data product. The NARMAX approach pro
-ER  - 
-
-TY  - JOUR
-AU  - Daniyal Durmuş Köksal
-AU  - Kwabena Ebo Bennin
-AU  - Bedir Tekinerdoğan
-TI  - Centralized and vertical federated learning for Climate-Based crop yield prediction
-PY  - 2026
-JO  - Computers and Electronics in Agriculture
-PB  - Elsevier
-VL  - 249
-SP  - 111851
-EP  - 111851
-DO  - 10.1016/j.compag.2026.111851
-UR  - https://doi.org/10.1016/j.compag.2026.111851
-AB  - Accurate crop yield assessment is critical for food security planning and climate impact analysis, yet centralized machine learning approaches are increasingly constrained by data privacy requirements and institutional fragmentation. Climate variables, crop model simulations, and yield data are often distributed across organizations, making centralized data integration impractical. This study evaluates federated learning as a privacy-preserving alternative for large-scale crop yield modeling by systematically comparing Centralized Federated Learning (CFL) and Vertical Federated Learning (VFL). Using Ethiopia as a case study, we integrate ERA5 climate variables with maize and wheat yield simulations from the LPJmL and DSSAT models under irrigated and rainfed conditions. While CFL assumes centralized access to all features and labels, VFL employs a split neural network in which data remain at separate institutions and only latent representations are exchanged. Results show that CFL achieves the highest predictive accuracy (R 2 = 0.88–0.91), while VFL exhibits a modest performance reduction (R 2 = 0.765–0.897) but maintains stable convergence and minimal train–test divergence. Validat
-ER  - 
-
-TY  - JOUR
-AU  - Eric Asamoah
-AU  - G.B.M. Heuvelink
-AU  - Vincent Logah
-AU  - J.G.B. Leenaars
-AU  - P.S. Bindraban
-TI  - Fertilizer recommendations for maize production in Ghana: Comparison of machine learning, semi-mechanistic and conventional approaches
-PY  - 2025
-JO  - European Journal of Agronomy
-PB  - Elsevier
-VL  - 174
-SP  - 127925
-EP  - 127925
-DO  - 10.1016/j.eja.2025.127925
-UR  - https://doi.org/10.1016/j.eja.2025.127925
-AB  - Efficient fertilizer application is vital for enhancing maize production and profitability in Sub-Saharan Africa, where soil fertility varies widely across regions. This study aimed to develop a machine learning approach for generating site-specific fertilizer recommendations for maize production in Ghana and to evaluate its performance against conventional and semi-mechanistic approaches. A random forest machine learning model was trained on 482 maize yield experiments, consisting of 3136 yield observations collected from 1991 to 2020, to predict maize yield response to different fertilizer rates. The model incorporated multiple explanatory variables, including soil properties, climate conditions, and management practices, to generate fertilizer response curves from which fertilizer recommendations were derived for 14 sites across three agro-ecological zones in Ghana where field validation experiments were conducted. On these sites, the recommendations were compared with recommendations derived from the Quantitative Evaluation of the Fertility of Tropical Soils (QUEFTS), Conventional Fertilizer Dose Response (CFDR), and Updated Conventional Fertilizer Dose Response (UCFDR) approac
-ER  - 
-
-TY  - JOUR
-AU  - Ziyi Wang
-AU  - Roshanak Darvishzadeh
-AU  - Nancy Castilla
-AU  - Alice G. Laborte
-AU  - Andrew Nelson
-TI  - Early detection of rice bacterial leaf blight disease using canopy hyperspectral data and machine learning
-PY  - 2026
-JO  - International Journal of Applied Earth Observation and Geoinformation
-PB  - Elsevier
-VL  - 153
-SP  - 105511
-EP  - 105511
-DO  - 10.1016/j.jag.2026.105511
-UR  - https://doi.org/10.1016/j.jag.2026.105511
-AB  - Bacterial leaf blight (BLB) remains a major biotic constraint to global rice production, requiring faster and scalable detection methods than conventional field scouting to minimise yield losses. Early detection of BLB is essential for timely intervention and yield protection, yet very few studies have examined the use of remote sensing, particularly during the early growth phase of the rice crop. This study evaluated the potential of canopy-level hyperspectral data for identifying BLB in early vegetative phase. Field trials were conducted at the International Rice Research Institute, where canopy hyperspectral reflectance was collected from healthy and inoculated plots at the stem elongation and booting stages of the rice crop. Biophysical and biochemical parameters were also collected during the stem elongation stage. Four spectral transformation techniques, including first and second derivatives (FD, SD), continuum removal (CR), and continuous wavelet transform (CWT), were applied to canopy spectral data to identify BLB-sensitive features. To reduce the high dimensionality of hyperspectral features, the top 5 % most separable features were extracted, and redundancies were remove
 ER  - 

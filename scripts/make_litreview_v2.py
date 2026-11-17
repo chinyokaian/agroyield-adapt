@@ -35,9 +35,15 @@ SPECIFIC = re.compile(
     r"model evaluation|prediction error|accuracy assessment|robustness|"
     r"extrapolat|generalisa|generaliza", re.I)
 
+cited = set()
+if os.path.exists(f"{OUT}/cited_keys.json"):
+    cited = set(json.load(open(f"{OUT}/cited_keys.json", encoding="utf-8")))
+
 included, background = [], []
 for r in corpus:
-    (included if SPECIFIC.search(f"{r['title']} {r['abstract']}") else background).append(r)
+    key = r["doi"] or r["title"]
+    is_in = key in cited if cited else bool(SPECIFIC.search(f"{r['title']} {r['abstract']}"))
+    (included if is_in else background).append(r)
 
 print(f"corpus {len(corpus)} | included in synthesis {len(included)} | background {len(background)}")
 
@@ -101,7 +107,7 @@ wb = openpyxl.Workbook()
 ws = wb.active
 ws.title = "Literature Review"
 HEAD = ["Authors", "Year", "Journal/Conference", "Title", "Methodology", "Remark",
-        "Research Gap", "Publisher", "DOI"]
+        "Research Gap", "Publisher", "DOI", "In review"]
 ws.append(HEAD)
 
 thin = Side(style="thin", color="BFBFBF")
@@ -119,9 +125,9 @@ for r in rows:
     text = f"{r['title']} {r['abstract']}"
     ws.append([a, r["year"], r["venue"], r["title"], methodology(text),
                first_sentence(r["abstract"]), gap(r["abstract"]),
-               r["publisher"], r["doi"]])
+               r["publisher"], r["doi"], "Yes" if r in included else "No (background)"])
 
-widths = [30, 7, 30, 52, 26, 55, 45, 14, 26]
+widths = [30, 7, 30, 52, 26, 55, 45, 14, 26, 15]
 for i, w in enumerate(widths, 1):
     ws.column_dimensions[get_column_letter(i)].width = w
 for row in ws.iter_rows(min_row=2, max_row=ws.max_row):
