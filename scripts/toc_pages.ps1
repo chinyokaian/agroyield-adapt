@@ -17,7 +17,7 @@ foreach ($h in $headings) {
     foreach ($p in $doc.Paragraphs) {
         $t = $p.Range.Text
         if ($t) { $t = $t.TrimEnd([char]13, [char]10, [char]7).Trim() }
-        if ($t -eq $want) {
+        if ($t.ToLower() -eq $want.ToLower()) {
             $page = $p.Range.Information(3)   # wdActiveEndPageNumber, last match wins
         }
     }

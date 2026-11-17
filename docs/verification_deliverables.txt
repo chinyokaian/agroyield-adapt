@@ -1,0 +1,63 @@
+PASS  chapter present: CHAPTER 1: INTRODUCTION
+PASS  chapter present: CHAPTER 2: LITERATURE REVIEW
+PASS  chapter present: CHAPTER 3: METHODOLOGY (FIRST DRAFT)
+PASS  chapter 1 section: 1.1 Background
+PASS  chapter 1 section: 1.2 Motivation
+PASS  chapter 1 section: 1.3 Problem statement
+PASS  chapter 1 section: 1.4 Research questions
+PASS  chapter 1 section: 1.5 Research objectives
+PASS  chapter 1 section: 1.6 Scope and significance
+PASS  chapter 1 section: 1.7 Structure of the report
+PASS  chapter 2 section: 2.1 Introduction
+PASS  chapter 2 section: 2.2 Problem statement
+PASS  chapter 2 section: 2.3 Review method
+PASS  chapter 2 section: 2.4 Characteristics of the included studies
+PASS  chapter 2 section: 2.5 Thematic synthesis
+PASS  chapter 2 section: 2.6 Discussion
+PASS  chapter 2 section: 2.7 Research gaps and directions
+PASS  chapter 2 section: 2.8 Summary
+PASS  chapter 2 subsections 2.5.1-2.5.6 present
+PASS  chapter 3 section: 3.1 Research design
+PASS  chapter 3 section: 3.2 Data
+PASS  chapter 3 section: 3.3 The audit modules
+PASS  chapter 3 section: 3.4 Evaluation measures
+PASS  chapter 3 section: 3.5 Ethical considerations
+PASS  chapter 3 section: 3.6 Limitations of the design
+PASS  problem statement keeps its four sub-problems
+PASS  four research questions present
+PASS  single reference list carries the 49 sources (49)
+PASS  citation numbering is complete and gapless
+PASS  citations appear in increasing order of first use (IEEE)
+PASS  figure numbered within the chapter (Figure 2.1)
+PASS  tables numbered within their chapters
+PASS  no chapter-less float numbers left over
+PASS  review sub-numbering fully remapped (no bare 5.x headings)
+PASS  table of contents lists every heading (25)
+PASS  every contents entry carries a page number
+PASS  crest and PRISMA figure embedded
+PASS  three tables present (3)
+PASS  Proposal_Presentation_v1.pptx: 13 slides
+PASS  Proposal_Presentation_v1.pptx: title slide carries the candidate and supervisor
+PASS  Proposal_Presentation_v1.pptx: title slide keeps the template's fields
+PASS  Proposal_Presentation_v1.pptx: title placeholder replaced
+PASS  Proposal_Presentation_v1.pptx: name field filled rather than left blank
+PASS  Proposal_Presentation_v1.pptx: template overview slide retained
+PASS  Proposal_Presentation_v1.pptx: closes with a conclusion
+PASS  Proposal_Presentation_v1.pptx: content slides carry argument, not headings only
+PASS  Review1_Presentation_v1.pptx: 12 slides
+PASS  Review1_Presentation_v1.pptx: title slide carries the candidate and supervisor
+PASS  Review1_Presentation_v1.pptx: title slide keeps the template's fields
+PASS  Review1_Presentation_v1.pptx: title placeholder replaced
+PASS  Review1_Presentation_v1.pptx: name field filled rather than left blank
+PASS  Review1_Presentation_v1.pptx: template overview slide retained
+PASS  Review1_Presentation_v1.pptx: closes with a conclusion
+PASS  Review1_Presentation_v1.pptx: content slides carry argument, not headings only
+PASS  matrix rows match the corpus (71)
+PASS  matrix columns (10)
+PASS  every matrix row has authors and a title
+PASS  matrix marks the 49 synthesised studies
+PASS  no duplicate DOIs in the matrix
+PASS  report states the corpus size (71)
+PASS  report states the screened count (463)
+
+61 checks, 0 failures

@@ -1,0 +1,31 @@
+CHAPTER 1: INTRODUCTION
+1.1 Background
+1.2 Motivation
+1.3 Problem statement
+1.4 Research questions
+1.5 Research objectives
+1.6 Scope and significance
+1.7 Structure of the report
+CHAPTER 2: LITERATURE REVIEW
+2.1 Introduction
+2.2 Problem statement
+2.3 Review method
+2.4 Characteristics of the included studies
+2.5 Thematic synthesis
+2.5.1 Constructing an interval
+2.5.2 Validation design and the estimation of skill
+2.5.3 Transport, applicability and transferability
+2.5.4 Machine learning for yield prediction
+2.5.5 Spatial soil and environmental prediction
+2.5.6 Crop simulation and data requirements
+2.6 Discussion
+2.7 Research gaps and directions
+2.8 Summary
+CHAPTER 3: METHODOLOGY (FIRST DRAFT)
+3.1 Research design
+3.2 Data
+3.3 The audit modules
+3.4 Evaluation measures
+3.5 Ethical considerations
+3.6 Limitations of the design
+REFERENCES
