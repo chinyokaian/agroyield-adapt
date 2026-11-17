@@ -1,0 +1,49 @@
+                            Department of Analytics & Informatics
+
+         Structure of DAI research paper 1: Survey Paper (build-up or formulation)
+
+The survey paper should address the following:
+
+     Critically study and analyse the base project (aka systematic literature review of
+         area of study)
+
+     Conduct a literature review of 10 to 22 foundational papers relevant to a specific
+         scope recommended by the base project
+
+     Include your own commentary on the significance of the approach and the solutions
+         presented in each paper with respect to the base project
+
+     Provide a critical assessment of the work that has been done in the base project
+     Include a discussion on future research directions
+     Meet IEEE standards (Referencing Style & Formatting)
+     Meet UZ DAI assessment standards (5-8 pages/~4000 words)
+
+The typical structure of the paper includes the following sections:
+
+    1. Title:
+         A descriptive title ("Survey of ...") and the student name and student number on a
+         separate title page.
+
+    2. Abstract:
+         An abstract which briefly describes the entire paper. This should be written last.
+
+    3. Introduction:
+         An introduction that summarises what the paper presents without expecting the
+         reader to have already read the paper. This should be written second last.
+
+    4. Body of paper/Literature Review
+         A problem description which explains the problem and motivates interest in it. The
+         actual survey with critical analysis of each paper presented and the liberal use of
+         figures to aid in the exposition. This clearly highlights the flaws and challenges in the
+         base project as well as potential solutions or improvements to the aforementioned
+         flaws with the aid of the related literature as backing for the feasibility of proposed
+         solutions and improvements.
+
+    5. Conclusion/Proposed or Future Work:
+         A conclusion which summarises the paper (now assuming the reader has read it) and
+         which describes possible directions for future research on the base project.
+
+    6. References:
+         A detailed bibliography presented in an easy to read and consistent format, following
+         the IEEE Reference style.
+

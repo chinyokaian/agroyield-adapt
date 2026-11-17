@@ -55,8 +55,12 @@ QUERIES = [
 ]
 PER_QUERY = 100
 
-CROP = re.compile(r"crop|maize|yield|agronom|agricultur|smallholder|soil|farm|field trial|"
-                  r"plant|wheat|rice|soybean", re.I)
+CROP = re.compile(r"crops?|maize|corn|wheat|rice|sorghum|millet|soybean|sugarcane|"
+                  r"agronom|agricultur|smallholder|soil|farmland|farms?|"
+                  r"field trial|orchard|horticultur|crop yield|crop production|"
+                  r"yield gap|evapotranspiration", re.I)
+NON_AGRI = re.compile(r"biochar|biogas|pyrolysis|electricity|spot price|sea ice|"
+                      r"occupancy|building|anaerobic digest|groundwater level", re.I)
 METHOD = re.compile(r"conformal|prediction interval|quantile|uncertaint|coverage|calibrat|"
                     r"cross-validat|validation|leakage|applicabilit|transferab|"
                     r"distribution shift|covariate shift|extrapolat|generalisation|"
@@ -150,6 +154,8 @@ for r in unique:
         screened_out.append((r, "outside scope: outcome not a continuous agronomic quantity"))
     elif not CROP.search(text):
         screened_out.append((r, "outside scope: no agronomic outcome"))
+    elif NON_AGRI.search(text) and not re.search(r"crop|maize|soil|agricultur", text, re.I):
+        screened_out.append((r, "outside scope: non-agronomic outcome"))
     elif not PREDICT.search(text):
         screened_out.append((r, "no predictive model"))
     elif not METHOD.search(text):

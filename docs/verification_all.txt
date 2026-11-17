@@ -1,0 +1,50 @@
+PASS  section present: Introduction
+PASS  section present: Problem Statement
+PASS  section present: Review Method
+PASS  section present: Characteristics Of The Included Studies
+PASS  section present: Thematic Synthesis
+PASS  section present: Discussion
+PASS  section present: Research Gaps And Directions
+PASS  section present: Conclusion
+PASS  section present: References
+PASS  problem statement states the four sub-problems explicitly
+PASS  problem statement names the gap in one sentence
+PASS  PRISMA flow reported
+PASS  PRISMA figure embedded
+PASS  figure caption present
+PASS  reference count inside Dr Mhlangu's 45-60 band (49)
+PASS  citations appear in increasing order of first use (IEEE)
+PASS  numbering is complete and gapless 1..49
+PASS  reference list is numbered in the same order
+PASS  every reference carries a quoted title (IEEE)
+PASS  every reference carries a year
+PASS  references carry volume/page or doi detail (none)
+PASS  no unresolved placeholder: [[
+PASS  no unresolved placeholder: ]]
+PASS  no unresolved placeholder: {
+PASS  no unresolved placeholder: }
+PASS  no unresolved placeholder: TODO
+PASS  no unresolved placeholder: TBD
+PASS  no unresolved placeholder: Lorem
+PASS  no unresolved placeholder: [Student
+PASS  workbook rows match the corpus (71 vs 71)
+PASS  every workbook row has a title
+PASS  every workbook row has authors
+PASS  no duplicate DOIs in the workbook
+PASS  RIS record count matches the corpus (71)
+PASS  every RIS record is closed
+PASS  no duplicate DOIs in the RIS
+PASS  identified - duplicates = screened (491-28=463)
+PASS  excluded + eligible = screened (379+84=463)
+PASS  eligible >= retained corpus (84 >= 71)
+PASS  library 71 within 60-75 and included 49 within 45-60
+PASS  paper quotes the screened count (463)
+PASS  paper quotes the retained corpus (71)
+PASS  Survey_Paper_v1.docx: references section located
+PASS  Survey_Paper_v1.docx: reference list present (15 entries)
+PASS  Survey_Paper_v1.docx: every reference cited, none dangling
+PASS  Proposal_AGROYIELD-ADAPT_v2.docx: references section located
+PASS  Proposal_AGROYIELD-ADAPT_v2.docx: reference list present (17 entries)
+PASS  Proposal_AGROYIELD-ADAPT_v2.docx: every author-date citation has a reference entry (none)
+
+48 checks, 0 failures

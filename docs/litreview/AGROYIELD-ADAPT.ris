@@ -1,20 +1,4 @@
 TY  - JOUR
-AU  - Alexandre M.J.‐C. Wadoux
-AU  - Budiman Minasny
-AU  - Alex B. McBratney
-TI  - Machine learning for digital soil mapping: Applications, challenges and suggested solutions
-PY  - 2020
-JO  - Earth-Science Reviews
-PB  - Elsevier
-VL  - 210
-SP  - 103359
-EP  - 103359
-DO  - 10.1016/j.earscirev.2020.103359
-UR  - https://doi.org/10.1016/j.earscirev.2020.103359
-AB  - The uptake of machine learning (ML) algorithms in digital soil mapping (DSM) is transforming the way soil scientists produce their maps. Within the past two decades, soil scientists have applied ML to a wide range of scenarios, by mapping soil properties or classes with various ML algorithms, on spatial scale from the local to the global, and with depth. The wide adoption of ML for soil mapping was made possible by the increase in data availability, the ease of accessing environmental spatial data, and the development of software solutions aided by computational tools to analyse them. In this article, we review the current use of ML in DSM, identify the key challenges and suggest solutions from the existing literature. There is a growing interest in the use of ML in DSM. Most studies emphasize prediction and accuracy of the predicted maps for applications, such as baseline production of quantitative soil information. Few studies account for existing soil knowledge in the modelling process or quantify the uncertainty of the predicted maps. Further, we discuss the challenges related to the application of ML for soil mapping and suggest solutions from existing studies in the natural s
-ER  - 
-
-TY  - JOUR
 AU  - Dilli Paudel
 AU  - Hendrik Boogaard
 AU  - Allard J. W. de Wit
@@ -32,23 +16,6 @@ EP  - 103016
 DO  - 10.1016/j.agsy.2020.103016
 UR  - https://doi.org/10.1016/j.agsy.2020.103016
 AB  - Many studies have applied machine learning to crop yield prediction with a focus on specific case studies. The data and methods they used may not be transferable to other crops and locations. On the other hand, operational large-scale systems, such as the European Commission's MARS Crop Yield Forecasting System (MCYFS), do not use machine learning. Machine learning is a promising method especially when large amounts of data are being collected and published. We combined agronomic principles of crop modeling with machine learning to build a machine learning baseline for large-scale crop yield forecasting. The baseline is a workflow emphasizing correctness, modularity and reusability. For correctness, we focused on designing explainable predictors or features (in relation to crop growth and development) and applying machine learning without information leakage. We created features using crop simulation outputs and weather, remote sensing and soil data from the MCYFS database. We emphasized a modular and reusable workflow to support different crops and countries with small configuration changes. The workflow can be used to run repeatable experiments (e.g. early season or end of season
-ER  - 
-
-TY  - JOUR
-AU  - Dick J. Brus
-AU  - Bas Kempen
-AU  - G.B.M. Heuvelink
-TI  - Sampling for validation of digital soil maps
-PY  - 2011
-JO  - European Journal of Soil Science
-PB  - Wiley
-VL  - 62
-IS  - 3
-SP  - 394
-EP  - 407
-DO  - 10.1111/j.1365-2389.2011.01364.x
-UR  - https://doi.org/10.1111/j.1365-2389.2011.01364.x
-AB  - The increase in digital soil mapping around the world means that appropriate and efficient sampling strategies are needed for validation. Data used for calibrating a digital soil mapping model typically are non‐random samples. In such a case we recommend collection of additional independent data and validation of the soil map by a design‐based sampling strategy involving probability sampling and design‐based estimation of quality measures. An important advantage over validation by data‐splitting or cross‐validation is that model‐free estimates of the quality measures and their standard errors can be obtained, and thus no assumptions on the spatial auto‐correlation of prediction errors need to be made. The quality of quantitative soil maps can be quantified by the spatial cumulative distribution function (SCDF) of the prediction errors, whereas for categorical soil maps the overall purity and the map unit purities (user's accuracies) and soil class representation (producer's accuracies) are suitable quality measures. The suitability of five basic types of random sampling design for soil map validation was evaluated: simple, stratified simple, systematic, cluster and two‐stage random
 ER  - 
 
 TY  - JOUR
@@ -75,23 +42,6 @@ AB  - Numerous studies have been published during the past two decades that use 
 ER  - 
 
 TY  - JOUR
-AU  - Victor G Jetten
-AU  - Gérard Govers
-AU  - Rudi Hessel
-TI  - Erosion models: quality of spatial predictions
-PY  - 2003
-JO  - Hydrological Processes
-PB  - Wiley
-VL  - 17
-IS  - 5
-SP  - 887
-EP  - 900
-DO  - 10.1002/hyp.1168
-UR  - https://doi.org/10.1002/hyp.1168
-AB  - Abstract An Erratum has been published for this article in Hydrological Processes 18(3) 2004, 595. An overview is given on the predictive quality of spatially distributed runoff and erosion models. A summary is given of the results of model comparison workshops organized by the Global Change and Terrestrial Ecosystems Focus 3 programme, as well as other results obtained by individual researchers. The results concur with the generally held viewpoint in the literature that the predictive quality of distributed models is moderately good for total discharge at the outlet, and not very good for net soil loss. This is only true if extensive calibration is done: uncalibrated results are generally bad. The more simple lumped models seem to perform equally well as the more complex distributed models, although the latter produce more detailed spatially distributed results that can aid the researcher. All these results are outlet based: models are tested on lumped discharge and soil loss or on hydrographs and sedigraphs. Surprisingly few tests have been done on the comparison of simulated and modelled erosion patterns, although this may arguably be just as important in the sense of designing 
-ER  - 
-
-TY  - JOUR
 AU  - Tomislav Hengl A
 AU  - J.G.B. Leenaars
 AU  - Keith D. Shepherd
@@ -115,27 +65,6 @@ EP  - 102
 DO  - 10.1007/s10705-017-9870-x
 UR  - https://doi.org/10.1007/s10705-017-9870-x
 AB  - Spatial predictions of soil macro and micro-nutrient content across Sub-Saharan Africa at 250 m spatial resolution and for 0-30 cm depth interval are presented. Predictions were produced for 15 target nutrients: organic carbon (C) and total (organic) nitrogen (N), total phosphorus (P), and extractable-phosphorus (P), potassium (K), calcium (Ca), magnesium (Mg), sulfur (S), sodium (Na), iron (Fe), manganese (Mn), zinc (Zn), copper (Cu), aluminum (Al) and boron (B). Model training was performed using soil samples from ca. 59,000 locations (a compilation of soil samples from the AfSIS, EthioSIS, One Acre Fund, VitalSigns and legacy soil data) and an extensive stack of remote sensing covariates in addition to landform, lithologic and land cover maps. An ensemble model was then created for each nutrient from two machine learning algorithms- random forest and gradient boosting, as implemented in R packages ranger and xgboost-and then used to generate predictions in a fully-optimized computing system. Cross-validation revealed that apart from S, P and B, significant models can be produced for most targeted nutrients (R-square between 40-85%). Further comparison with OFRA field trial datab
-ER  - 
-
-TY  - JOUR
-AU  - Amanda Ramcharan
-AU  - Tomislav Hengl A
-AU  - Travis Nauman
-AU  - Colby Brungard
-AU  - Sharon W. Waltman
-AU  - Skye Wills
-AU  - James A. Thompson
-TI  - Soil Property and Class Maps of the Conterminous United States at 100‐Meter Spatial Resolution
-PY  - 2018
-JO  - Soil Science Society of America Journal
-PB  - Wiley
-VL  - 82
-IS  - 1
-SP  - 186
-EP  - 201
-DO  - 10.2136/sssaj2017.04.0122
-UR  - https://doi.org/10.2136/sssaj2017.04.0122
-AB  - Core Ideas Ensemble machine learning methods were used to obtain gridded soil property and class maps. Final predictions were generated for six soil properties and two soil classes at 100‐m resolution. Soil data are easier to integrate with spatially explicit models compared with multicomponent map units. Soil property maps are available at seven standard depths. With growing concern for the depletion of soil resources, conventional soil maps need to be updated and provided at finer and finer resolutions to be able to support spatially explicit human–landscape models. Three US soil point datasets—the National Cooperative Soil Survey Characterization Database, the National Soil Information System, and the Rapid Carbon Assessment dataset—were combined with a stack of over 200 environmental datasets and gSSURGO polygon maps to generate complete coverage gridded predictions at 100‐m spatial resolution of six soil properties (percentage of organic C, total N, bulk density, pH, and percentage of sand and clay) and two US soil taxonomic classes (291 great groups [GGs] and 78 modified particle size classes [mPSCs]) for the conterminous United States. Models were built using parallelized ra
 ER  - 
 
 TY  - JOUR
@@ -176,38 +105,6 @@ EP  - 102174
 DO  - 10.1016/j.jag.2020.102174
 UR  - https://doi.org/10.1016/j.jag.2020.102174
 AB  - Hyperspectral acquisitions have proven to be the most informative Earth observation data source for the estimation of nitrogen (N) content, which is the main limiting nutrient for plant growth and thus agricultural production. In the past, empirical algorithms have been widely employed to retrieve information on this biochemical plant component from canopy reflectance. However, these approaches do not seek for a cause-effect relationship based on physical laws. Moreover, most studies solely relied on the correlation of chlorophyll content with nitrogen, and thus neglected the fact that most N is bound in proteins. Our study presents a hybrid retrieval method using a physically-based approach combined with machine learning regression to estimate crop N content. Within the workflow, the leaf optical properties model PROSPECT-PRO including the newly calibrated specific absorption coefficients (SAC) of proteins, was coupled with the canopy reflectance model 4SAIL to PROSAIL-PRO. The latter was then employed to generate a training database to be used for advanced probabilistic machine learning methods: a standard homoscedastic Gaussian process (GP) and a heteroscedastic GP regression th
-ER  - 
-
-TY  - JOUR
-AU  - Yize Li
-AU  - Rohit Gupta
-AU  - Siming You
-TI  - Machine learning assisted prediction of biochar yield and composition via pyrolysis of biomass
-PY  - 2022
-JO  - Bioresource Technology
-PB  - Elsevier
-VL  - 359
-SP  - 127511
-EP  - 127511
-DO  - 10.1016/j.biortech.2022.127511
-UR  - https://doi.org/10.1016/j.biortech.2022.127511
-AB  - Biochar production via pyrolysis of various organic waste has potential to reduce dependence on conventional energy sources and mitigate global warming potential. Existing models for predicting biochar yield and compositions are computationally-demanding, complex, and have low accuracy for extrapolative scenarios. Here, two data-driven machine learning models based on Multi-Layer Perceptron Neural Network and Artificial Neuro-Fuzzy Inference System are developed. The data-driven models predict biochar yield and compositions for a variety of input feedstock compositions and pyrolysis process conditions. Feature importance assessment of the input dataset revealed their competitive significance for predicting biochar yield and compositions. Overall, the predictive accuracy of the models was up to 12.7% better than the Random Forest and eXtreme Gradient Boosting machine learning algorithms reported in the literature. The models developed are valuable for environmental footprint assessment of biochar production and rapid system optimization.
-ER  - 
-
-TY  - JOUR
-AU  - Jakub Nowotarski
-AU  - Rafał Weron
-TI  - Computing electricity spot price prediction intervals using quantile regression and forecast averaging
-PY  - 2014
-JO  - Computational Statistics
-PB  - Springer
-VL  - 30
-IS  - 3
-SP  - 791
-EP  - 803
-DO  - 10.1007/s00180-014-0523-0
-UR  - https://doi.org/10.1007/s00180-014-0523-0
-AB  - We examine possible accuracy gains from forecast averaging in the context of interval forecasts of electricity spot prices. First, we test whether constructing empirical prediction intervals (PI) from combined electricity spot price forecasts leads to better forecasts than those obtained from individual methods. Next, we propose a new method for constructing PI—Quantile Regression Averaging (QRA)—which utilizes the concept of quantile regression and a pool of point forecasts of individual (i.e. not combined) models. While the empirical PI from combined forecasts do not provide significant gains, the QRA-based PI are found to be more accurate than those of the best individual model—the smoothed nonparametric autoregressive model.
 ER  - 
 
 TY  - JOUR
@@ -272,20 +169,6 @@ AB  - Early warning information on crop yield and production are very crucial fo
 ER  - 
 
 TY  - JOUR
-AU  - Matteo Sesia
-AU  - Emmanuel J. Candès
-TI  - A comparison of some conformal quantile regression methods
-PY  - 2020
-JO  - Stat
-PB  - Wiley
-VL  - 9
-IS  - 1
-DO  - 10.1002/sta4.261
-UR  - https://doi.org/10.1002/sta4.261
-AB  - We compare two recent methods that combine conformal inference with quantile regression to produce locally adaptive and marginally valid prediction intervals under sample exchangeability (Romano, Patterson, & Candès, 2019, arXiv:1905.03222; Kivaranovic, Johnson, & Leeb, 2019, arXiv:1905.10634). First, we prove that these two approaches are asymptotically efficient in large samples, under some additional assumptions. Then we compare them empirically on simulated and real data. Our results demonstrate that the method of Romano et al. typically yields tighter prediction intervals in finite samples. Finally, we discuss how to tune these procedures by fixing the relative proportions of observations used for training and conformalization. Our empirical results suggest that using between 70% and 90% of the data for training often achieves a good balance between minimizing the average width of the predictions intervals and the variability in their practical coverage.
-ER  - 
-
-TY  - JOUR
 AU  - Michele Meroni
 AU  - François Waldner
 AU  - Lorenzo Seguini
@@ -304,56 +187,6 @@ AB  - Forecasting crop yields is important for food security, in particular to p
 ER  - 
 
 TY  - JOUR
-AU  - Carles Milà
-AU  - Jorge Mateu
-AU  - Edzer J Pebesma
-AU  - Hanna Meyer
-TI  - Nearest neighbour distance matching Leave‐One‐Out Cross‐Validation for map validation
-PY  - 2022
-JO  - Methods in Ecology and Evolution
-PB  - Wiley
-VL  - 13
-IS  - 6
-SP  - 1304
-EP  - 1316
-DO  - 10.1111/2041-210x.13851
-UR  - https://doi.org/10.1111/2041-210x.13851
-AB  - Abstract Several spatial and non‐spatial Cross‐Validation (CV) methods have been used to perform map validation when additional sampling for validation purposes is not possible, yet it is unclear in which situations one CV method might be preferred over the other. Three factors have been identified as determinants of the performance of CV methods for map validation: the prediction area (geographical interpolation vs. extrapolation), the sampling pattern and the landscape spatial autocorrelation. In this study, we propose a new CV strategy that takes the geographical prediction space into account, and test how the new method compares with other established CV methods under different configurations of these three factors. We propose a variation of Leave‐One‐Out (LOO) CV for map validation, called Nearest Neighbour Distance Matching (NNDM) LOO CV, in which the nearest neighbour distance distribution function between the test and training data during the CV process is matched to the nearest neighbour distance distribution function between the target prediction and training points. Using random forest as a machine learning algorithm, we then examine the suitability of NNDM LOO CV as wel
-ER  - 
-
-TY  - JOUR
-AU  - Jonas Schmidinger
-AU  - G.B.M. Heuvelink
-TI  - Validation of uncertainty predictions in digital soil mapping
-PY  - 2023
-JO  - Geoderma
-PB  - Elsevier
-VL  - 437
-SP  - 116585
-EP  - 116585
-DO  - 10.1016/j.geoderma.2023.116585
-UR  - https://doi.org/10.1016/j.geoderma.2023.116585
-AB  - It is quite common in digital soil mapping (DSM) to quantify the uncertainty of issued predictions, that is to make probabilistic predictions. Yet, little attention has been paid to its validation. Probabilistic predictions are only of value for end users if they are reliable and ideally also sharp. Reliability refers to the consistency between predicted conditional probabilities and observed frequencies of independent test data. Sharpness refers to the concentration of a conditional probability distribution function, i.e. its narrowness. The prediction interval coverage probability (PICP) is currently used in DSM to validate the reliability of prediction intervals but it is ignorant of a potential one-sided bias of its boundaries. Therefore, we propose to extend the current validation procedure with metrics used in the broader probabilistic literature. These metrics not only evaluate probabilistic predictions in prediction interval format but also quantiles or full conditional probability distributions. We suggest the quantile coverage probability (QCP) and probability integral transform (PIT) histogram as alternatives to PICP and proper scoring rules for relative comparisons of c
-ER  - 
-
-TY  - JOUR
-AU  - Min Chen
-AU  - Garry R Willgoose
-AU  - Patricia Saco
-TI  - Spatial prediction of temporal soil moisture dynamics using HYDRUS-1D
-PY  - 2012
-JO  - Hydrological Processes
-PB  - Wiley
-VL  - 28
-IS  - 2
-SP  - 171
-EP  - 185
-DO  - 10.1002/hyp.9518
-UR  - https://doi.org/10.1002/hyp.9518
-AB  - This article investigates the soil moisture dynamics within two catchments (Stanley and Krui) in the Goulburn River in NSW during a 3-year period (2005–2007) using the HYDRUS-1D soil water model. Sensitivity analyses indicated that soil type, and leaf area index were the key parameters affecting model performance. The model was satisfactorily calibrated on the Stanley microcatchment sites with a single point rainfall record from this microcatchment for both surface 30 cm and full-profile soil moisture measurements. Good correlations were obtained between observed and simulated soil water storage when calibrations for one site were applied to the other sites. We extended the predictions of soil moisture to a larger spatial scale using the calibrated soil and vegetation parameters to the sites in the Krui catchment where soil moisture measurement sites were up to 30 km distant from Stanley. Similarly good results show that it is possible to use a calibrated soil moisture model with measurements at a single site to extrapolate the soil moisture to other sites for a catchment with an area of up to 1000 km2 given similar soils and vegetation and local rainfall data. Site predictions wer
-ER  - 
-
-TY  - JOUR
 AU  - Mohammad Valipour
 TI  - Calibration of mass transfer-based models to predict reference crop evapotranspiration
 PY  - 2015
@@ -366,20 +199,6 @@ EP  - 635
 DO  - 10.1007/s13201-015-0274-2
 UR  - https://doi.org/10.1007/s13201-015-0274-2
 AB  - The present study aims to compare mass transfer-based models to determine the best model under different weather conditions. The results showed that the Penman model estimates reference crop evapotranspiration better than other models in most provinces of Iran (15 provinces). However, the values of R 2 were less than 0.90 for 24 provinces of Iran. Therefore, the models were calibrated, and precision of estimation was increased (the values of R 2 were less than 0.90 for only ten provinces in the modified models). The mass transfer-based models estimated reference crop evapotranspiration in the northern (near the Caspian Sea) and southern (near the Persian Gulf) Iran (annual relative humidity more than 65 %) better than other provinces. The best values of R 2 were 0.96 and 0.98 for the Trabert and Rohwer models in Ardabil (AR) and Mazandaran (MZ) provinces before and after calibration, respectively. Finally, a list of the best performances of each model was presented to use other regions and next studies according to values of mean, maximum, and minimum temperature, relative humidity, and wind speed. The best weather conditions to use mass transfer-based equations are 8–18 °C (with t
-ER  - 
-
-TY  - JOUR
-AU  - Patrick L. McDermott
-AU  - Christopher K. Wikle
-TI  - Deep echo state networks with uncertainty quantification for spatio‐temporal forecasting
-PY  - 2018
-JO  - Environmetrics
-PB  - Wiley
-VL  - 30
-IS  - 3
-DO  - 10.1002/env.2553
-UR  - https://doi.org/10.1002/env.2553
-AB  - Abstract Long‐lead forecasting for spatio‐temporal systems can entail complex nonlinear dynamics that are difficult to specify a priori. Current statistical methodologies for modeling these processes are often highly parameterized and, thus, challenging to implement from a computational perspective. One potential parsimonious solution to this problem is a method from the dynamical systems and engineering literature referred to as an echo state network (ESN). ESN models use reservoir computing to efficiently compute recurrent neural network forecasts. Moreover, multilevel (deep) hierarchical models have recently been shown to be successful at predicting high‐dimensional complex nonlinear processes, particularly those with multiple spatial and temporal scales of variability (such as those we often find in spatio‐temporal environmental data). Here, we introduce a deep ensemble ESN (D‐EESN) model. Despite the incorporation of a deep structure, the presented model is computationally efficient. We present two versions of this model for spatio‐temporal processes that produce forecasts and associated measures of uncertainty. The first approach utilizes a bootstrap ensemble framework, and t
 ER  - 
 
 TY  - JOUR
@@ -411,26 +230,6 @@ EP  - 107807
 DO  - 10.1016/j.compag.2023.107807
 UR  - https://doi.org/10.1016/j.compag.2023.107807
 AB  - Crop yield prediction for an ongoing season is crucial for food security interventions and commodity markets for decisions such as inventory management, understanding yield trends and variability. This work considers corn yield prediction at field-scale with input variables derived from satellite and environmental data. Crop yield data were obtained consecutively from 2017 to 2021 for a total of 1164 fields in the US states of Iowa and Nebraska. We forecast yield “out-of-year”, i.e. we test year from using machine learning methods trained on data from other years. This study includes evaluating what spectral information derived from the raw Sentinel-2 bands best explains the observed variability in yields, but also how time is considered for temporal resampling. We found that resampling the annual time series on thermal time and using biophysical parameters estimates increased the R2 on average by 0.25 to 0.42 when extrapolate is performed on a different year from the ones covered by training samples, compared to using calendar time and other information derived from the Sentinel-2 spectrum.
-ER  - 
-
-TY  - JOUR
-AU  - Sah Kausar Reza
-AU  - D.C. Nayak
-AU  - T. K. Chattopadhyay
-AU  - Subrata Mukhopadhyay
-AU  - Satish Kumar Singh
-AU  - R. Srinivasan
-TI  - Spatial distribution of soil physical properties of alluvial soils: a geostatistical approach
-PY  - 2015
-JO  - Archives of Agronomy and Soil Science
-PB  - Taylor & Francis
-VL  - 62
-IS  - 7
-SP  - 972
-EP  - 981
-DO  - 10.1080/03650340.2015.1107678
-UR  - https://doi.org/10.1080/03650340.2015.1107678
-AB  - Knowledge of spatial variation of soil is important in site-specific farming and environmental modeling. Soil particles size and water distribution are most important soil physical properties that governing nearly all of the other attributes of soils. The objectives of this study were to determine the degree of spatial variability of sand, silt and clay contents, and water content at field capacity (FC), permanent wilting point (PWP), and available water content (AWC) of alluvial floodplain soils. Data were analyzed both statistically and geostatistically to describe the spatial distribution of soil physical properties. Soil physical properties showed large variability with greatest variation was observed in sand content (68%). Exponential and spherical models were fit well for the soil physical properties. The nugget/sill ratio indicates except clay all other soil physical properties were moderate spatially dependent (37–70%). Cross-validation of the kriged map shows that prediction of the soil physical properties using semivariogram parameters is better than assuming mean of observed value for any unsampled location. The spatial distribution of water retention properties closely 
 ER  - 
 
 TY  - JOUR
@@ -526,23 +325,6 @@ AB  - Abstract The estimation of the spatial distribution of soil wetness within
 ER  - 
 
 TY  - JOUR
-AU  - Dick J. Brus
-AU  - Patrick Bogaert
-AU  - G.B.M. Heuvelink
-TI  - Bayesian Maximum Entropy prediction of soil categories using a traditional soil map as soft information
-PY  - 2007
-JO  - European Journal of Soil Science
-PB  - Wiley
-VL  - 59
-IS  - 2
-SP  - 166
-EP  - 177
-DO  - 10.1111/j.1365-2389.2007.00981.x
-UR  - https://doi.org/10.1111/j.1365-2389.2007.00981.x
-AB  - Summary Bayesian Maximum Entropy was used to estimate the probabilities of occurrence of soil categories in the Netherlands, and to simulate realizations from the associated multi‐point pdf. Besides the hard observations (H) of the categories at 8369 locations, the soil map of the Netherlands 1:50 000 was used as soft information (S). The category with the maximum estimated probability was used as the predicted category. The quality of the resulting BME(HS)‐map was compared with that of the BME(H)‐map obtained by using only the hard data in BME‐estimation, and with the existing soil map. Validation with a probability sample showed that the use of the soft information in BME‐estimation leads to a considerable and significant increase of map purity by 15%. This increase of map purity was due to the high purity of the existing soil map (71.3%). The purity of the BME(HS) was only slightly larger than that of the existing soil map. This was due to the small correlation length of the soil categories. The theoretical purity of the BME‐maps overestimated the actual map purity, which can be partly explained by the biased estimates of the one‐point bivariate probabilities of hard and soft ca
-ER  - 
-
-TY  - JOUR
 AU  - Ahmed M. S. Kheir
 AU  - Ajit Govind
 AU  - Vinay Nangia
@@ -607,57 +389,6 @@ AB  - Assessment and proper management of sites contaminated with heavy metals r
 ER  - 
 
 TY  - JOUR
-AU  - Umakant Mishra
-AU  - Beth A. Drewniak
-AU  - JULIE D. JASTROW
-AU  - Roser Matamala
-AU  - U.W.A. Vitharana
-TI  - Spatial representation of organic carbon and active-layer thickness of high latitude soils in CMIP5 earth system models
-PY  - 2016
-JO  - Geoderma
-PB  - Elsevier
-VL  - 300
-SP  - 55
-EP  - 63
-DO  - 10.1016/j.geoderma.2016.04.017
-UR  - https://doi.org/10.1016/j.geoderma.2016.04.017
-AB  - Soil properties such as soil organic carbon (SOC) stocks and active-layer thickness are used in earth system models (ESMs) to predict anthropogenic and climatic impacts on soil carbon dynamics, future changes in atmospheric greenhouse gas concentrations, and associated climate changes in the permafrost regions. Accurate representation of spatial and vertical distribution of these soil properties in ESMs is a prerequisite for reducing existing uncertainty in predicting carbon-climate feedbacks. We compared the spatial representation of SOC stocks and active-layer thicknesses predicted by the coupled Model Intercomparison Project Phase 5 (CMIP5) ESMs with those predicted from geospatial predictions, based on observation data for the state of Alaska, USA. For the geospatial modeling, we used soil profile observations (585 for SOC stocks and 153 for active-layer thickness) and environmental variables (climate, topography, land cover, and surficial geology types) and generated fine-resolution (50-m spatial resolution) predictions of SOC stocks (to 1-m depth) and active-layer thickness across Alaska. We found large inter-quartile range (2.5–5.5 m) in predicted active-layer thickness of C
-ER  - 
-
-TY  - JOUR
-AU  - Alexander Kmoch
-AU  - Clay Taylor Harrison
-AU  - Jeonghwan Choi
-AU  - Evelyn Uuemaa
-TI  - Spatial autocorrelation in machine learning for modelling soil organic carbon
-PY  - 2025
-JO  - Ecological Informatics
-PB  - Elsevier
-VL  - 86
-SP  - 103057
-EP  - 103057
-DO  - 10.1016/j.ecoinf.2025.103057
-UR  - https://doi.org/10.1016/j.ecoinf.2025.103057
-AB  - Spatial autocorrelation, the relationship between nearby samples of a spatial random variable, is often overlooked in machine learning models, leading to biased results. This study compares various methods to account for spatial autocorrelation when predicting soil organic carbon (SOC) using random forest models. This kind of systematic comparison has not been done previously. Five models incorporating spatial structure were compared against baseline models with no added spatial components. Cross-validation showed slight improvements in accuracy for models considering spatial autocorrelation, while Shapley Additive Explanations confirmed the importance of spatial variables. However, no decrease in spatial autocorrelation of residuals was observed. Random Forest Spatial Interpolation emerged as the top performer in capturing spatial structure and improving model accuracy. Raster-based models exhibited enhanced prediction detail. The findings emphasize the value of incorporating spatial autocorrelation for better prediction of SOC with machine learning. Considerations such as the spatial distribution of predictions and computational complexity should help guide the selection of suita
-ER  - 
-
-TY  - JOUR
-AU  - Johannes Sappl
-AU  - Matthias Harders
-AU  - Wolfgang A. Rauch
-TI  - Machine Learning for Quantile Regression of Biogas Production Rates in Anaerobic Digesters
-PY  - 2022
-JO  - The Science of The Total Environment
-PB  - Elsevier
-VL  - 872
-SP  - 161923
-EP  - 161923
-DO  - 10.1016/j.scitotenv.2023.161923
-UR  - https://doi.org/10.1016/j.scitotenv.2023.161923
-AB  - Anaerobic digestion is a well-established tool at wastewater treatment plants for processing raw sludge; it can also be used to generate renewable energy by harvesting biogas in anaerobic digesters. Operational parameters, such as temperature, are usually set by plant operators according to expert knowledge. To completely utilize the potential of operational management, in this study, we calibrated a novel Temporal Fusion Transformer based on six years of life-scale time series data together with categorical features such as public holidays. The model design allows for the interpretability of the output in contrast to traditional data-driven techniques, using multi-head attention. In addition to forecasting the median biogas production rates for the following seven days, our model also yields quantiles, making it less prone to strong fluctuations. We used three well-known statistical techniques as benchmarks. The mean absolute percentage error of our forecasting approach is below 8 %.
-ER  - 
-
-TY  - JOUR
 AU  - Odunayo David Adeniyi
 AU  - Alexander Brenning
 AU  - Michael Maerker
@@ -708,41 +439,6 @@ EP  - 483
 DO  - 10.1080/10095020.2021.1957723
 UR  - https://doi.org/10.1080/10095020.2021.1957723
 AB  - Timely and reliable estimation of regional crop yield is a vital component of food security assessment, especially in developing regions. The traditional crop forecasting methods need ample time and labor to collect and process field data to release official yield reports. Satellite remote sensing data is considered a cost-effective and accurate way of predicting crop yield at pixel-level. In this study, maximum Enhanced Vegetation Index (EVI) during the crop-growing season was integrated with Machine Learning Regression (MLR) models to estimate wheat and rice yields in Pakistan’s Punjab province. Five MLR models were compared using a fivefold cross-validation method for their predictive accuracy. The study results revealed that the regression model based on the Gaussian process outperformed over other models. The best performing model attained coefficient of determination (R2), Root Mean Square Error (RMSE, t/ha), and Mean Absolute Error (MAE, t/ha) of 0.75, 0.281, and 0.236 for wheat; 0.68, 0.112, and 0.091 for rice, respectively. The proposed method made it feasible to predict wheat and rice 6–8 weeks before the harvest. The early prediction of crop yield and its spatial distrib
-ER  - 
-
-TY  - JOUR
-AU  - Lin Wu
-AU  - Marc Bocquet
-AU  - Frédéric Chevallier
-AU  - Thomas Lauvaux
-AU  - K. J. Davis
-TI  - Hyperparameter estimation for uncertainty quantification in mesoscale carbon dioxide inversions
-PY  - 2013
-JO  - Tellus B
-PB  - Taylor & Francis
-VL  - 65
-IS  - 1
-SP  - 20894
-EP  - 20894
-DO  - 10.3402/tellusb.v65i0.20894
-UR  - https://doi.org/10.3402/tellusb.v65i0.20894
-AB  - Uncertainty quantification is critical in the inversion of CO2 surface fluxes from atmospheric concentration measurements. Here, we estimate the main hyperparameters of the error covariance matrices for a priori fluxes and CO2 concentrations, that is, the variances and the correlation lengths, using real, continuous hourly CO2 concentration data in the context of the Ring 2 experiment of the North American Carbon Program Mid Continent Intensive. Several criteria, namely maximum likelihood (ML), general cross-validation (GCV) and χ2 test are compared for the first time under a realistic setting in a mesoscale CO2 inversion. It is shown that the optimal hyperparameters under the ML criterion assure perfect χ2 consistency of the inverted fluxes. Inversions using the ML error variances estimates rather than the prescribed default values are less weighted by the observations, because the default values underestimate the model-data mismatch error, which is assumed to be dominated by the atmospheric transport error. As for the spatial correlation length in prior flux errors, the Ring 2 network is sparse for GCV, and this method fails to reach an optimum. In contrast, the ML estimate (e.g.
-ER  - 
-
-TY  - JOUR
-AU  - Reza Tareghian
-AU  - Peter Rasmussen
-TI  - Analysis of Arctic and Antarctic sea ice extent using quantile regression
-PY  - 2012
-JO  - International Journal of Climatology
-PB  - Wiley
-VL  - 33
-IS  - 5
-SP  - 1079
-EP  - 1086
-DO  - 10.1002/joc.3491
-UR  - https://doi.org/10.1002/joc.3491
-AB  - Abstract A number of recent studies have examined trends in sea ice cover using ordinary least squares regression. In this study, quantile regression is applied to analyse other aspects of the distribution of sea ice extent. More specifically, trends in the mean, maximum, and minimum sea ice extent in the Arctic and Antarctic are investigated. While there is a significant decreasing trend in mean Arctic sea ice extent of − 4.5% per decade from 1979 through 2010, the Antarctic results show a small positive trend of 2.3% per decade. In some cases such as the Antarctic minimum ice cover, selected quantile regressions yield slope estimates that differ from trends in the mean. It was also found that the variability in Antarctic sea ice extent is higher than that in the Arctic. Copyright © 2012 Royal Meteorological Society
 ER  - 
 
 TY  - JOUR
@@ -836,38 +532,6 @@ AB  - Abstract To accurately assess the roles of agriculture in securing food se
 ER  - 
 
 TY  - JOUR
-AU  - Bashar Alfalah
-AU  - Mehdi Shahrestani
-AU  - Li Shao
-TI  - Developing a Hidden Markov model for occupancy prediction in high-density higher education buildings
-PY  - 2023
-JO  - Journal of Building Engineering
-PB  - Elsevier
-VL  - 73
-SP  - 106795
-EP  - 106795
-DO  - 10.1016/j.jobe.2023.106795
-UR  - https://doi.org/10.1016/j.jobe.2023.106795
-AB  - The number of occupants in a building as well as the occupancy patterns and profiles have a significant impact on the building energy consumption associated with heating, cooling, ventilation, and lighting systems. A range of approaches has been used in previous studies for building occupancy prediction. However, there were limitations associated with the methods used for data collection. For instance, the prediction of occupancy based on the concentration of CO2 level adds an additional level of uncertainty into the estimation of the building occupancy level. To avoid such uncertainties, high-resolution passive infrared video camera sensors were used to capture occupancy data for an extended period of one year. The collected occupancy data have then been used to develop a Hidden Markov Model (HMM), to predict the occupancy levels in a high-density higher education case study building. The model is trained under different scenarios to find the most appropriate set of attributes associated with occupancy data that can be used to develop the data driven HMM. The occupancy attributes considered include day, week, month, and term. Moreover, the collected dataset was optimally split int
-ER  - 
-
-TY  - JOUR
-AU  - Dahyann Araya
-AU  - Joel E. Podgorski
-AU  - Michael D. Vanden Berg
-TI  - Groundwater salinity in the Horn of Africa: Spatial prediction modeling and estimated people at risk
-PY  - 2023
-JO  - Environment International
-PB  - Elsevier
-VL  - 176
-SP  - 107925
-EP  - 107925
-DO  - 10.1016/j.envint.2023.107925
-UR  - https://doi.org/10.1016/j.envint.2023.107925
-AB  - BACKGROUND: Changes in climate and anthropogenic activities have made water salinization a significant threat worldwide, affecting biodiversity, crop productivity and contributing to water insecurity. The Horn of Africa, which includes eastern Ethiopia, northeast Kenya, Eritrea, Djibouti, and Somalia, has natural characteristics that favor high groundwater salinity. Excess salinity has been linked to infrastructure and health problems, including increased infant mortality. This region has suffered successive droughts that have limited the availability of safe drinking water resources, leading to a humanitarian crisis for which little spatially explicit information about groundwater salinity is available. METHODS: Machine learning (random forest) is used to make spatial predictions of salinity levels at three electrical conductivity (EC) thresholds using data from 8646 boreholes and wells along with environmental predictor variables. Attention is paid to understanding the input data, balancing classes, performing many iterations, specifying cut-off values, employing spatial cross-validation, and identifying spatial uncertainties. RESULTS: Estimates are made for this transboundary re
-ER  - 
-
-TY  - JOUR
 AU  - Xiayin Lou
 AU  - Peng Luo
 AU  - Liqiu Meng
@@ -882,6 +546,342 @@ EP  - 1998
 DO  - 10.1080/24694452.2025.2516091
 UR  - https://doi.org/10.1080/24694452.2025.2516091
 AB  - Spatial prediction is a fundamental task in geography, providing essential data support for various scenarios. Recent advancements, empowered by the development of geospatial artificial intelligence (GeoAI), have primarily focused on improving prediction accuracy while overlooking reliable measurements of prediction uncertainty. Such measures are crucial for enhancing model trustworthiness and supporting responsible decision-making. To address this issue, we propose a model-agnostic uncertainty assessment method called GeoConformal Prediction (GeoCP). First, a simulation study is conducted to validate the usefulness of GeoCP. Then, we applied GeoCP to two classic spatial prediction cases, spatial regression and spatial interpolation, to evaluate its reliability. For the case of spatial regression, we used XGBoost to predict housing prices, followed by GeoCP to calculate uncertainty. Our results show that GeoCP achieved a coverage rate of 93.67 percent, whereas bootstrapping methods reached a maximum coverage of 81.00 percent after 2,000 runs. We then applied GeoCP for the case of spatial interpolation models. By comparing a GeoAI-based geostatistical model with a traditional geosta
+ER  - 
+
+TY  - JOUR
+AU  - Yanan Hu
+AU  - Yingjie Liu
+AU  - Huajun Tang
+AU  - Yinlong Xu
+AU  - Jie Pan
+TI  - Contribution of Drought to Potential Crop Yield Reduction in a Wheat-Maize Rotation Region in the North China Plain
+PY  - 2014
+JO  - Journal of Integrative Agriculture
+PB  - Elsevier
+VL  - 13
+IS  - 7
+SP  - 1509
+EP  - 1519
+DO  - 10.1016/s2095-3119(14)60810-8
+UR  - https://doi.org/10.1016/s2095-3119(14)60810-8
+AB  - With consecutive occurrences of drought disasters in China in recent years, it is important to estimate their potential impacts on regional crop production. In this study, we detect the impacts of drought on wheat and maize yield and their changes at a 0.5°×0.5° grid scale in the wheat-maize rotation planting area in the North China Plain under the A1B climate change scenario using the Decision Support System for Agrotechnology Transfer (DSSAT) model and the outputs of the regional climate modeling system – Providing Regional Climates for Impacts Studies (PRECIS). Self-calibrating palmer drought severity index was used as drought recognition indicator. Two time slices used for the study were the baseline (1961–1990) and 40 years of 2011–2050. The results indicate that the potential planting region for double crop system of wheat-maize would expend northward. The statistic conclusions of crop simulations varied considerably between wheat and maize. In disaster-affected seasons, wheat yield would increase in the future compared with baseline yields, whereas in opposite for maize yield. Potential crop yield reductions caused by drought would be lower for wheat and higher for maize, wi
+ER  - 
+
+TY  - JOUR
+AU  - Alex Maynard
+AU  - Katsumi Shimotsu
+AU  - Nina Kuriyama
+TI  - Inference in predictive quantile regressions
+PY  - 2024
+JO  - Journal of Econometrics
+PB  - Elsevier
+VL  - 245
+IS  - 1-2
+SP  - 105875
+EP  - 105875
+DO  - 10.1016/j.jeconom.2024.105875
+UR  - http://dx.doi.org/10.1016/j.jeconom.2024.105875
+AB  - This paper studies inference in predictive quantile regressions when the predictive regressor has a near-unit root. We derive asymptotic distributions for the quantile regression estimator and its heteroskedasticity and autocorrelation consistent (HAC) t -statistic in terms of functionals of Ornstein–Uhlenbeck processes. We then propose a switching-fully modified (FM) predictive test for quantile predictability. The proposed test employs an FM style correction with a Bonferroni bound for the local-to-unity parameter when the predictor has a near unit root. It switches to a standard predictive quantile regression test with a slightly conservative critical value when the largest root of the predictor lies in the stationary range. Simulations indicate that the test has a reliable size in small samples and good power. We employ this new methodology to test the ability of three commonly employed, highly persistent and endogenous lagged valuation regressors – the dividend price ratio, earnings price ratio, and book-to-market ratio – to predict the median, shoulders, and tails of the stock return distribution.
+ER  - 
+
+TY  - JOUR
+AU  - Jayalakshmi Rajamanickam
+AU  - S. Mani
+TI  - Kullback chi square and Gustafson Kessel probabilistic neural network based soil fertility prediction
+PY  - 2021
+JO  - Concurrency and Computation Practice and Experience
+PB  - Wiley
+VL  - 33
+IS  - 24
+DO  - 10.1002/cpe.6460
+UR  - https://doi.org/10.1002/cpe.6460
+AB  - Abstract Agriculture plays a significant role in any country's wealth creation, fulfilling food security needs and employment generation thereby contributing immensely to the country's growth and GDP. However, certain characteristics such as climate and environmental changes have extensively become menacing factors in the agriculture output. As soil is an influential specification influencing the prediction of crop yield, soil analysis becomes imperative and can assist farmers in preliminary adaptations towards better crop planning thereby facilitating higher yields. Machine learning algorithms have materialized in soil fertility prediction as an encouraging method for enhancing production. However, the spread and usage of this method are still limited by the lack of clear applicability due to the uncertainties involved and therefore resulting in false predictions by farmers. In this work, we take into account and address both the problems by incorporating uncertainty quantification utilizing the fishers ratio preprocessing model and Kullback divergent chi‐square feature selection for soil fertility prediction. Next, Gustafson‐Kessel probabilistic neural network classification uses
+ER  - 
+
+TY  - JOUR
+AU  - Fabian Guignard
+AU  - David Ginsbourger
+AU  - Lilia Levy Häner
+AU  - Juan Manuel Herrera
+TI  - Some combinatorics of data leakage induced by clusters
+PY  - 2024
+JO  - Stochastic Environmental Research and Risk Assessment
+PB  - Springer
+VL  - 38
+IS  - 7
+SP  - 2815
+EP  - 2828
+DO  - 10.1007/s00477-024-02715-1
+UR  - https://doi.org/10.1007/s00477-024-02715-1
+AB  - Abstract Data leakage is a common issue that can lead to misleading generalisation error estimation and incorrect hyperparameter tuning. However, its mechanisms are not always well understood. In this work, we consider the case of clustered data and investigate the distribution of the number of elements in leakage when the data set is uniformly split. For both the validation and test sets, the first and second moments of the number of elements in leakage are derived analytically. Modelling consequences are investigated and exemplified on simulated data. In addition, the case of an actual agronomic feasibility study is presented. We demonstrate how data leakage can distort model performance estimation when an inadequate data splitting strategy is used. We provide an understanding of data leakage in the context of clustered data by quantifying its role in predictive modelling. This sheds light on related challenges that may impact the practice in agronomy and beyond.
+ER  - 
+
+TY  - JOUR
+AU  - Hempushpa Sahu
+AU  - Pradeep Kumar Garg
+AU  - Saurabh Vijay
+AU  - Antara Dasgupta
+TI  - Predictive drivers and transferability of multi-scale machine learning based crop yield prediction under drought across European and Asian climates
+PY  - 2026
+JO  - Agricultural Water Management
+PB  - Elsevier
+VL  - 327
+SP  - 110254
+EP  - 110254
+DO  - 10.1016/j.agwat.2026.110254
+UR  - https://doi.org/10.1016/j.agwat.2026.110254
+AB  - Food security is increasingly critical due to a growing global population. Accurate crop yield prediction enables policymakers to anticipate climate shocks, such as droughts, and manage food reserves proactively. Machine learning models struggle to capture the complexity of real-world conditions, particularly during extreme events such as droughts, as these events are often underrepresented in the training data distributions, challenging predictions. This study addresses the limitation of predictability of crop yield during hydrological extremes, particularly droughts, by optimizing a Random Forest regressor using two training strategies: random and a hydrologically balanced approach. The model was applied in the Bundelkhand region in India and Germany in Europe, for wheat and barley crops. Predictions were at two spatial scales: lumped and distributed, to assess the differences in predictive drivers across scales. In Bundelkhand, for the lumped scale, the balanced approach improved Root Mean Square Error (RMSE) by 14.66 % and Mean Absolute Percentage Error (MAPE) by 29.23 % for wheat; and by 36.10 % (RMSE) and 40 % (MAPE) for barley. In Germany, the performance gains from balancin
+ER  - 
+
+TY  - JOUR
+AU  - Hongshan Wu
+AU  - Shichao Jin
+AU  - Chao Jian Xiang
+AU  - Jianling Tang
+AU  - Junhong Xian
+AU  - Jiaoping Zhang
+AU  - Jinming Zhao
+AU  - Xianzhong Feng
+AU  - Dong Jiang
+AU  - Yufeng Wu
+AU  - Chengqiang Ding
+TI  - GPS: Harnessing data fusion strategies to improve the accuracy of machine learning-based genomic and phenotypic selection
+PY  - 2025
+JO  - Plant Communications
+PB  - Elsevier
+VL  - 6
+IS  - 8
+SP  - 101416
+EP  - 101416
+DO  - 10.1016/j.xplc.2025.101416
+UR  - https://doi.org/10.1016/j.xplc.2025.101416
+AB  - Genomic selection (GS) and phenotypic selection (PS) are widely used for accelerating plant breeding. However, the accuracy, robustness, and transferability of these two selection methods are underexplored, especially when addressing complex traits. In this study, we introduce a novel data fusion framework, GPS (genomic and phenotypic selection), designed to enhance predictive performance by integrating genomic and phenotypic data through three distinct fusion strategies: data fusion, feature fusion, and result fusion. The GPS framework was rigorously tested using an extensive suite of models, including statistical approaches (GBLUP and BayesB), machine learning models (Lasso, RF, SVM, XGBoost, and LightGBM), a deep learning method (DNNGP), and a recent phenotype-assisted prediction model (MAK). These models were applied to large datasets from four crop species, maize, soybean, rice, and wheat, demonstrating the versatility and robustness of the framework. Our results indicated that: (1) data fusion achieved the highest accuracy compared with the feature fusion and result fusion strategies. The top-performing data fusion model (Lasso_D) improved the selection accuracy by 53.4% comp
+ER  - 
+
+TY  - JOUR
+AU  - Marco Canicattì
+AU  - Massimo Vincenzo Ferro
+AU  - Mariangela Vallone
+AU  - Santo Orlando
+AU  - Pietro Catania
+TI  - Bayesian yield mapping and uncertainty analysis in vineyards using remote sensing data and grape harvester tracking
+PY  - 2025
+JO  - Precision Agriculture
+PB  - Springer
+VL  - 26
+IS  - 4
+DO  - 10.1007/s11119-025-10258-w
+UR  - https://doi.org/10.1007/s11119-025-10258-w
+AB  - Yield mapping in viticulture is crucial for optimizing vineyard management. However, it remains constrained by limited yield monitoring sensors on grape harvesters and traditional remote sensing methods, which provide deterministic predictions without explicit uncertainty quantification. This study develops and evaluates a Bayesian hierarchical approach for vineyard yield mapping. The model integrates multi-sensor remote sensing and mechanical harvester telemetry data to generate high-resolution, uncertainty-aware yield maps at the farm scale. Over two growing seasons (2022–2023) in a Sicilian vineyard. Normalized difference vegetation index data from unmanned aerial vehicles and Sentinel-2 satellites were combined with telemetry from global navigation satellite systems mounted on a mechanical grape harvester. Multiple model configurations were systematically evaluated using the brms package in R, and sensitivity analyses were performed. The best-performing model selected, based on six evaluation metrics (Bayesian R², RMSE, MAE, MAPE, and ELPD), achieved an R² of 0.83 and RMSE of 0.26 kg/vine on training data, with independent validation showing an R² of 0.78 and RMSE of 0.09. The 
+ER  - 
+
+TY  - JOUR
+AU  - Alexandre M.J.‐C. Wadoux
+AU  - Leonardo Ramírez-López
+TI  - Uncertainty of predictions in absorption spectroscopy: Modelling with quantile regression forest
+PY  - 2025
+JO  - Chemometrics and Intelligent Laboratory Systems
+PB  - Elsevier
+VL  - 265
+SP  - 105473
+EP  - 105473
+DO  - 10.1016/j.chemolab.2025.105473
+UR  - https://doi.org/10.1016/j.chemolab.2025.105473
+AB  - Machine learning modelling is becoming popular for estimating agricultural and environmental properties from their infrared spectra. Commonly in modelling with machine learning and in commercial software applications, however, uncertainty estimates of the prediction are seldom reported. Uncertainty quantification of variables predicted with infrared spectroscopy is yet highly relevant in a number of applications, such as in uncertainty propagation analyses studies or for drug exposure detection. In this paper, we report on the development and application of quantile regression forest to predict properties from infrared spectroscopic data along with a sample-specific estimate of the uncertainty. Quantile regression forest is a machine learning algorithm that builds on random forest and provides estimate of the mean but also of the full conditional distribution of the predicted variable. We illustrate the algorithm with two chemometric applications and evaluate the modelling approach for its ability for predict the variable of interest and quantify the uncertainty. Evaluation involved usual validation statistics but also the validation of the uncertainty with the prediction interval 
+ER  - 
+
+TY  - JOUR
+AU  - Bojana Petrović
+AU  - Daniel Paluba
+AU  - Adenan Yandra Nofrizal
+AU  - Aleš Kučera
+TI  - Analyzing meteorological effects on crop yield and yield prediction through machine learning with different data partitioning approaches: A case study from Czech Republic
+PY  - 2026
+JO  - Journal of Agriculture and Food Research
+PB  - Elsevier
+VL  - 26
+SP  - 102662
+EP  - 102662
+DO  - 10.1016/j.jafr.2026.102662
+UR  - https://doi.org/10.1016/j.jafr.2026.102662
+AB  - Climate change and increasing weather variability pose significant challenges to agricultural productivity, particularly in temperate regions. This study examines climate impacts on yields of barley, rapeseed, rye, and wheat across the Czech Republic (2016–2024) using meteorological data and evaluates three machine learning models (Random Forest, Gradient Boosting, Support Vector Regression) for yield prediction solely on meteorological variables. Three validation strategies were tested: random (70/30%), spatial (region-based), and temporal (last three years). Random partitioning yielded the highest accuracy, but risks data leakage and is therefore not recommended for forecasting. Spatial partitioning showed low to moderate accuracy, suggesting ML approaches can partially interpolate yields in areas with no data (interpolation), particularly for barley and wheat. Temporal partitioning caused a substantial drop in predictive skill, producing unreliable forecasts for rye and rapeseed and indicating that meteorological data alone are insufficient for robust yield prediction. Support Vector Regression produced consistently negative R 2 values across all validation strategies, demonstra
+ER  - 
+
+TY  - JOUR
+AU  - Oliver Perkins
+AU  - James D. A. Millington
+TI  - The importance of agricultural yield elasticity for indirect land use change: a Bayesian network analysis for robust uncertainty quantification
+PY  - 2020
+JO  - Journal of Land Use Science
+PB  - Taylor & Francis
+VL  - 15
+IS  - 4
+SP  - 509
+EP  - 531
+DO  - 10.1080/1747423x.2020.1774672
+UR  - https://doi.org/10.1080/1747423x.2020.1774672
+AB  - A major barrier to realising biofuels’ climate change mitigation potential is uncertainty concerning carbon emissions from indirect land use change (ILUC). Central to this uncertainty is the extent to which yields can respond dynamically to increased demand for agricultural commodities. This study examines the elasticity of soybean and corn yields in the USA for 1990–2017 using Bayesian network models to robustly quantify uncertainty. The central finding is that a single parameter value for yield elasticity does not adequately represent the effects of technology, policy and price pressures through time. The models demonstrate the limiting role of technological progress as well as farmers’ capital investment in response to system shocks. Results suggest evaluation of parameter uncertainty alone is unlikely to capture a full range of future ILUC scenarios and reiterate the need for ILUC studies to use probabilistic approaches as standard to robustly inform climate change mitigation policies.
+ER  - 
+
+TY  - JOUR
+AU  - Alexander Rombach
+AU  - Nijat Mehdiyev
+TI  - Beyond Accuracy: Understanding Model Confidence in Key Information Extraction with Conformal Prediction
+PY  - 2026
+JO  - International Journal on Document Analysis and Recognition (IJDAR)
+PB  - Springer
+VL  - 29
+IS  - 2
+SP  - 551
+EP  - 563
+DO  - 10.1007/s10032-026-00572-y
+UR  - https://doi.org/10.1007/s10032-026-00572-y
+AB  - Abstract Key Information Extraction (KIE) systems based on Deep Learning achieve strong token-level performance but offer no formal guarantees on prediction reliability, limiting their adoption in business-critical document workflows. In this work, we introduce a post hoc Uncertainty Quantification framework for KIE using Split Conformal Prediction (CP). After fine-tuning multimodal transformer models on a challenging receipt dataset, we reserve a held-out calibration set to derive nonconformity scores and construct entity-level prediction sets that satisfy a user-specified error rate. On unseen receipts, CP achieves tight marginal coverage (98.3% for $$\alpha =0.02$$ α = 0.02 ), with 70% of predictions being high-confidence singletons. A detailed analysis shows that highly structured fields such as dates and prices yield small, singleton sets with near–perfect reliability, whereas rare or semantically ambiguous fields such as tips or generic keywords produce larger sets and lower coverage. By exposing positional biases and common label confusions that standard F1-scores and document-accuracy metrics overlook, CP reveals critical risk areas for downstream automation. Finally, we de
+ER  - 
+
+TY  - JOUR
+AU  - Mikaela J. Tilse
+AU  - Thomas F. A. Bishop
+AU  - Patrick Filippi
+TI  - Predicting within-field grain protein content at scale using agronomic and remote sensing variables, and machine learning
+PY  - 2025
+JO  - Precision Agriculture
+PB  - Springer
+VL  - 26
+IS  - 5
+DO  - 10.1007/s11119-025-10267-9
+UR  - https://doi.org/10.1007/s11119-025-10267-9
+AB  - Abstract Purpose Grain protein content (GPC) is a key determinant of the prices that grain growers receive, but there is considerable variability within and between fields, farms, and seasons. Despite growing interest in measuring and mapping within-field GPC variability, the uptake of grain protein sensors has been slow, resulting in considerable knowledge gaps. Building a predictive model to map GPC in areas of a farm without a GPC sensor can provide growers with valuable insights for better management decisions. Methods This paper presents a data-driven, machine learning (random forest) approach to predict GPC and yield within agricultural fields using 63 paired yield and protein maps collected over four seasons (2020–2023) in Western Australia and northern New South Wales, Australia. Model performance for yield and GPC predictions using different combinations of yield, on-farm agronomic (e.g. sowing and harvest dates, cropping history, variety) and publicly-available (e.g. digital elevation model, radiometric surveys, remotely-sensed satellite imagery) spatial data layers were tested using two validation approaches: leave one Field-Year out cross validation (LOFYOCV) and two-fo
+ER  - 
+
+TY  - JOUR
+AU  - Eric Asamoah
+AU  - G.B.M. Heuvelink
+AU  - P.S. Bindraban
+AU  - Vincent Logah
+TI  - Modeling maize yield and agronomic efficiency using machine learning models: A comparative analysis
+PY  - 2025
+JO  - Agronomy Journal
+PB  - Wiley
+VL  - 117
+IS  - 6
+DO  - 10.1002/agj2.70206
+UR  - https://doi.org/10.1002/agj2.70206
+AB  - Abstract Machine learning (ML) is increasingly being used to enhance yield predictions and optimize agronomic practices in sub‐Saharan Africa. Yet, understanding how these models generalize across heterogenous ecological context remains unresolved. This study, conducted in Ghana, evaluates the predictive performance of four ML models, namely, random forest (RF), support vector machine (SVM), k ‐nearest neighbors (KNN), and extreme gradient boosting (XGBoost) for predicting maize yield and agronomic efficiency—defined as the increase in yield per unit of nutrient applied. It also compares variable importances identified by these models and how they influence yield and agronomic efficiency. The analysis used 4496 georeferenced maize trial datasets from various agroecological zones across Ghana, incorporating 35 variables related to soil properties, climate, topography, crop management, and fertilizer application. Model performance was assessed using three cross‐validation techniques: leave‐one‐out, leave‐site‐out, and leave‐agroecological‐zone‐out. Accuracy was measured using mean error, root mean square error (RMSE), and model efficiency coefficient. When evaluated under leave‐one‐o
+ER  - 
+
+TY  - JOUR
+AU  - Bally Omary
+AU  - Mussa Ally Dida
+AU  - Devotha Godfrey Nyambo
+TI  - Farm-level yield prediction for maize, rice, and beans in Tanzania using machine learning and multi-source agricultural data
+PY  - 2026
+JO  - Smart Agricultural Technology
+PB  - Elsevier
+VL  - 13
+SP  - 101904
+EP  - 101904
+DO  - 10.1016/j.atech.2026.101904
+UR  - https://doi.org/10.1016/j.atech.2026.101904
+AB  - Accurate predictions of crop yields at the farm level are essential for improving agricultural productivity, enhancing food security, and supporting informed decision-making among smallholder farmers. However, conventional field assessments and simple statistical models are often time-consuming, limited in scope, and unable to capture complex interactions among climatic and soil factors. To address these challenges, this paper proposes a machine learning-based model for predicting the productivity of multiple crops, including maize, rice, and beans, using multi-source farm-level data from Tanzania. The dataset integrates climate variables such as temperature and rainfall, soil type, farm size, and crop type. Four ensemble learning models, namely Random Forest, Gradient Boosting, Extreme Gradient Boosting, and Extra Trees, were evaluated using an 80/20 train–test split on 9,897 farm-level records acquired from the Mbeya, Ruvuma, and Songwe regions between 2022 and 2024. Hyperparameter tuning with a fivefold cross-validation was applied to improve model generalization and reduce overfitting. Among the evaluated models, the Extra Trees ensemble achieved the highest performance, with a
+ER  - 
+
+TY  - JOUR
+AU  - Davoud Ashourloo
+AU  - Jason Brader
+AU  - Yan Zhao
+AU  - Ruizhu Jiang
+AU  - Miao Zhang
+AU  - Scott Cameron Chapman
+AU  - Graeme Hammer
+AU  - Andries B. Potgieter
+TI  - Machine learning approaches for wheat yield prediction integrating biophysical modeling and remote sensing: Effects of sample size, dimensionality, and transferability
+PY  - 2026
+JO  - Smart Agricultural Technology
+PB  - Elsevier
+VL  - 13
+SP  - 101936
+EP  - 101936
+DO  - 10.1016/j.atech.2026.101936
+UR  - https://doi.org/10.1016/j.atech.2026.101936
+AB  - Prediction of wheat yield plays a crucial role in mitigating the impacts of climate extremes and ensuring food security. While vegetation indices (VIs) derived from remote sensing have been widely used for this purpose, integrating biophysical variables, such as crop stress, simulated using a biophysical model has the potential to enhance model robustness. However, the role of integrating biophysical stress information in machine learning based yield prediction, particularly in terms of sample size efficiency, dimensionality reduction, and spatial transferability, remains insufficiently examined. In this study, we address this gap by systematically evaluating the impact of incorporating a Stress Index (SI) using three widely applied machine learning (ML) models Random Forest (RF), Gaussian Process Regression (GPR), and Extreme Gradient Boosting (XGBoost) to predict wheat yield across five Australian states. These models leveraged both Sentinel-2-derived VIs at the peak of greenness and a biophysical factor: the SI. The integration of the SI led to clear improvements in model performance. For XGBoost, the coefficient of determination (R²) increased from 0.65 to 0.73, and the RMSE de
+ER  - 
+
+TY  - JOUR
+AU  - Saeed Hedayati Aram
+AU  - Amir Molajou
+TI  - The value of satellite time series and uncertainty quantification for field-scale wheat yield prediction in a multi-climate nation like Iran
+PY  - 2026
+JO  - Smart Agricultural Technology
+PB  - Elsevier
+VL  - 13
+SP  - 101934
+EP  - 101934
+DO  - 10.1016/j.atech.2026.101934
+UR  - https://doi.org/10.1016/j.atech.2026.101934
+AB  - Accurate wheat yield prediction (WYP) is a cornerstone of global food security. This is especially critical for nations like Iran, which confronts significant environmental challenges, including water scarcity, extreme climate events, and soil degradation. The country’s diverse range of climates further complicates agricultural management, making reliable yield forecasting a complex but essential task. A significant gap in current literature is the lack of model validation across different climatic zones, which restricts the transferability and widespread adoption of existing prediction systems. Also, the operational collection of field-scale data is often limited due to the high costs, and relatively few studies have been conducted at this scale. Additionally, the WYP models are frequently compromised by persistent data quality issues, such as cloud cover in satellite imagery. Therefore, this study aimed to develop and validate a robust WYP framework specifically designed for the diverse agro-climatic zones of Iran. The objective was to create a scalable and reliable system that directly addresses the limitations of cross-climate validation and data imperfections. A comprehensive 
+ER  - 
+
+TY  - JOUR
+AU  - А. В. Доброхотов
+AU  - Oliver López
+AU  - L. V. Kozyreva
+AU  - Daria Mukhina
+TI  - A machine learning residual correction framework for enhancing physical-based evapotranspiration estimates over croplands
+PY  - 2026
+JO  - European Journal of Remote Sensing
+PB  - Taylor & Francis
+VL  - 59
+IS  - 1
+DO  - 10.1080/22797254.2026.2695909
+UR  - https://doi.org/10.1080/22797254.2026.2695909
+AB  - Evapotranspiration is an important process in croplands, linking water, energy, and carbon cycles. While direct measurement is resource-intensive, remote × sensing-based models offer spatial estimates but often require local calibration due to static parameterization. This study compares two energy balance models, Two-Source Energy Balance (TSEB) and Priestley-Taylor Jet Propulsion Laboratory (PT-JPL), and explores combining the better-performing model with machine learning to enhance accuracy without ground-based calibration. The models were driven by Landsat 7–9 and ERA5-Land reanalysis data and evaluated against eddy covariance data from 137 quality-filtered cropland stations in a wide range of climates. The PT-JPL model outperformed TSEB (R2 = 0.39, RMSE = 86.8 W m−2, ~25% lower RMSE) and was selected for optimization via a gradient boosting algorithm. A rigorous 70%–30% train-test split with spatial cross-validation prevented data leakage and overfitting. Five key residual drivers were identified: SAVI, NDMI, NDVI, relative humidity, and surface net solar radiation. Relative humidity was the most important predictor, with low values causing the largest PT-JPL errors. The final
+ER  - 
+
+TY  - JOUR
+AU  - Pravash Chandra Moharana
+AU  - Brijesh Yadav
+AU  - Mahaveer Nogiya
+AU  - Roshan Lal Meena
+AU  - Abhishek Jangir
+AU  - Lal Chand Malav
+AU  - Sunil Kumar
+AU  - Ram Prasad Sharma
+AU  - Ram Swaroop Meena
+AU  - Ravindra Kashinath Naitam
+AU  - Abhay Omprakash Shirale
+AU  - Sirisha Adamala
+AU  - Rajiv Kumar Singh
+AU  - Jaya Surya
+AU  - B. L. Mina
+AU  - Hrittick Biswas
+TI  - Spatial Prediction of Soil pH Through Machine Learning Algorithm: A Modeling Framework for Regional Soil Fertility Management
+PY  - 2026
+JO  - Communications in Soil Science and Plant Analysis
+PB  - Taylor & Francis
+VL  - 57
+IS  - 5
+SP  - 459
+EP  - 479
+DO  - 10.1080/00103624.2026.2615317
+UR  - https://doi.org/10.1080/00103624.2026.2615317
+AB  - Soil pH plays a crucial role in crop production, directly influencing nutrient availability and microbial activity, thereby impacting environmental and ecosystem functions. High-resolution spatial data are essential for sustainable agricultural practices. This study represents the first attempt to generate a spatial distribution prediction map for soil pH across Rajasthan using 893 legacy soil profiles, along with digital auxiliary data and topographic variables. Six machine learning models – Random Forest (RF), Cubist, XGBoost, Support Vector Machine (SVM), and K-Nearest Neighbors (KNN) – were employed to predict soil pH at a 90 m resolution. Soil pH values measured in the study ranged from 5.55 to 9.88 at different depths. Among the models, RF demonstrated strong predictive performance, with R2 values of 0.928 for calibration and 0.55 for validation. However, the Cubist model achieved the accuracy, with R2 values of 0.75 and 0.38 for calibration and validation, respectively. Annual precipitation emerged as the most influential covariate for soil pH prediction. The predicted soil pH ranged from 5.5 to 9.8 across Rajasthan, with the spatial distribution aligning well with expected 
+ER  - 
+
+TY  - JOUR
+AU  - Muhammad Asif Tahir
+AU  - David J. MULLA
+TI  - Linking remote sensing with crop modeling for yield and nitrate leaching predictions in Minnesota
+PY  - 2026
+JO  - Journal of Environmental Quality
+PB  - Wiley
+VL  - 55
+IS  - 1
+SP  - e70137
+EP  - e70137
+DO  - 10.1002/jeq2.70137
+UR  - https://doi.org/10.1002/jeq2.70137
+AB  - Abstract Upscaling crop yield and nitrate‐N leaching loss from experimental sites to large areas under alternative crop rotations is crucial for assessing strategies and setting goals to protect groundwater quality at a regional scale. Nitrogen (N) rate field trials were used to calibrate the Environmental Policy Integrated Climate (EPIC) model for continuous‐corn ( Zea mays L.) (C‐C), corn‐soybean ( Glycine max L.) (C‐Sb), and alfalfa ( Medicago sativa L.)‐corn (A‐C), with or without rye ( Secale cereale L.) cover crop. Satellite estimates of crop evapotranspiration (ET c ) were used to upscale the EPIC model for crop yield and nitrate‐N leaching, using the irrigation‐water permitting data from 2010 to 2017 for 13,375 ha of sandy soils in Bonanza Valley, central Minnesota. Four alternative management scenarios were evaluated with EPIC: (1) reducing N fertilizer rate from the maximum return to N value (MRTN) (of 0.05 to a value of 0.1 (for the N price/crop value ratio), (2) adding rye cover crop at MRTN of 0.1, (3) irrigating with EPIC auto‐trigger in scenario 2, and (4) converting 50% of C‐C acreage in scenario 3 to A‐C. Nash‐Sutcliffe coefficients, normalized root‐mean‐square err
 ER  - 
 
 TY  - JOUR
@@ -917,38 +917,6 @@ SP  - 205
 EP  - 220
 DO  - 10.1016/s0167-8809(02)00021-x
 UR  - https://doi.org/10.1016/s0167-8809(02)00021-x
-ER  - 
-
-TY  - JOUR
-AU  - Yuchi Ma
-AU  - Zhou Zhang
-AU  - Yanghui Kang
-AU  - Mutlu Özdoğan
-TI  - Corn yield prediction and uncertainty analysis based on remotely sensed variables using a Bayesian neural network approach
-PY  - 2021
-JO  - Remote Sensing of Environment
-PB  - Elsevier
-VL  - 259
-SP  - 112408
-EP  - 112408
-DO  - 10.1016/j.rse.2021.112408
-UR  - https://doi.org/10.1016/j.rse.2021.112408
-ER  - 
-
-TY  - JOUR
-AU  - David J. Brown
-AU  - Ross S. Bricklemyer
-AU  - Perry R. Miller
-TI  - Validation requirements for diffuse reflectance soil characterization models with a case study of VNIR soil C prediction in Montana
-PY  - 2005
-JO  - Geoderma
-PB  - Elsevier
-VL  - 129
-IS  - 3-4
-SP  - 251
-EP  - 267
-DO  - 10.1016/j.geoderma.2005.01.001
-UR  - https://doi.org/10.1016/j.geoderma.2005.01.001
 ER  - 
 
 TY  - JOUR
@@ -1050,40 +1018,6 @@ UR  - https://doi.org/10.1016/j.ecolmodel.2004.08.023
 ER  - 
 
 TY  - JOUR
-AU  - Anton Van Rompaey
-AU  - Gérard Govers
-TI  - Data quality and model complexity for regional scale soil erosion prediction
-PY  - 2002
-JO  - International Journal of Geographical Information Systems
-PB  - Taylor & Francis
-VL  - 16
-IS  - 7
-SP  - 663
-EP  - 680
-DO  - 10.1080/13658810210148561
-UR  - https://doi.org/10.1080/13658810210148561
-AB  - Many spatially distributed environmental models have been developed for small spatial units (e.g. individual plots or fields). Their application at a regional scale (e.g. large drainage basins) was hitherto not very successful since most models are ‘scale-specific’. In most cases the lack of input data is a limiting factor for an appropriate model application at a regional scale. The use of simplified models on the other hand, can only be successful if they have the appropriate degree of complexity. This leads to the following paradox: on the one hand a model should be based on process knowledge so that it will react correctly to changes imposed by the modelling system. Including all available process knowledge, however, will lead to an overparametrisation. The error propagation involved in the poor data quality can then deteriorate dramatically the accuracy of the output results. For optimal model predictions at a regional scale the model complexity has to be in balance with the quality of the available input data. The error involved in a model application can be split in two parts: on the one hand the intrinsic model error because of an incomplete description of the processes and
-ER  - 
-
-TY  - JOUR
-AU  - Dale M. Robertson
-AU  - Gregory E. Schwarz
-AU  - David A. Saad
-AU  - Richard B. Alexander
-TI  - Incorporating Uncertainty Into the Ranking of SPARROW Model Nutrient Yields From Mississippi/Atchafalaya River Basin Watersheds1
-PY  - 2009
-JO  - JAWRA Journal of the American Water Resources Association
-PB  - Wiley
-VL  - 45
-IS  - 2
-SP  - 534
-EP  - 549
-DO  - 10.1111/j.1752-1688.2009.00310.x
-UR  - https://doi.org/10.1111/j.1752-1688.2009.00310.x
-AB  - Excessive loads of nutrients transported by tributary rivers have been linked to hypoxia in the Gulf of Mexico. Management efforts to reduce the hypoxic zone in the Gulf of Mexico and improve the water quality of rivers and streams could benefit from targeting nutrient reductions toward watersheds with the highest nutrient yields delivered to sensitive downstream waters. One challenge is that most conventional watershed modeling approaches (e.g., mechanistic models) used in these management decisions do not consider uncertainties in the predictions of nutrient yields and their downstream delivery. The increasing use of parameter estimation procedures to statistically estimate model coefficients, however, allows uncertainties in these predictions to be reliably estimated. Here, we use a robust bootstrapping procedure applied to the results of a previous application of the hybrid statistical/mechanistic watershed model SPARROW (Spatially Referenced Regression On Watershed attributes) to develop a statistically reliable method for identifying "high priority" areas for management, based on a probabilistic ranking of delivered nutrient yields from watersheds throughout a basin. The meth
-ER  - 
-
-TY  - JOUR
 AU  - Ommolbanin Bazrafshan
 AU  - Mohammad Ehteram
 AU  - Sarmad Dashti Latif
@@ -1120,30 +1054,6 @@ UR  - https://doi.org/10.1016/j.agrformet.2019.107808
 ER  - 
 
 TY  - JOUR
-AU  - Alfred Stein
-AU  - Wim G. M. Bastiaanssen
-AU  - Sytze de Bruin
-AU  - ARTHUR P. CRACKNELL
-AU  - Paul J. Curran
-AU  - Andrea G. Fabbri
-AU  - Ben G. H. Gorte
-AU  - Jan Willem van Groenigen
-AU  - Freek D. van der Meer
-AU  - Asunción Saldaña
-TI  - Integrating spatial statistics and remote sensing
-PY  - 1998
-JO  - International Journal of Remote Sensing
-PB  - Taylor & Francis
-VL  - 19
-IS  - 9
-SP  - 1793
-EP  - 1814
-DO  - 10.1080/014311698215252
-UR  - https://doi.org/10.1080/014311698215252
-AB  - This paper presents an integrated approach towards spatial statistics for remote sensing. Using the layer concept in Geographical Information Systems we treat successively elements of spatial statistics, scale, classification, sampling and decision support. The layer concept allows to combine continuous spatial properties with classified map units. The paper is illustrated with five case studies: one on heavy metals in groundwater at different scales, one on soil variability within seemingly homogeneous units, one on fuzzy classification for a soillandscape model, one on classification with geostatistical procedures and one on thermal images. The integrated approach offers a better understanding and quantification of uncertainties in remote sensing studies.
-ER  - 
-
-TY  - JOUR
 AU  - Huidong Jin
 AU  - Ming Li
 AU  - Garry Hopwood
@@ -1159,21 +1069,6 @@ EP  - 108832
 DO  - 10.1016/j.agrformet.2022.108832
 UR  - https://doi.org/10.1016/j.agrformet.2022.108832
 AB  - Seasonal climate forecasts (SCF) are evolving rapidly alongside improvements in climate modelling and downscaling research, and have great potential for weather-sensitive sectors, especially agriculture, by reducing weather-related risks and increasing productivity. Skilful yield forecasts at the beginning of, or before, a cropping season can provide farmers and other stakeholders in agribusiness with the necessary information for early planning and actions. Only a few yield forecast studies have a forecast lead time of four months or longer due to the problem complexity. To enable SCFs from Global Climate Models (GCMs) to be used for early-season yield forecasts, this paper uses a statistical downscaling technique, Extended Copula Post-Processing (ECPP) and the Schaake shuffle, to downscale four climate variables to generate weather-like daily data that are suitable for agricultural applications. Climate forecasts drive a process-based crop model APSIM (Agricultural Production Systems sIMulator) to simulate crop forecasts on 50 stations, well-distributed across the Australian grain zone. To focus on yield forecast skills attributable to SCF, we propose best practice management rul
-ER  - 
-
-TY  - JOUR
-AU  - Scott M. Lesch
-AU  - Dennis Lee Corwin
-TI  - Prediction of spatial soil property information from ancillary sensor data using ordinary linear regression: Model derivations, residual assumptions and model validation tests
-PY  - 2008
-JO  - Geoderma
-PB  - Elsevier
-VL  - 148
-IS  - 2
-SP  - 130
-EP  - 140
-DO  - 10.1016/j.geoderma.2008.09.014
-UR  - https://doi.org/10.1016/j.geoderma.2008.09.014
 ER  - 
 
 TY  - JOUR
@@ -1248,26 +1143,6 @@ AB  - Abstract Short term food security issues require reliable crop forecasting
 ER  - 
 
 TY  - JOUR
-AU  - Ali Keshavarzi
-AU  - Fuat Kaya
-AU  - Levent Başayığıt
-AU  - Yeboah Gyasi‐Agyei
-AU  - Jesús Rodrigo‐Comino
-AU  - Andrés Caballero‐Calvo
-TI  - Spatial prediction of soil micronutrients using machine learning algorithms integrated with multiple digital covariates
-PY  - 2023
-JO  - Nutrient Cycling in Agroecosystems
-PB  - Springer
-VL  - 127
-IS  - 1
-SP  - 137
-EP  - 153
-DO  - 10.1007/s10705-023-10303-y
-UR  - https://doi.org/10.1007/s10705-023-10303-y
-AB  - The design and application of multiple tools to map soil micronutrients is key to efficient land management. While collecting a representative number of soil samples is time consuming and expensive, digital soil mapping could provide maps of soil properties fast and reliably. The objective of this research was to predict the spatial distribution of soil micronutrients within the piedmont plain in northeastern Iran using random forest (RF) and support vector regression (SVR) algorithms. Sixty-eight locations with different land uses were sampled to determine the content of iron, manganese, zinc and copper in the topsoil (0–20 cm). Forty-one digital covariates were used as input to the models and were derived from a digital elevation model, open-source remote sensing (RS) data (Landsat 8 OLI and Sentinel 2A MSI images), WorldClim climate database and maps of soil properties. Covariates were grouped into 11 scenarios: I–III, based on RS data; IV–VI, including RS, topographic, climate and soil covariates; VII, VIII and IX, based only on topographic, climate and soil covariates, respectively; X and XI, based on recursive feature elimination and expert opinion, respectively. The RF algor
-ER  - 
-
-TY  - JOUR
 AU  - Zhaozhi Wang
 AU  - T. Q. Zhang
 AU  - C. S. Tan
@@ -1287,23 +1162,148 @@ AB  - Climate change is predicted to impose great pressures on crop yield and wa
 ER  - 
 
 TY  - JOUR
-AU  - Zhongqi Zhang
-AU  - Dongsheng Yu
-AU  - Xuezheng Shi
-AU  - Eric D. Warner
-AU  - Hongyan Ren
-AU  - Weixia Sun
-AU  - Manzhi Tan
-AU  - Hongjie Wang
-TI  - Application of categorical information in the spatial prediction of soil organic carbon in the red soil area of China
-PY  - 2010
-JO  - Soil Science & Plant Nutrition
+AU  - Goetz Michael Richter
+AU  - Francesco Agostini
+AU  - Alexandra Barker
+AU  - Delphine Costomiris
+AU  - Aiming Qi
+TI  - Assessing on-farm productivity of Miscanthus crops by combining soil mapping, yield modelling and remote sensing
+PY  - 2015
+JO  - Biomass and Bioenergy
+PB  - Elsevier
+VL  - 85
+SP  - 252
+EP  - 261
+DO  - 10.1016/j.biombioe.2015.12.024
+UR  - https://doi.org/10.1016/j.biombioe.2015.12.024
+AB  - Biomass from agricultural land is a key component of any sustainable bioenergy strategy, and 2nd generation, ligno-cellulosic feedstocks are part of the UK government policy to meet the target of reduced CO2 emission. Pre-harvest estimates of the biomass supply potential are usually based on experimental evidence and little is known about the yield gap between biologically obtainable and actual achievable on-farm biomass yields. We propose a systematic integration of mapped information fit for estimating obtainable yields using an empirical model, observed on-farm yields and remote sensing. Thereby, one can identify the sources of yield variation and supply uncertainty. Spatially explicit Miscanthus potential yields are compared with delivered on-farm yields from established crops ≥5 years after planting, surveyed among participants in the Energy Crop Scheme. Actual on-farm yield averaged at 8.94 Mg ha−1 and it varied greatly (coefficient of variation 34%), largely irrespective of soil type. The average yield gap on clay soils was much larger than that on sandy or loamy soils (37% vs 10%). Miscanthus is noticeably slower to establish on clay soils as shown by fitting a logistic Gom
+ER  - 
+
+TY  - JOUR
+AU  - Ehsan Eyshi Rezaei
+AU  - Gohar Ghazaryan
+AU  - Javier González
+AU  - Natalie Cornish
+AU  - Olena Dubovyk
+AU  - Stefan Siebert
+TI  - The use of remote sensing to derive maize sowing dates for large-scale crop yield simulations
+PY  - 2020
+JO  - International Journal of Biometeorology
+PB  - Springer
+VL  - 65
+IS  - 4
+SP  - 565
+EP  - 576
+DO  - 10.1007/s00484-020-02050-4
+UR  - https://doi.org/10.1007/s00484-020-02050-4
+AB  - Abstract One of the major sources of uncertainty in large-scale crop modeling is the lack of information capturing the spatiotemporal variability of crop sowing dates. Remote sensing can contribute to reducing such uncertainties by providing essential spatial and temporal information to crop models and improving the accuracy of yield predictions. However, little is known about the impacts of the differences in crop sowing dates estimated by using remote sensing (RS) and other established methods, the uncertainties introduced by the thresholds used in these methods, and the sensitivity of simulated crop yields to these uncertainties in crop sowing dates. In the present study, we performed a systematic sensitivity analysis using various scenarios. The LINTUL-5 crop model implemented in the SIMPLACE modeling platform was applied during the period 2001–2016 to simulate maize yields across four provinces in South Africa using previously defined scenarios of sowing dates. As expected, the selected methodology and the selected threshold considerably influenced the estimated sowing dates (up to 51 days) and resulted in differences in the long-term mean maize yield reaching up to 1.7 t ha−1
+ER  - 
+
+TY  - JOUR
+AU  - Xin Du
+AU  - Jiong Zhu
+AU  - Jingyuan Xu
+AU  - Qiangzi Li
+AU  - Zui Tao
+AU  - Yuan Zhang
+AU  - Hongyan Wang
+AU  - Haoxuan Hu
+TI  - Remote sensing-based winter wheat yield estimation integrating machine learning and crop growth multi-scenario simulations
+PY  - 2025
+JO  - International Journal of Digital Earth
 PB  - Taylor & Francis
-VL  - 56
-IS  - 2
-SP  - 307
-EP  - 318
-DO  - 10.1111/j.1747-0765.2010.00457.x
-UR  - https://doi.org/10.1111/j.1747-0765.2010.00457.x
-AB  - Predicting soil organic carbon (SOC) content distribution accurately from limited soil samples has received a great deal of attention recently in an effort to support soil fertility mapping and to improve our understanding of carbon sequestration variability. Kriging methods combined with auxiliary variables are frequently used at present. However, studies using categorical information, such as soil type and land use, which are closely related to local trends in SOC spatial variation, as auxiliary variables are seldom conducted. In the present investigation, a total of 254 surficial soil samples were collected in the study area, Yujiang county in the hilly red soil region of South China, and a comparison of performance of four kriging approaches was conducted, ordinary kriging (OK), kriging combined with soil-type information (KST), land use (KLU) and combined land use–soil type information (KLUST). Results of the assessment were based on 85 validation samples. The results indicate that the best correlation between the measured and predicted values for validation location was obtained with KLUST (r = 0.854), whereas the lowest was obtained using OK (r = 0.383). Furthermore, the roo
+VL  - 18
+IS  - 1
+DO  - 10.1080/17538947.2024.2443470
+UR  - https://doi.org/10.1080/17538947.2024.2443470
+AB  - Accurate and timely winter wheat yield prediction is critical for effective agricultural management and food security. This study used the World Food Studies (WOFOST) model, a widely adopted crop growth simulation model, to dynamically simulate winter wheat yield under various growth scenarios to produce a simulated dataset. Based on this dataset, custom yield estimation models were developed based on available remote sensing data. Validation with field-measured and county-level statistics demonstrated a robust and spatially extensive capability for accurate yield estimation, with R2, RMSE, and MRE values of 0.57, 424.80 kg/ha, and 6.57% at the plot level, and 0.58, 345.53 kg/ha, and 4.93% at the county level, notably improving on traditional field-based methods (R2 = 0.03–0.46) that primarily rely on limited field surveys and statistical models. Model simplification showed that accuracy decreased when fewer remote sensing images were used, yet achieved reasonable estimates (two temporal phases: R2 of 0.41/0.40 at plot/county level). Findings highlighted that data collection during key growth stages is essential for accuracy, and that a dataset of at least 5,000 records suffices fo
+ER  - 
+
+TY  - JOUR
+AU  - Joseph Balderas
+AU  - Dong Chen
+AU  - Yanbo Huang
+AU  - Li Wang
+AU  - Ren-cang Li C
+TI  - A comparative study of deep reinforcement learning for crop production management
+PY  - 2025
+JO  - Smart Agricultural Technology
+PB  - Elsevier
+VL  - 10
+SP  - 100853
+EP  - 100853
+DO  - 10.1016/j.atech.2025.100853
+UR  - https://doi.org/10.1016/j.atech.2025.100853
+AB  - Crop production management is essential for optimizing yield and minimizing a field's environmental impact to crop fields, yet it remains challenging due to the complex and stochastic processes involved. Recently, researchers have turned to machine learning to address these complexities. Specifically, reinforcement learning (RL), a cutting-edge approach designed to learn optimal decision-making strategies through trial and error in dynamic environments, has emerged as a promising tool for developing adaptive crop management policies. RL models aim to optimize long-term rewards by continuously interacting with the environment, making them well-suited for tackling the uncertainties and variability inherent in crop management. Studies have shown that RL can generate crop management policies that compete with, and even outperform, expert-designed policies within simulation-based crop models. In the gym-DSSAT crop model environment, one of the most widely used simulators for crop management, proximal policy optimization (PPO) and deep Q-networks (DQN) have shown promising results. However, these methods have not yet been systematically evaluated under identical conditions. In this study
+ER  - 
+
+TY  - JOUR
+AU  - Richard J. Hall
+AU  - Hua‐Liang Wei
+AU  - Simon Pearson
+AU  - Yihan Ma
+AU  - S. Fang
+AU  - Edward Hanna
+TI  - Complex Systems Modelling of UK Winter Wheat Yield
+PY  - 2022
+JO  - Computers and Electronics in Agriculture
+PB  - Elsevier
+VL  - 209
+SP  - 107855
+EP  - 107855
+DO  - 10.1016/j.compag.2023.107855
+UR  - https://doi.org/10.1016/j.compag.2023.107855
+AB  - Wheat is one of the most important global crops, understanding the drivers of wheat yield has significant societal benefits. Climate variables are particularly important in determining interannual variations in wheat yield, either as primary factors which directly influence the stages of wheat growth, or as secondary factors through their influence on pests, diseases and soil conditions. Here we present a new approach to model wheat yield; an empirical method based on nonlinear complex systems identification, known as NARMAX (Nonlinear AutoRegressive Moving Average with eXogenous inputs model). We deploy the NARMAX analytical approach for a specific site, Rothamsted, UK, where detailed meteorological variables are available, together with specific information on site conditions and crop growth stages. NARMAX yield forecasts are compared with those from the WOFOST crop model and nine state-of-the-art machine learning (ML) models; experimental results show that NARMAX outperforms all the compared methods in both prediction accuracy and model interpretability. We also develop regional wheat yield forecasts derived from a new gridded meteorological data product. The NARMAX approach pro
+ER  - 
+
+TY  - JOUR
+AU  - Daniyal Durmuş Köksal
+AU  - Kwabena Ebo Bennin
+AU  - Bedir Tekinerdoğan
+TI  - Centralized and vertical federated learning for Climate-Based crop yield prediction
+PY  - 2026
+JO  - Computers and Electronics in Agriculture
+PB  - Elsevier
+VL  - 249
+SP  - 111851
+EP  - 111851
+DO  - 10.1016/j.compag.2026.111851
+UR  - https://doi.org/10.1016/j.compag.2026.111851
+AB  - Accurate crop yield assessment is critical for food security planning and climate impact analysis, yet centralized machine learning approaches are increasingly constrained by data privacy requirements and institutional fragmentation. Climate variables, crop model simulations, and yield data are often distributed across organizations, making centralized data integration impractical. This study evaluates federated learning as a privacy-preserving alternative for large-scale crop yield modeling by systematically comparing Centralized Federated Learning (CFL) and Vertical Federated Learning (VFL). Using Ethiopia as a case study, we integrate ERA5 climate variables with maize and wheat yield simulations from the LPJmL and DSSAT models under irrigated and rainfed conditions. While CFL assumes centralized access to all features and labels, VFL employs a split neural network in which data remain at separate institutions and only latent representations are exchanged. Results show that CFL achieves the highest predictive accuracy (R 2 = 0.88–0.91), while VFL exhibits a modest performance reduction (R 2 = 0.765–0.897) but maintains stable convergence and minimal train–test divergence. Validat
+ER  - 
+
+TY  - JOUR
+AU  - Eric Asamoah
+AU  - G.B.M. Heuvelink
+AU  - Vincent Logah
+AU  - J.G.B. Leenaars
+AU  - P.S. Bindraban
+TI  - Fertilizer recommendations for maize production in Ghana: Comparison of machine learning, semi-mechanistic and conventional approaches
+PY  - 2025
+JO  - European Journal of Agronomy
+PB  - Elsevier
+VL  - 174
+SP  - 127925
+EP  - 127925
+DO  - 10.1016/j.eja.2025.127925
+UR  - https://doi.org/10.1016/j.eja.2025.127925
+AB  - Efficient fertilizer application is vital for enhancing maize production and profitability in Sub-Saharan Africa, where soil fertility varies widely across regions. This study aimed to develop a machine learning approach for generating site-specific fertilizer recommendations for maize production in Ghana and to evaluate its performance against conventional and semi-mechanistic approaches. A random forest machine learning model was trained on 482 maize yield experiments, consisting of 3136 yield observations collected from 1991 to 2020, to predict maize yield response to different fertilizer rates. The model incorporated multiple explanatory variables, including soil properties, climate conditions, and management practices, to generate fertilizer response curves from which fertilizer recommendations were derived for 14 sites across three agro-ecological zones in Ghana where field validation experiments were conducted. On these sites, the recommendations were compared with recommendations derived from the Quantitative Evaluation of the Fertility of Tropical Soils (QUEFTS), Conventional Fertilizer Dose Response (CFDR), and Updated Conventional Fertilizer Dose Response (UCFDR) approac
+ER  - 
+
+TY  - JOUR
+AU  - Ziyi Wang
+AU  - Roshanak Darvishzadeh
+AU  - Nancy Castilla
+AU  - Alice G. Laborte
+AU  - Andrew Nelson
+TI  - Early detection of rice bacterial leaf blight disease using canopy hyperspectral data and machine learning
+PY  - 2026
+JO  - International Journal of Applied Earth Observation and Geoinformation
+PB  - Elsevier
+VL  - 153
+SP  - 105511
+EP  - 105511
+DO  - 10.1016/j.jag.2026.105511
+UR  - https://doi.org/10.1016/j.jag.2026.105511
+AB  - Bacterial leaf blight (BLB) remains a major biotic constraint to global rice production, requiring faster and scalable detection methods than conventional field scouting to minimise yield losses. Early detection of BLB is essential for timely intervention and yield protection, yet very few studies have examined the use of remote sensing, particularly during the early growth phase of the rice crop. This study evaluated the potential of canopy-level hyperspectral data for identifying BLB in early vegetative phase. Field trials were conducted at the International Rice Research Institute, where canopy hyperspectral reflectance was collected from healthy and inoculated plots at the stem elongation and booting stages of the rice crop. Biophysical and biochemical parameters were also collected during the stem elongation stage. Four spectral transformation techniques, including first and second derivatives (FD, SD), continuum removal (CR), and continuous wavelet transform (CWT), were applied to canopy spectral data to identify BLB-sensitive features. To reduce the high dimensionality of hyperspectral features, the top 5 % most separable features were extracted, and redundancies were remove
 ER  - 

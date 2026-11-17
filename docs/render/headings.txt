@@ -1,0 +1,15 @@
+1. INTRODUCTION
+2. PROBLEM STATEMENT
+3. REVIEW METHOD
+4. CHARACTERISTICS OF THE INCLUDED STUDIES
+5. THEMATIC SYNTHESIS
+5.1 Constructing an interval
+5.2 Validation design and the estimation of skill
+5.3 Transport, applicability and transferability
+5.4 Machine learning for yield prediction
+5.5 Spatial soil and environmental prediction
+5.6 Crop simulation and data requirements
+6. DISCUSSION
+7. RESEARCH GAPS AND DIRECTIONS
+8. CONCLUSION
+REFERENCES
