@@ -1,0 +1,41 @@
+{
+ "executed": "2026-11-17",
+ "publishers": [
+  "Elsevier",
+  "Taylor & Francis",
+  "SAGE",
+  "Wiley",
+  "Springer",
+  "Emerald"
+ ],
+ "queries": [
+  "conformal prediction crop yield uncertainty",
+  "prediction interval crop yield machine learning",
+  "uncertainty quantification agricultural yield prediction",
+  "quantile regression yield forecasting",
+  "spatial cross-validation crop yield prediction",
+  "data leakage machine learning agronomy",
+  "model validation spatial prediction soil",
+  "transferability crop yield model new region",
+  "area of applicability spatial prediction",
+  "distribution shift machine learning agriculture",
+  "yield prediction smallholder maize machine learning",
+  "remote sensing yield prediction uncertainty",
+  "calibration uncertainty deep learning crop",
+  "generalisation gap yield prediction model"
+ ],
+ "identified": 491,
+ "duplicates_removed": 28,
+ "screened": 463,
+ "excluded_screening": 329,
+ "met_criteria": 134,
+ "corpus": 72,
+ "pdfs_downloaded": 6,
+ "pdfs_unavailable": 69,
+ "by_publisher": {
+  "Elsevier": 41,
+  "Wiley": 15,
+  "Springer": 7,
+  "Taylor & Francis": 9
+ }
+}

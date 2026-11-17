@@ -1,0 +1,585 @@
+97 candidates after title/abstract screening
+executed 2026-11-16
+
+--- 1. [2021] cites=820
+Predicting into unknown space? Estimating the area of applicability of spatial prediction models
+venue: Methods in Ecology and Evolution
+doi: 10.1111/2041-210x.13650
+Abstract Machine learning algorithms have become very popular for spatial mapping of the environment due to their ability to fit nonlinear and complex relationships. However, this ability comes with the disadvantage that they can only be applied to new data if these are similar to the training data. Since spatial mapping requires predictions to new geographic space which in many cases goes along with new predictor properties, a method to assess the area to which a prediction model can be reliably applied is required. Here, we suggest a methodology that delineates the ‘area of applicability’ (AOA) that we define as the area where we enabled the model to learn about relationships based on the 
+
+--- 2. [2019] cites=355
+Evaluation of Sampling and Cross-Validation Tuning Strategies for Regional-Scale Machine Learning Classification
+venue: Remote Sensing
+doi: 10.3390/rs11020185
+High spatial resolution (1–5 m) remotely sensed datasets are increasingly being used to map land covers over large geographic areas using supervised machine learning algorithms. Although many studies have compared machine learning classification methods, sample selection methods for acquiring training and validation data for machine learning, and cross-validation techniques for tuning classifier parameters are rarely investigated, particularly on large, high spatial resolution datasets. This work, therefore, examines four sample selection methods—simple random, proportional stratified random, disproportional stratified random, and deliberative sampling—as well as three cross-validation tunin
+
+--- 3. [2012] cites=255
+Increasing influence of heat stress on French maize yields from the 1960s to the 2030s
+venue: Global Change Biology
+doi: 10.1111/gcb.12069
+Improved crop yield forecasts could enable more effective adaptation to climate variability and change. Here, we explore how to combine historical observations of crop yields and weather with climate model simulations to produce crop yield projections for decision relevant timescales. Firstly, the effects on historical crop yields of improved technology, precipitation and daily maximum temperatures are modelled empirically, accounting for a nonlinear technology trend and interactions between temperature and precipitation, and applied specifically for a case study of maize in France. The relative importance of precipitation variability for maize yields in France has decreased significantly si
+
+--- 4. [2023] cites=213
+Using machine learning for crop yield prediction in the past or the future
+venue: Frontiers in Plant Science
+doi: 10.3389/fpls.2023.1128388
+The use of ML in agronomy has been increasing exponentially since the start of the century, including data-driven predictions of crop yields from farm-level information on soil, climate and management. However, little is known about the effect of data partitioning schemes on the actual performance of the models, in special when they are built for yield forecast. In this study, we explore the effect of the choice of predictive algorithm, amount of data, and data partitioning strategies on predictive performance, using synthetic datasets from biophysical crop models. We simulated sunflower and wheat data using OilcropSun and Ceres-Wheat from DSSAT for the period 2001-2020 in 5 areas of Spain. 
+
+--- 5. [2014] cites=195
+Regression conformal prediction with random forests
+venue: Machine Learning
+doi: 10.1007/s10994-014-5453-0
+(no abstract)
+
+--- 6. [2011] cites=171
+Regression Conformal Prediction with Nearest Neighbours
+venue: Journal of Artificial Intelligence Research
+doi: 10.1613/jair.3198
+In this paper we apply Conformal Prediction (CP) to the k-Nearest Neighbours Regression (k-NNR) algorithm and propose ways of extending the typical nonconformity measure used for regression so far. Unlike traditional regression methods which produce point predictions, Conformal Predictors output predictive regions that satisfy a given confidence level. The regions produced by any Conformal Predictor are automatically valid, however their tightness and therefore usefulness depends on the nonconformity measure used by each CP. In effect a nonconformity measure evaluates how strange a given example is compared to a set of other examples based on some traditional machine learning algorithm. We d
+
+--- 7. [2022] cites=146
+Nearest neighbour distance matching Leave‐One‐Out Cross‐Validation for map validation
+venue: Methods in Ecology and Evolution
+doi: 10.1111/2041-210x.13851
+Abstract Several spatial and non‐spatial Cross‐Validation (CV) methods have been used to perform map validation when additional sampling for validation purposes is not possible, yet it is unclear in which situations one CV method might be preferred over the other. Three factors have been identified as determinants of the performance of CV methods for map validation: the prediction area (geographical interpolation vs. extrapolation), the sampling pattern and the landscape spatial autocorrelation. In this study, we propose a new CV strategy that takes the geographical prediction space into account, and test how the new method compares with other established CV methods under different configura
+
+--- 8. [2022] cites=129
+A Hybrid Approach to Tea Crop Yield Prediction Using Simulation Models and Machine Learning
+venue: Plants
+doi: 10.3390/plants11151925
+Tea (Camellia sinensis L.) is one of the most highly consumed beverages globally after water. Several countries import large quantities of tea from other countries to meet domestic needs. Therefore, accurate and timely prediction of tea yield is critical. The previous studies used statistical, deep learning, and machine learning techniques for tea yield prediction, but crop simulation models have not yet been used. However, the calibration of a simulation model for tea yield prediction and the comparison of these approaches is needed regarding the different data types. This research study aims to provide a comparative study of the methods for tea yield prediction using the Food and Agricultu
+
+--- 9. [2014] cites=108
+An integrated, probabilistic model for improved seasonal forecasting of agricultural crop yield under environmental uncertainty
+venue: Frontiers in Environmental Science
+doi: 10.3389/fenvs.2014.00017
+We present a novel forecasting method for generating agricultural crop yield forecasts at the seasonal and regional-scale, integrating agroclimate variables and remotely-sensed indices. The method devises a multivariate statistical model to compute bias and uncertainty in forecasted yield at the Census of Agricultural Region (CAR) scale across the Canadian Prairies. The method uses robust variable-selection to select the best predictors within spatial subregions. Markov-Chain Monte Carlo (MCMC) simulation and random forest-tree machine learning techniques are then integrated to generate sequential forecasts through the growing season. Cross-validation of the model was performed by hindcastin
+
+--- 10. [2023] cites=97
+Cross-Validation Strategy Impacts the Performance and Interpretation of Machine Learning Models
+venue: Artificial Intelligence for the Earth Systems
+doi: 10.1175/aies-d-23-0026.1
+Abstract Machine learning algorithms are able to capture complex, nonlinear, interacting relationships and are increasingly used to predict agricultural yield variability at regional and national scales. Using explainable artificial intelligence (XAI) methods applied to such algorithms may enable better scientific understanding of drivers of yield variability. However, XAI methods may provide misleading results when applied to spatiotemporal correlated datasets. In this study, machine learning models are trained to predict simulated crop yield from climate indices, and the impact of cross-validation strategy on the interpretation and performance of the resulting models is assessed. Using dat
+
+--- 11. [2020] cites=90
+Farm machinery use and maize yields in China: an analysis accounting for selection bias and heterogeneity
+venue: Australian Journal of Agricultural and Resource Economics
+doi: 10.1111/1467-8489.12395
+Crop production in developing and emerging countries is increasingly dependent on the usage of farm machinery. However, it remains unclear whether low‐productive and high‐productive farmers benefit equally from farm machinery use. To address the research gap, this study examines the potential heterogeneous effects of farm machinery use on maize yields, using an unconditional quantile regression model and survey data from China. We employ a control function approach to address the selection bias issue associated with farm machinery use. The empirical results show that the use of farm machinery significant increases maize yields for all the selected quantiles (except for the 80th quantile); th
+
+--- 12. [2024] cites=83
+On crop yield modelling, predicting, and forecasting and addressing the common issues in published studies
+venue: Precision Agriculture
+doi: 10.1007/s11119-024-10212-2
+Abstract There has been a recent surge in the number of studies that aim to model crop yield using data-driven approaches. This has largely come about due to the increasing amounts of remote sensing (e.g. satellite imagery) and precision agriculture data available (e.g. high-resolution crop yield monitor data), as well as the abundance of machine learning modelling approaches. However, there are several common issues in published studies in the field of precision agriculture (PA) that must be addressed. This includes the terminology used in relation to crop yield modelling, predicting, forecasting, and interpolating, as well as the way that models are calibrated and validated. As a typical e
+
+--- 13. [2024] cites=81
+Corn Grain Yield Prediction Using UAV-Based High Spatiotemporal Resolution Imagery, Machine Learning, and Spatial Cross-Validation
+venue: Remote Sensing
+doi: 10.3390/rs16040683
+Food demand is expected to rise significantly by 2050 due to the increase in population; additionally, receding water levels, climate change, and a decrease in the amount of available arable land will threaten food production. To address these challenges and increase food security, input cost reductions and yield optimization can be accomplished using yield precision maps created by machine learning models; however, without considering the spatial structure of the data, the precision map’s accuracy evaluation assessment risks being over-optimistic, which may encourage poor decision making that can lead to negative economic impacts (e.g., lowered crop yields). In fact, most machine learning r
+
+--- 14. [2021] cites=80
+Vineyard Yield Estimation, Prediction, and Forecasting: A Systematic Literature Review
+venue: Agronomy
+doi: 10.3390/agronomy11091789
+Purpose—knowing in advance vineyard yield is a critical success factor so growers and winemakers can achieve the best balance between vegetative and reproductive growth. It is also essential for planning and regulatory purposes at the regional level. Estimation errors are mainly due to the high inter-annual and spatial variability and inadequate or poor performance sampling methods; therefore, improved applied methodologies are needed at different spatial scales. This paper aims to identify the alternatives to traditional estimation methods. Design/methodology/approach—this study consists of a systematic literature review of academic articles indexed on four databases collected based on mult
+
+--- 15. [2018] cites=75
+Conformal Regression for Quantitative Structure–Activity Relationship Modeling—Quantifying Prediction Uncertainty
+venue: Journal of Chemical Information and Modeling
+doi: 10.1021/acs.jcim.8b00054
+Making predictions with an associated confidence is highly desirable as it facilitates decision making and resource prioritization. Conformal regression is a machine learning framework that allows the user to define the required confidence and delivers predictions that are guaranteed to be correct to the selected extent. In this study, we apply conformal regression to model molecular properties and bioactivity values and investigate different ways to scale the resultant prediction intervals to create as efficient (i.e., narrow) regressors as possible. Different algorithms to estimate the prediction uncertainty were used to normalize the prediction ranges, and the different approaches were ev
+
+--- 16. [2012] cites=68
+Soil Organic Carbon Predictions by Airborne Imaging Spectroscopy: Comparing Cross‐Validation and Validation
+venue: Soil Science Society of America Journal
+doi: 10.2136/sssaj2012.0054
+Soil organic carbon (SOC) is considered to influence important processes affecting soil, air, and water quality. The management of this valuable resource could be assisted by remote sensing techniques able to provide high‐resolution spatial estimates of SOC. Such estimations are usually based on empirical regressions that are likely to have poor extrapolation abilities and hence it is important to properly estimate their accuracy in unsampled fields. Based on an imaging spectroscopy image acquired over the Luxembourg (c. 420 km 2 ), several multivariate calibration models (partial least square [PLSR], penalized‐spline signal [PSR], and support vector machine [SVMR] regressions) were develope
+
+--- 17. [2021] cites=66
+A comprehensive uncertainty quantification of large-scale process-based crop modeling frameworks
+venue: Environmental Research Letters
+doi: 10.1088/1748-9326/ac0f26
+Abstract Regional and global impact assessment tools are increasingly used to explore and evaluate the impact of climate change and extreme events on crop yield and environmental externalities. However, the large uncertainties associated with the inputs or the parameters in crop models within these tools, limits their predictive ability, exceeding the spatiotemporal variability of observed yields. The objective of this study is to explore and quantify different sources of uncertainties and assumptions made behind initial conditions (IC), soil input, meteorological forcing, management practices and model cultivar parameters by running regional simulations for the time period between 2009 and 
+
+--- 18. [2018] cites=61
+Modeling soil organic carbon with Quantile Regression: Dissecting predictors' effects on carbon stocks
+venue: Geoderma
+doi: 10.1016/j.geoderma.2017.12.011
+(no abstract)
+
+--- 19. [1985] cites=60
+Linear Models for Field Trials, Smoothing and Cross-Validation
+venue: Biometrika
+doi: 10.1093/biomet/72.3.527
+Spatial methods for the analysis of agricultural field experiments are represented here as smoothing methods applied simultaneously with the estimation of treatment effects. Selection of both the form of the smoother and the degree of smoothing required may be based on cross-validation. Particular emphasis is placed in this paper on generalized least squares estimation in linear models, but the principle applies quite generally.
+
+--- 20. [2021] cites=48
+Copula-based conformal prediction for multi-target regression
+venue: Pattern Recognition
+doi: 10.1016/j.patcog.2021.108101
+(no abstract)
+
+--- 21. [2023] cites=47
+Improving the Transferability of Deep Learning Models for Crop Yield Prediction: A Partial Domain Adaptation Approach
+venue: Remote Sensing
+doi: 10.3390/rs15184562
+Over the past few years, there has been extensive exploration of machine learning (ML), especially deep learning (DL), for crop yield prediction, resulting in impressive levels of accuracy. However, such models are highly dependent on training samples with ground truth labels (i.e., crop yield records), which are not available in some regions. Additionally, due to the existence of domain shifts between different spatial regions, DL models trained within one region (i.e., source domain) tend to have poor performance when directly applied to other regions (i.e., target domain). Unsupervised domain adaptation (UDA) has become a promising strategy to improve the transferability of DL models by a
+
+--- 22. [2021] cites=45
+Integration of maximum crop response with machine learning regression model to timely estimate crop yield
+venue: Geo-spatial Information Science
+doi: 10.1080/10095020.2021.1957723
+Timely and reliable estimation of regional crop yield is a vital component of food security assessment, especially in developing regions. The traditional crop forecasting methods need ample time and labor to collect and process field data to release official yield reports. Satellite remote sensing data is considered a cost-effective and accurate way of predicting crop yield at pixel-level. In this study, maximum Enhanced Vegetation Index (EVI) during the crop-growing season was integrated with Machine Learning Regression (MLR) models to estimate wheat and rice yields in Pakistan’s Punjab province. Five MLR models were compared using a fivefold cross-validation method for their predictive acc
+
+--- 23. [2007] cites=42
+Using Cross-Validation to Evaluate CERES-Maize Yield Simulations within a Decision Support System for Precision Agriculture
+venue: Transactions of the ASABE
+doi: 10.13031/2013.23605
+Crop growth models have recently been implemented to study precision agriculture questions within the framework of a decision support system (DSS) that automates simulations across management zones. Model calibration in each zone has occurred by automatically optimizing select model parameters to minimize error between measured and simulated yield over multiple growing seasons. However, to date, there have been no efforts to evaluate model simulations within the DSS. In this work, a model evaluation procedure based on leave-one-out cross-validation was developed to explore several issues associated with the implementation of CERES-Maize within the DSS. Five growing seasons of measured yield 
+
+--- 24. [2020] cites=38
+Time-varying impact of climate on maize and wheat yields in France since 1900
+venue: Environmental Research Letters
+doi: 10.1088/1748-9326/aba1be
+Climate services that can anticipate crop yields can potentially increase the resilience of food security in the face of climate change.These services are based on our understanding of how crop yield anomalies are related to climate anomalies, yet the share of global crop yield variability explained directly by climate factors is largely variable between regions.In Europe, France has been a major crop producer since the beginning of the 20th Century.Process based and statistical approaches to model crop yields driven by observed climate have proven highly challenging in France.This is especially due to a high regional diversity in climate but also due to environmental and agro-management fac
+
+--- 25. [2017] cites=34
+Interpretable regression trees using conformal prediction
+venue: Expert Systems with Applications
+doi: 10.1016/j.eswa.2017.12.041
+(no abstract)
+
+--- 26. [2006] cites=28
+Evidence for conformal invariance of crop yields
+venue: Proceedings of the Royal Society A Mathematical Physical and Engineering Sciences
+doi: 10.1098/rspa.2006.1667
+The aim of this paper is to study the nature of spatial correlation of yields of agricultural crops. The focus is primarily on natural or non-anthropogenic spatial variation, patterns that cannot be explained by topography, by variety or treatment effects, or by agricultural practices. Conformal invariance implies stationarity and isotropy, and also determines the rate of decay of spatial correlations. The resulting Gaussian model is studied empirically to see whether it describes satisfactorily the pattern of spatial correlations observed in field trials of various crops. By embedding the law in a larger statistical model, a convolution of white noise and the Matérn class having a range par
+
+--- 27. [2025] cites=27
+Conformal Prediction for Network-Assisted Regression
+venue: Journal of the American Statistical Association
+doi: 10.1080/01621459.2025.2506198
+An important problem in network analysis is predicting a node attribute using both network covariates, such as graph embedding coordinates or local subgraph counts, and conventional node covariates, such as demographic characteristics. While standard regression methods that make use of both types of covariates may be used for prediction, statistical inference is complicated by the fact that the nodal summary statistics are often dependent in complex ways. We show that under a mild joint exchangeability assumption, a network analog of conformal prediction achieves finite sample validity for a wide range of network covariates. We also show that a form of asymptotic conditional validity is achi
+
+--- 28. [2020] cites=24
+Calibrated Prediction with Covariate Shift via Unsupervised Domain Adaptation
+venue: arXiv (Cornell University)
+doi: 10.48550/arxiv.2003.00343
+Reliable uncertainty estimates are an important tool for helping autonomous agents or human decision makers understand and leverage predictive models. However, existing approaches to estimating uncertainty largely ignore the possibility of covariate shift--i.e., where the real-world data distribution may differ from the training distribution. As a consequence, existing algorithms can overestimate certainty, possibly yielding a false sense of confidence in the predictive model. We propose an algorithm for calibrating predictions that accounts for the possibility of covariate shift, given labeled examples from the training distribution and unlabeled examples from the real-world distribution. O
+
+--- 29. [2024] cites=18
+Cross model validation for a diversified cropping system
+venue: European Journal of Agronomy
+doi: 10.1016/j.eja.2024.127181
+Crop diversification is gaining traction due to the positive benefits in the delivery of ecosystem services (ESS) and the promotion of biodiversity. Agroecosystem simulation models can contribute to the design of diversified cropping systems but require calibration and validation before they can be applied. However, data availability is still very limited, particularly for diversified cropping systems. Therefore, the main goal of this study was to evaluate the suitability of the Nelder-Mead optimization method and the leave-one-out (LOO) validation method to calibrate and validate a diversified cropping system with a limited dataset, by using either a fixed year combination for calibration a
+
+--- 30. [1998] cites=17
+Spatial prediction, spatial sampling, and measurement error
+venue: Iowa State University Digital Repository (Iowa State University)
+doi: 10.31274/rtd-180813-10766
+This dissertation, comprising two distinct papers, investigates the prediction and sampling of spatial processes, where the data are contaminated with measurement error;In the first paper, we show that a geostatistical model can provide a powerful way of predicting unknown parts of some spatial phenomenon. The prediction problem is multivariate in the sense that one wishes to predict at multiple spatial locations. The results presented in this paper offer compelling evidence that a geostatistical model should be incorporated into spatial sampling and analysis, where possible. Even when the observable process is contaminated with measurement error, there is a straightforward way to filter it 
+
+--- 31. [2025] cites=16
+Crop Residue Burning in North‐Western India: Emission Estimation and Uncertainty Quantification
+venue: Journal of Geophysical Research Atmospheres
+doi: 10.1029/2024jd042198
+Abstract Air quality in India faces significant risk from agricultural residue burning, especially in Punjab and Haryana, which are pivotal to the world's second‐largest agrarian economy. This study quantifies emissions from post‐monsoon biomass burning (10 October–30 November 2022) in these states using VIIRS fire detection data and Sentinel‐2‐derived burnt areas. Ground validation via district‐level surveys aligns with the findings of our study. Results show 51% of the total crop area was burned (14,700 km 2 in Punjab; 8,300 km 2 in Haryana), leading to substantial emissions of PM 2.5 (54.28 Gg; 7.94 Gg), CH 4 (25.63 Gg; 3.75 Gg), CO 2 (1,100.3 Gg; 195.7 Gg), NH 3 (0.83 Gg; 0.15 Gg), SO 2 
+
+--- 32. [2023] cites=16
+Reliable prediction intervals with directly optimized inductive conformal regression for deep learning
+venue: Neural Networks
+doi: 10.1016/j.neunet.2023.09.008
+By generating prediction intervals (PIs) to quantify the uncertainty of each prediction in deep learning regression, the risk of wrong predictions can be effectively controlled. High-quality PIs need to be as narrow as possible, whilst covering a preset proportion of real labels. At present, many approaches to improve the quality of PIs can effectively reduce the width of PIs, but they do not ensure that enough real labels are captured. Inductive Conformal Predictor (ICP) is an algorithm that can generate effective PIs which is theoretically guaranteed to cover a preset proportion of data. However, typically ICP is not directly optimized to yield minimal PI width. In this study, we propose D
+
+--- 33. [2026] cites=14
+Predictive drivers and transferability of multi-scale machine learning based crop yield prediction under drought across European and Asian climates
+venue: Agricultural Water Management
+doi: 10.1016/j.agwat.2026.110254
+Food security is increasingly critical due to a growing global population. Accurate crop yield prediction enables policymakers to anticipate climate shocks, such as droughts, and manage food reserves proactively. Machine learning models struggle to capture the complexity of real-world conditions, particularly during extreme events such as droughts, as these events are often underrepresented in the training data distributions, challenging predictions. This study addresses the limitation of predictability of crop yield during hydrological extremes, particularly droughts, by optimizing a Random Forest regressor using two training strategies: random and a hydrologically balanced approach. The mo
+
+--- 34. [2018] cites=14
+Influence of milk yield on profitability—A quantile regression analysis
+venue: Journal of Dairy Science
+doi: 10.3168/jds.2018-14434
+This paper analyzes the factors that influence the economic success of Swiss dairy farms, as measured by the annual income per family work unit, using panel data regression techniques. Based on more than 5,400 farm-year observations, the main focus of the analysis concerns the milk yield per cow and year as the key explanatory variable, which can be adjusted by the farm manager in the medium term. We apply both a random effects model and a quantile regression based on deciles, which allows us to study the heterogeneity of the sample in greater detail. Consistent with the current literature, the random effects model shows the positive contribution of the milk yield, namely an additional 1,000
+
+--- 35. [2025] cites=11
+Spatial Soil Moisture Prediction From In Situ Data Upscaled to Landsat Footprint: Assessing Area of Applicability of Machine Learning Models
+venue: IEEE Transactions on Geoscience and Remote Sensing
+doi: 10.1109/tgrs.2025.3565818
+The inherent spatial mismatch between satellite-derived and ground-observed near-surface soil moisture (SM) data necessitates cautious interpretation of point-to-pixel comparisons. Though data-driven upscaling of point-scale SM may enable statistically sound comparisons, the uncertainty across a spatial domain was less explored in previous studies. This gap underscores the need of addressing the spatial prediction uncertainties when extrapolating SM information to a broader spatial scale. Accordingly, this study presents a spatial prediction approach integrating machine learning (ML) and spatiotemporal fusion, which enables the characterisation of SM variability at the Landsat satellite foot
+
+--- 36. [2024] cites=11
+Verifiably Robust Conformal Prediction
+venue: neural information processing systems
+doi: 10.52202/079017-0140
+Conformal Prediction (CP) is a popular uncertainty quantification method that provides distribution-free, statistically valid prediction sets, assuming that training and test data are exchangeable. In such a case, CP's prediction sets are guaranteed to cover the (unknown) true test output with a user-specified probability. Nevertheless, this guarantee is violated when the data is subjected to adversarial attacks, which often result in a significant loss of coverage. Recently, several approaches have been put forward to recover CP guarantees in this setting. These approaches leverage variations of randomised smoothing to produce conservative sets which account for the effect of the adversaria
+
+--- 37. [2022] cites=11
+Conformal prediction set for time-series
+venue: arXiv (Cornell University)
+doi: 10.48550/arxiv.2206.07851
+When building either prediction intervals for regression (with real-valued response) or prediction sets for classification (with categorical responses), uncertainty quantification is essential to studying complex machine learning methods. In this paper, we develop Ensemble Regularized Adaptive Prediction Set (ERAPS) to construct prediction sets for time-series (with categorical responses), based on the prior work of [Xu and Xie, 2021]. In particular, we allow unknown dependencies to exist within features and responses that arrive in sequence. Method-wise, ERAPS is a distribution-free and ensemble-based framework that is applicable for arbitrary classifiers. Theoretically, we bound the covera
+
+--- 38. [2016] cites=11
+EFFECT OF HUMAN CAPITAL ON MAIZE PRODUCTIVITY IN GHANA: A QUANTILE REGRESSION APPROACH
+venue: RePEc: Research Papers in Economics
+doi: 10.22004/ag.econ.234914
+Agriculture continues to play an important role in the economy of most African countries. Thus, productivity growth in agriculture is necessary for economic growth and poverty reduction of the region. While, theoretically, investing in human capital improves productivity, the empirical evidence is somewhat mixed, especially in developing countries. In Ghana, maize is associated with household food security, and low-income households are considered food insecure if they have no maize in stock. But, due to low productivity, Ghanaian farmers are yet to produce enough to meet local demand. Using quantile and OLS regression techniques, this study contributes to the literature on human capital and
+
+--- 39. [2024] cites=10
+Conformal Prediction via Regression-as-Classification
+venue: arXiv (Cornell University)
+doi: 10.48550/arxiv.2404.08168
+Conformal prediction (CP) for regression can be challenging, especially when the output distribution is heteroscedastic, multimodal, or skewed. Some of the issues can be addressed by estimating a distribution over the output, but in reality, such approaches can be sensitive to estimation error and yield unstable intervals.~Here, we circumvent the challenges by converting regression to a classification problem and then use CP for classification to obtain CP sets for regression.~To preserve the ordering of the continuous-output space, we design a new loss function and make necessary modifications to the CP classification techniques.~Empirical results on many benchmarks shows that this simple a
+
+--- 40. [2005] cites=10
+A Cross Validation Approach to Evaluate CERES-Maize Simulations of Corn Yield Spatial Variability
+venue: 2005 Tampa, FL July 17-20, 2005
+doi: 10.13031/2013.19052
+Validation of crop models is often neglected due to limitations in available measured data.In this work, a cross validation approach was used to validate the CERES-Maize crop growth modelin spite of limited measured data. Simulations were run for an Iowa cornfield divided into 100 grids.Five years of yield information were available for calibration of two parameters, tile drainage rate andsaturated hydraulic conductivity, in each grid. Cross validation requires that the model be calibratedfive times in each grid by alternatively leaving out one season yield information. The model is thenevaluated using the fitted parameters to simulate yield for the growing season left out of thecalibration.
+
+--- 41. [2016] cites=9
+Understanding the Effect of Land Fragmentation on Farm Level Efficiency: An Application of Quantile Regression-Based Thick Frontier Approach to Maize Production in Kenya
+venue: RePEc: Research Papers in Economics
+doi: 10.22004/ag.econ.249280
+Amidst declining agricultural productivity, farm level efficiency and persistent food security problems in Africa, land fragmentation is emerging as a key empirical and policy question in the region. In this paper, a novel approach is used to estimate the effects of land fragmentation. Quantile Regression-Based Thick Frontier (TFA) is applied to show how the overall change in landholding affects production efficiency in production. Applying cross-sectional survey data from Kenya, the results showed that the least efficient group of maize farmers in Kenya were those with the small average land holding attaining a maximum output of 70% of the actual attainable output. In terms of scale of prod
+
+--- 42. [2015] cites=9
+Cross-Conformal Prediction with Ridge Regression
+venue: Lecture notes in computer science
+doi: 10.1007/978-3-319-17091-6_21
+(no abstract)
+
+--- 43. [2025] cites=8
+Sensitivity analysis and uncertainty quantification of climate change effects on Tanzanian banana crop yield
+venue: Results in Control and Optimization
+doi: 10.1016/j.rico.2025.100519
+Concerns about the impact of climate change on agricultural systems have heightened, particularly in regions where crop cultivation is essential for economic stability and sustenance. This research addresses a critical gap in understanding by investigating how climate change influences Tanzania’s bananas, a vital component of the country’s agricultural sector. The study used a multiple regression model to analyze the correlation between bananas and key climate variables in Tanzania, the results showed gradual decrease in bananas. Specifically, the climate variables, including precipitation ( X 1 ), soil moisture ( X 2 ), minimum temperature ( X 3 ), maximum temperature ( X 4 ), and relative 
+
+--- 44. [2025] cites=8
+Volume-Sorted Prediction Set: Efficient Conformal Prediction for Multi-Target Regression
+venue: arXiv (Cornell University)
+doi: https://openalex.org/W4415334585
+We introduce Volume-Sorted Prediction Set (VSPS), a novel method for uncertainty quantification in multi-target regression that uses conditional normalizing flows with conformal calibration. This approach constructs flexible, non-convex predictive regions with guaranteed coverage probabilities, overcoming limitations of traditional methods. By learning a transformation where the conditional distribution of responses follows a known form, VSPS identifies dense regions in the original space using the Jacobian determinant. This enables the creation of prediction regions that adapt to the true underlying distribution, focusing on areas of high probability density. Experimental results demonstrat
+
+--- 45. [2026] cites=5
+HSE-GNN-CP: Spatiotemporal Teleconnection Modeling and Conformalized Uncertainty Quantification for Global Crop Yield Forecasting
+venue: Information
+doi: 10.3390/info17020141
+Global food security faces escalating threats from climate variability and resource constraints. Accurate crop yield forecasting is essential; however, existing methods frequently overlook complex spatial dependencies driven by climate teleconnections, such as the ENSO, and lacks rigorous uncertainty quantification. This paper presents HSE-GNN-CP, a novel framework integrating heterogeneous stacked ensembles, graph neural networks (GNNs), and conformal prediction (CP). Domain-specific features are engineered, including growing degree days and climate suitability scores, and explicitly model spatial patterns via rainfall correlation graphs. The ensemble combines random forest and gradient boo
+
+--- 46. [2022] cites=5
+Conformal Prediction: General Case and Regression
+venue: Springer eBooks
+doi: 10.1007/978-3-031-06649-8_2
+(no abstract)
+
+--- 47. [2022] cites=5
+Nonparametric Quantile Regression: Non-Crossing Constraints and Conformal Prediction
+venue: arXiv (Cornell University)
+doi: 10.48550/arxiv.2210.10161
+We propose a nonparametric quantile regression method using deep neural networks with a rectified linear unit penalty function to avoid quantile crossing. This penalty function is computationally feasible for enforcing non-crossing constraints in multi-dimensional nonparametric quantile regression. We establish non-asymptotic upper bounds for the excess risk of the proposed nonparametric quantile regression function estimators. Our error bounds achieve optimal minimax rate of convergence for the Holder class, and the prefactors of the error bounds depend polynomially on the dimension of the predictor, instead of exponentially. Based on the proposed non-crossing penalized deep quantile regres
+
+--- 48. [2021] cites=5
+Synergy Conformal Prediction for Regression
+venue: International Conference on Pattern Recognition Applications and Methods
+doi: 10.5220/0010229402120221
+Large and distributed data sets pose many challenges for machine learning, including requirements on computational resources and training time. One approach is to train multiple models in parallel on subsets of data and aggregate the resulting predictions. Large data sets can then be partitioned into smaller chunks, and for distributed data the need for pooling can be avoided. Combining results from conformal predictors using synergy rules has been shown to have advantageous properties for classification problems. In this paper we extend the methodology to regression problems, and we show that it produces valid and efficient predictors compared to inductive conformal predictors and cross-con
+
+--- 49. [2026] cites=4
+Attention-Based Transformer Framework with Predictive Uncertainty Quantification for Multi-Crop Yield Forecasting
+venue: Computation
+doi: 10.3390/computation14040093
+Accurate crop yield forecasting is essential for ensuring food security, optimizing agricultural resource allocation, and supporting climate-resilient farming systems. Recent advances in deep learning have improved yield prediction accuracy; however, most existing models provide deterministic estimates without quantifying predictive uncertainty. This limitation restricts their reliability under climatic variability, missing data, and real-world decision-making scenarios where risk awareness is critical. This study utilizes two publicly available multi-crop datasets comprising historical yield records integrated with weather and soil attributes across multiple growing seasons. An attention-ba
+
+--- 50. [2026] cites=4
+Conformal prediction of future insurance claims in the regression problem
+venue: European Actuarial Journal
+doi: 10.1007/s13385-026-00445-y
+(no abstract)
+
+--- 51. [2021] cites=4
+An adaptive adversarial domain adaptation approach for corn yield prediction
+venue: 
+doi: 10.1002/essoar.10508586.1
+Recently, statistical machine learning and deep learning methods have been widely explored for corn yield prediction. Though successful, machine learning models generated within a specific spatial domain often lose their validity when directly applied to new regions. To address this issue, we designed an unsupervised adaptive domain adversarial neural network (ADANN). Specifically, through domain adversarial training, the ADANN model reduced the impact of domain shift by projecting data from different domains into the same subspace. Also, the ADANN model was designed to be trained in an adaptive way, which guaranteed the model can learn the domain-invariant features and perform accurate yiel
+
+--- 52. [2020] cites=4
+A permutation test and spatial cross-validation approach to assess models of interspecific competition between trees
+venue: PLoS ONE
+doi: 10.1371/journal.pone.0229930
+Measuring species-specific competitive interactions is key to understanding plant communities. Repeat censused large forest dynamics plots offer an ideal setting to measure these interactions by estimating the species-specific competitive effect on neighboring tree growth. Estimating these interaction values can be difficult, however, because the number of them grows with the square of the number of species. Furthermore, confidence in the estimates can be overestimated if any spatial structure of model errors is not considered. Here we measured these interactions in a forest dynamics plot in a transitional oak-hickory forest. We analytically fit Bayesian linear regression models of annual tr
+
+--- 53. [2026] cites=3
+Enhancing digital mapping of soil organic carbon through spatial modeling and validation
+venue: Scientific Reports
+doi: 10.1038/s41598-026-39496-2
+Soil organic carbon (SOC) is a key indicator of soil health, stability, and security, and a major component of global carbon sequestration. Accurate SOC modeling is vital for environmental management and climate change mitigation. Despite machine learning advances, spatial autocorrelation remains a challenge in SOC prediction. This study assesses its impact by comparing four Random Forest (RF) models at 0–30 cm soil depth: (1) classic RF with non-spatial variables and random cross-validation, (2) classic RF with spatial and non-spatial variables and random cross-validation, (3) classic RF with non-spatial variables and spatial cross-validation, and (4) spatial RF with non-spatial variables a
+
+--- 54. [2026] cites=3
+Conformal Prediction for Dyadic Regression Under Complex Missingness
+venue: arXiv (Cornell University)
+doi: 10.48550/arxiv.2606.11136
+We develop a framework for conformal prediction in dyadic regression problems under complex missingness mechanisms. At the theoretical level, we develop general technical tools for establishing finite-sample validity of conformal prediction under distributional invariance conditions weaker than exchangeability. A key result handles the case where the sample itself is a random subset of the index set, a setting not covered by existing theory. In addition, we propose conformal prediction procedures for jointly exchangeable arrays, including full conformal, split conformal, a row-column approach exploiting similarities within rows and columns, and a selective conformal procedure achieving mask-
+
+--- 55. [2024] cites=3
+Conformal Prediction for Multimodal Regression
+venue: arXiv (Cornell University)
+doi: 10.48550/arxiv.2410.19653
+This paper introduces multimodal conformal regression. Traditionally confined to scenarios with solely numerical input features, conformal prediction is now extended to multimodal contexts through our methodology, which harnesses internal features from complex neural network architectures processing images and unstructured text. Our findings highlight the potential for internal neural network features, extracted from convergence points where multimodal information is combined, to be used by conformal prediction to construct prediction intervals (PIs). This capability paves new paths for deploying conformal prediction in domains abundant with multimodal data, enabling a broader range of probl
+
+--- 56. [2014] cites=3
+Maize response to fertilizer and fertilizer-use decisions for farmers in Ghana
+venue: Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign)
+doi: https://openalex.org/W2264848824
+Current maize yields in Ghana average only one-third of their estimated potential, but this yield gap can be reduced by improving farming practices and growing conditions in Ghana; specifically, yields in Ghana can likely be increased by intensifying the use of fertilizer, other inputs, and irrigation systems. Recently, Ghana introduced a fertilizer subsidy program to help increase fertilizer-use rates, however, little work has been done to examine the effectiveness of this program, or to determine the viability of using fertilizer to increase yields in Ghana. This paper (1) determines the marginal effects of inorganic fertilizer on maize output using OLS and quantile regressions, (2) determ
+
+--- 57. [1996] cites=3
+Prediction of Effectiveness and Heat Transfer Using a New 2-D Injection and Dispersion Model of the Film Cooling Process
+venue: 
+doi: 10.1115/96-gt-224
+A new model is developed to predict laterally-averaged film cooling. At the injection location, the near-hole region is leapt over and the injectant is distributed according to an existing jet in cross flow model and experimental data. The subsequent dispersion of the injectant is simulated to reflect the augmented mixing and the 3-dimensionality of the flow field. The new model is calibrated to predict effectiveness and heat transfer using the experimental data bases of Schmidt et al. (1994), Sen et al. (1994), Kohli et al. (1994), and Sinha et al. (1991). The geometries include injection angles of 35° and 55° with compound angles of 0° and 60° and hole spacings of 3 and 6 diameters. The ne
+
+--- 58. [2026] cites=1
+A Multi-crop Ensemble Framework for Yield Prediction
+venue: Indian Journal of Agricultural Research
+doi: 10.18805/ijare.a-6496
+Background: Accurate global crop yield predictions are crucial for ensuring food security, effective agricultural planning and climate adaptation. However, existing machine learning and deep learning approaches lack crop-specific feature learning, uncertainty quantification and multiscale spatial contexts, which limits their application in precision agriculture. Methods: This study presents a hybrid ensemble deep learning framework integrated with a crop-aware transformer encoder with heteroscedastic uncertainty for global multi-crop yield prediction (Maize, rice, wheat, soybean) at a 5-arcminute (~9 km) global resolution. The architecture integrates three key innovations: (1) conservative f
+
+--- 59. [2026] cites=1
+Identification of critical timing when abnormal weather affects maize and soft wheat yields in Italy using functional quantile regression
+venue: Scientific Reports
+doi: 10.1038/s41598-026-75869-3
+In this study, we apply functional regression analysis to identify the specific within-season periods during which temperature and precipitation anomalies most affect cereal yields. Using provincial data for Italy from 1952 to 2023, we analyze two major cereals, maize and soft wheat, and quantify how abnormal weather conditions influence yields across the growing cycle. Unlike traditional statistical yield models, which assume additive temperature effects over the season, our approach is capable of capturing the timing and functional shape of weather impacts. In particular, the results show that above-average temperatures reduce maize yields primarily during the phases from stem elongation t
+
+--- 60. [2026] cites=1
+Conformal Prediction for Nonparametric Instrumental Regression
+venue: arXiv (Cornell University)
+doi: 10.48550/arxiv.2603.25509
+We propose a method for constructing distribution-free prediction intervals in nonparametric instrumental variable regression (NPIV), with finite-sample coverage guarantees. Building on the conditional guarantee framework in conformal inference, we reformulate conditional coverage as marginal coverage over a class of IV shifts $\mathcal{F}$. Our method can be combined with any NPIV estimator, including sieve 2SLS and other machine-learning-based NPIV methods such as neural networks minimax approaches. Our theoretical analysis establishes distribution-free, finite-sample coverage over a practitioner-chosen class of IV shifts.
+
+--- 61. [2025] cites=1
+Conformal Prediction for Partial Label Learning
+venue: Proceedings of the AAAI Conference on Artificial Intelligence
+doi: 10.1609/aaai.v39i16.33853
+Partial label learning (PLL) allows each instance to be annotated with a set of candidate labels, but only one is the ground-truth label. Although the state-of-the-art (SOTA) PLL models have shown competitive performance, they cannot get rid of the negative influence from the noisy false-positive labels during the training process. This leads to a large extent of uncertainty of PLL models’ prediction, and it becomes unreliable to trust a PLL model’s performance only by its prediction accuracy. To bridge this gap, we develop a new framework to quantify the uncertainty for PLL models with valid confidence guarantee, which is named as Conformal Prediction for Partial Label Learning (CP-PLL). Th
+
+--- 62. [2025] cites=1
+Optimal Policy Adaptation Under Covariate Shift
+venue: International Joint Conference on Artificial Intelligence
+doi: 10.24963/ijcai.2025/645
+Transfer learning of prediction models has been extensively studied, while the corresponding policy learning approaches are rarely discussed. In this paper, we propose principled approaches for learning the optimal policy in the target domain by leveraging two datasets: one with full information from the source domain and the other from the target domain with only covariates. First, in the setting of covariate shift, we formulate the problem from a perspective of causality and present the identifiability assumptions for the reward induced by a given policy. Then, we derive the efficient influence function and the semiparametric efficiency bound for the reward. Based on this, we construct a d
+
+--- 63. [2024] cites=1
+Bayesian hierarchical modelling for regional crop yield prediction under climate uncertainty
+venue: International Journal of Research in Agronomy
+doi: 10.33545/2618060x.2024.v7.i2c.4972
+Conventional crop yield models give a single point estimate; they do not tell you how confident to be. This research developed a Bayesian hierarchical model (BHM) for winter wheat yield prediction across 48 municipalities in Götaland, southern Sweden, using climate, soil, and management covariates from 2001 to 2020. The BHM partitioned yield variance into regional, municipal, and residual components and produced full posterior predictive distributions rather than point forecasts. In leave-one-year-out cross-validation, the BHM achieved RMSE of 0.31 t ha⁻¹ and MAPE of 4.8%, outperforming random forest (0.44 t ha⁻¹; 6.7%), ridge regression (0.52 t ha⁻¹; 8.1%), and the process-based model APSIM
+
+--- 64. [2024] cites=1
+Spatial cross-validation of wheat yield estimations using remote sensing and machine learning
+venue: EGU General Assembly Conference Abstracts
+doi: 10.5194/egusphere-egu24-22153
+Integration of Machine Learning (ML) with remote sensing data has been successfully used to create detailed agricultural yield maps at both local and global scales. Despite this advancement, a critical issue often overlooked is the presence of spatial autocorrelation in geospatial data used for training and validating ML models. Usually random cross-validation (CV) methods are employed that fail to account for this aspect. This study aimed to assess wheat yield estimations using both random and spatial CV. In contrast to random CV where the data is split randomly, spatial CV involves splitting the data based on spatial locations, to ensure that spatially close data points are grouped togethe
+
+--- 65. [2024] cites=1
+Conformal prediction for robust deep nonparametric regression
+venue: Statistical Papers
+doi: 10.1007/s00362-024-01631-4
+(no abstract)
+
+--- 66. [2023] cites=1
+Conformal Regression in Calorie Prediction for Team Jumbo-Visma
+venue: arXiv (Cornell University)
+doi: 10.48550/arxiv.2304.03778
+UCI WorldTour races, the premier men's elite road cycling tour, are grueling events that put physical fitness and endurance of riders to the test. The coaches of Team Jumbo-Visma have long been responsible for predicting the energy needs of each rider of the Dutch team for every race on the calendar. Those must be estimated to ensure riders have the energy and resources necessary to maintain a high level of performance throughout a race. This task, however, is both time-consuming and challenging, as it requires precise estimates of race speed and power output. Traditionally, the approach to predicting energy needs has relied on judgement and experience of coaches, but this method has its lim
+
+--- 67. [2019] cites=1
+Conformal prediction based active learning
+venue: Library, Museums and Press - UDSpace (University of Delaware)
+doi: 10.58088/svq4-cx87
+Conformal prediction uses the degree of strangeness (nonconformity) of new data instances to determine the confidence values of new predictions. Conformal predictors are implemented in conjunction with traditional pattern classification algorithms yielding a set of predicted class labels with guaranteed error rate, a property referred to as validity. Different from Bayesian methods, which require prior knowledge of the distribution that generates the data, conformal prediction is only based on the assumption that the data are independent and identically distributed. ☐ Conformal prediction has been shown to improve the performance of pattern classification algorithms, including support vector
+
+--- 68. [2026] cites=0
+Climate-Adaptive Transformer for Crop Yield Prediction with Conformal Uncertainty Quantification
+venue: Zenodo (CERN European Organization for Nuclear Research)
+doi: 10.5281/zenodo.19429121
+Food security across South Asia critically depends on accurate pre-harvest crop yield estimation for rice, wheat, and maize—three staple cereals sustaining over a billion people. Existing computational frameworks exhibit four interconnected structural limitations: temporal blindness to agronomically critical growth stage windows; modality isolation in multi-source data integration; the near-universal absence of formally guaranteed uncertainty quantification; and distributional fragility of the few uncertainty methods that exist under inter-annual climate variability. This paper reviews the Climate-Adaptive Transformer (CAT), a novel deep learning architecture that simultaneously resolves all
+
+--- 69. [2026] cites=0
+Conformal prediction intervals for crop-yield forecasts under distribution shift: evaluating artificial intelligence calibration coverage and replanting-decision regret across smallholder advisories
+venue: Zenodo (CERN European Organization for Nuclear Research)
+doi: 10.5281/zenodo.23606677
+Conformal prediction offers distribution-free coverage guarantees for crop-yield forecasts, but its validity depends on exchangeability between calibration and deployment data, an assumption routinely violated when smallholder advisories transfer models across seasons, agro-ecological zones or management regimes. The framework is then embedded in a decision-theoretic account of replanting advice, in which the cost of a missed replanting signal is weighed against the cost of an unnecessary one, and the regret of a conformal advisory is bounded in terms of coverage shortfall and the asymmetry of the loss. A replication-based evaluation of the ordinary least squares estimator was conducted to c
+
+--- 70. [2026] cites=0
+Conformal Prediction Intervals for Satellite-Based Crop-Yield Regression Under Distribution Shift: Coverage Guarantees and Insurance Payout Fairness in Smallholder Schemes
+venue: Zenodo (CERN European Organization for Nuclear Research)
+doi: 10.5281/zenodo.23545299
+Satellite-based crop-yield regression is increasingly used to trigger index insurance payouts for smallholder farmers, yet the prediction intervals that accompany these regressions are typically constructed under an exchangeability assumption that fails when the deployment season, region or sensor configuration differs from the training data. The framework is evaluated through a replication-based replication study in which 600 data sets of N = 500 were drawn from a declared data-generating process (intercept 12.0, exposure 0.42, group -3.1, severity 1.35, error SD 4.2) and the ordinary least squares estimator was characterised under the stated process. Across the 600 replications, empirical 
+
+--- 71. [2026] cites=0
+Hybrid Machine Learning approach and Statistical Ensemble Model for Spatiotemporal Crop Yield Prediction
+venue: International Conference on Electronic Systems and Intelligent Computing (ICESIC)
+doi: 10.1109/icesic67389.2026.11496433
+Prediction of crop yield is necessary to ensure food security, timely and accurate strategic agricultural planning and management of resources. The proposed research presents a new hybrid modeling system, which is Statistical Ensemble Stacked-Hybrid Machine Learning System (SES-HMS) and the aim of this paper is to predict crop yield using spatiotemporal environmental, meteorological, and geospatial data. It combines satellite-derived NDVI, soil parameters, rainfall, temperature, and past yield statistics via uncommon processing methods including Spatiotemporal Kriging, Empirical Mode Decomposition (EMD), and Symbolic Aggregate approximator (SAX) to preprocess and upscale the data respectivel
+
+--- 72. [2026] cites=0
+When 90% Means 75%: Conformal Crop Yield Intervals for Pakistan's Districts under Temporal Shift
+venue: Zenodo (CERN European Organization for Nuclear Research)
+doi: 10.5281/zenodo.24138898
+Year-ahead yield forecasts for districts and crops can support food-security planning, but only if their stated uncertainty can be trusted. We study split-conformal prediction intervals for one-year-ahead district-crop yields in Pakistan, using official district crop statistics from 1981-82 to 2024-25 (70,225 district-crop-year rows, 98 crops, after cleaning). With a leakage-safe temporal design (training up to 2015-16, calibration on 2016-17 to 2019-20, test on 2020-21 to 2024-25), a pooled ridge model has a lower RMSE than persistence and a three-year median, but its nominal 90% intervals cover only 0.751 of 17,896 test yields. The shortfall is present from the first test year, is concentr
+
+--- 73. [2026] cites=0
+A Reliability-Aware Distributionally Invariant and Uncertainty-Selective Framework for Multi-Regional Crop Yield Classification
+venue: Adolescencia e Saude
+doi: 10.67440/ahj.vi.2450
+Agricultural Internet-of-Things data differ greatly between farms, regions, seasons, and sensor deployments. A predictor learned on pooled data can have high average accuracy but break when missingness, sensor drift, class imbalance or geographic covariate shift modifies the input distribution. In this paper, we introduce RADIUS-Yield, a novel extension for low, medium, and high crop-yield classification. The framework substitutes discrete hard filtering with continuous reliability weights, substitutes entropy-only sampling with a class-region constrained coreset, connects regional experts via a similarity graph, modifies global and local probabilities via a shift gate, and yields conformal 
+
+--- 74. [2026] cites=0
+AI-Driven Crop Recommendation and Yield Prediction using Satellite NDVI, Soil, and Historical Data with Local Market Price-Linked Prediction Intervals
+venue: International Conference on Communication and Electronics Systems (ICCES)
+doi: 10.1109/icces70397.2026.11762527
+Correctly selecting crops and estimating yields are important for farm income and food security. However, most current artificial intelligence systems give only one deterministic yield number and do not consider local market conditions, leaving farmers unable to assess risk or profitability. This paper presents an AI system that utilizes satellite-derived Normalized Difference Vegetation Index (NDVI) time series, soil physicochemical parameters and historical district-level yield records to jointly recommend crops and predict yield ranges. Instead of a point estimate, the system is trained to produce calibrated prediction intervals by means of quantile regression and bootstrap ensembles over
+
+--- 75. [2026] cites=0
+Hierarchical cross-modal spatiotemporal attention network for crop yield prediction in complex Himalayan agroecosystems
+venue: Frontiers in Plant Science
+doi: 10.3389/fpls.2026.1933033
+Introduction: Accurate crop yield prediction is essential for precision agriculture, climate-resilient farm management, and timely decision-making. However, yield prediction remains challenging because of complex, nonlinear, and multi-scale interactions among crop physiology, soil conditions, weather variability, and management practices. Conventional statistical, machine learning, and deep learning approaches, including convolutional neural networks (CNNs), recurrent neural networks (RNNs), and long short-term memory (LSTM) networks, often have limitations in capturing long-range temporal dependencies, hierarchical spatial relationships, heterogeneous data modalities, and predictive uncerta
+
+--- 76. [2026] cites=0
+THE IMPACT OF CHANGING WEATHER PATTERNS ON MAIZE YIELD IN SOUTH AFRICA: EVIDENCE FROM QUANTILE REGRESSION
+venue: F1000Research
+doi: 10.12688/f1000research.178130.2
+Background The ongoing shifts in climate are harming maize harvests, food safety, and the economic well-being of small farmers in many low-income countries. As global heat rises, extreme weather becomes more frequent, complicating agricultural practices and food manufacturing. Farming systems in sub-Saharan Africa that rely on rain are prone to failure because of environmental pressures and poor soil quality. Future variations in weather and heat are predicted to alter nutrient cycles, crop maturation, and yields. These obstacles have grave impacts on society, leading to malnutrition and social unrest, thus positioning environmental change as a top priority for political leaders. This study 
+
+--- 77. [2026] cites=0
+Bayesian quantile regression with variable selection and applications in plant breeding
+venue: Crop Science
+doi: 10.1002/csc2.70354
+Abstract High‐dimensional data present major challenges in identifying key predictors of phenotypic variation, particularly when response distributions are asymmetric or heavy tailed. Traditional variable selection methods focus on the conditional mean, limiting their utility in scenarios with heterogeneity across quantiles. This study applies a Bayesian Quantile Regression model with Variable Selection (BQRVS), which extends classical quantile regression through a hierarchical Bayesian framework and provides selective shrinkage of coefficients through hierarchical priors, along with full posterior uncertainty estimation for all parameters. The BQRVS model was evaluated on two real datasets.
+
+--- 78. [2026] cites=0
+Cross Validation of Machine Learning Models for Paddy Yield Prediction
+venue: Archives of Current Research International
+doi: 10.9734/acri/2026/v26i102200
+Crop-yield regression models support precision agricultural decision-making and regional food-security assessment. This study evaluates the generalisation performance of seven machine-learning algorithms—Linear Regression, Ridge Regression, Lasso Regression, K-Nearest Neighbours (KNN), Decision Tree, Random Forest and Gradient Boosting—against a mean-prediction baseline using an audited dataset of 99 complete observations with seven soil and environmental predictors: nitrogen, phosphorus, potassium, temperature, humidity, pH and rainfall. A leakage-safe pipeline incorporating fold-specific standard scaling was rigorously evaluated using repeated 5-fold cross-validation across 25 validation f
+
+--- 79. [2026] cites=0
+Blocked and Hierarchical Cross-Validation for Agricultural Data with Spatial Autocorrelation: Application to Peru’s National Agricultural Survey
+venue: Springer proceedings in physics
+doi: 10.1007/978-3-032-20151-5_1
+(no abstract)
+
+--- 80. [2026] cites=0
+Optimizing Multi-Sensor Sentinel Feature Subsets for Crop Mapping with Spatial Cross-Validation Control
+venue: Applied Sciences
+doi: 10.3390/app16136768
+Accurate crop mapping is important for agricultural monitoring and land management; yet, identifying robust and compact feature subsets from high-dimensional multi-sensor remote sensing data remains challenging, particularly in heterogeneous agricultural landscapes affected by spatial autocorrelation. Although combining multi-sensor data provides complementary spectral and structural information, traditional workflows often neglect spatial dependence during feature evaluation, leading to over-optimistic validation metrics and spatially unstable feature subsets. To address this issue, this study proposes a hierarchical feature selection and subset optimization framework for crop mapping by in
+
+--- 81. [2026] cites=0
+Explainable machine learning–based spatial downscaling of multi-depth FLDAS soil moisture to 500 m resolution using artificial neural networks and spatial cross-validation
+venue: Earth Science Informatics
+doi: 10.1007/s12145-026-02302-8
+(no abstract)
+
+--- 82. [2026] cites=0
+Spatially Robust Unsupervised Agricultural Risk Zonation Using Multi-Source Remote Sensing Data
+venue: International Conference on Agro-Geoinformatics
+doi: 10.1109/agro-geoinformatics70621.2026.11667454
+Agricultural risk assessment must represent nonlinear and spatially heterogeneous crop responses while remaining applicable where reference labels are sparse. This study presents an unsupervised framework that couples an autoencoder (AE) with a Self-Organizing Map (SOM) to delineate agricultural risk zones in the Konya Closed and Akarçay basins of central Türkiye. The framework is demonstrated for the drought-affected 2021 growing season, during which drought-related biophysical stress constituted the dominant risk signal. Sentinel-2 vegetation and moisture indicators and Landsat 8 land surface temperature (LST) were aggregated to predominantly agricultural 500 m hexagons for two winter-cere
+
+--- 83. [2026] cites=0
+Backward Conformal Prediction under Covariate Shift
+venue: arXiv (Cornell University)
+doi: 10.48550/arxiv.2610.16048
+Backward conformal prediction (BCP) fixes the size of a prediction set and estimates its miscoverage, but assumes calibration and test data are exchangeable. We extend BCP to covariate shift through importance weighting, preserving its guarantees when the density ratio is known. We show that BCP's tight miscoverage report depends only on the relative weight assigned to missed calibration examples, explaining why a better domain classifier can sometimes produce a worse estimate. Motivated by the fact that BCP depends only on nonconformity scores, we propose estimating density ratios on sorted score vectors rather than high-dimensional inputs. We prove that this approach recovers the same repo
+
+--- 84. [2026] cites=0
+An agronomically informed framework for temporally transferable yield prediction
+venue: Precision Agriculture
+doi: 10.1007/s11119-026-10454-2
+Abstract Purpose Yield maps are essential for agricultural decision-making, yet existing methods are often crop- or machine-specific, limiting their broader applicability. Methods This study introduces an agronomically informed framework for temporally transferable yield prediction that combines optimal phenological moment (OPM) selection with a spatial yield redistribution strategy: density-based yield mapping (DBYM). The framework relies on vegetation indices derived from satellite imagery acquired at physiologically meaningful crop stages and on independently known field-scale production values to guide spatial yield allocation. The method was evaluated across 10 growing seasons involving
+
+--- 85. [2026] cites=0
+Generalization Limits of Machine Learning-Based Crop Yield Prediction Across Countries and Climates
+venue: International Conference on Communications and Signal Processing (ICCSP)
+doi: 10.1109/iccsp68173.2026.11539227
+Most models of the prediction of crop yield are usually trained using data that is region specific and may not be applicable in various agro-climatic conditions. The data-driven yield prediction models examined in this paper are tested to be cross-country transferable based on the available world-wide FAO based dataset of 28,242 area-year samples of rainfall, temperature, pesticide usage and yield data. We begin by generating agro-climatic regions based on K-means clustering on country-scale median rainfall, temperature and pesticide inputs. A baseline of a Random Forest is trained in a Leave-One-Region-Out (LORO) framework, to measure geographic generalization. It has been found that there 
+
+--- 86. [2026] cites=0
+Conformal Prediction for Regression with Clipped Outcomes
+venue: arXiv (Cornell University)
+doi: 10.48550/arxiv.2607.20736
+We study conformal prediction for regression using calibration data with outcomes that are doubly censored (clipped) at known fixed thresholds. We show that existing methods are unsatisfactory in this setting, as they yield intervals that may have higher marginal coverage than desired and yet lose conditional coverage precisely for the easier-to-predict cases whose outcomes are typically fully observed. This reveals that marginal coverage, the usual target of conformal prediction, may not be the ideal goal under clipping. We address this challenge by introducing a new nonconformity score and calibration methods at both ends of this trade-off: one for tight marginal coverage, and a two-step m
+
+--- 87. [2026] cites=0
+Conformal Prediction for Distribution-to-Distribution Regression
+venue: arXiv (Cornell University)
+doi: 10.48550/arxiv.2611.06320
+Conformal Prediction (CP) provides a model-agnostic framework for constructing finite-sample prediction sets with coverage guarantees and has become a tool for reliable decision-making in high-risk settings. Recent advances have extended Split Conformal Prediction to increasingly complex learning problems, including multilabel, high-dimensional, and functional outputs. In this work, we study CP for Distribution-to-Distribution Regression, a setting of growing interest across many application domains. We show that a naive application of Split CP yields prediction sets that, while marginally valid, are non-interpretable, e.g., lacking a well-defined volume or a tractable sampling procedure, an
+
+--- 88. [2025] cites=0
+Exploring Feature Selection and Cross-Validation for Improved Crop Yield Prediction
+venue: IEEE International Conference on Electro Information Technology
+doi: 10.1109/eit64391.2025.11103692
+Machine learning models find significant importance in Geographic Information Systems relating to agriculture. UAV-derived orthomosaics, digital height maps, and vegetative indices provide valuable data for predicting crop yields across regions. These insights can support informed decision-making for farmers and stakeholders. While machine learning excels at analyzing large datasets, training and validating models on randomly distributed spatial data may introduce uncertainty and bias due to spatial autocorrelation. This research evaluates the effectiveness of random and spatial cross-validation (CV) techniques for crop yield prediction using machine learning models. The study utilizes dry y
+
+--- 89. [2025] cites=0
+Predictive Drivers and Spatiotemporal Transferability of Machine Learning Based Crop Yield Prediction Under Drought Conditions
+venue: SSRN Electronic Journal
+doi: 10.2139/ssrn.5289309
+(no abstract)
+
+--- 90. [2025] cites=0
+Symbolic Regression of Confidence Intervals for Conformal Prediction
+venue: Lecture notes in computer science
+doi: 10.1007/978-3-032-07998-5_14
+(no abstract)
+
+--- 91. [2024] cites=0
+Research on Prediction Intervals of Greenhouse Tomato Yield Based on Improved Particle Swarm Optimization Algorithm
+venue: Chinese Control and Decision Conference (CCDC)
+doi: 10.1109/ccdc62350.2024.10588164
+Tomato is the main cultivated crop in China, and greenhouse tomato can improve the quality and yield of tomato by improving the planting environment. Predicting greenhouse tomato yield is an important basis for making production plan, and the accuracy of yield prediction directly affects economic benefits. In order to improve the accuracy of the prediction intervals model of greenhouse tomato yield, a new objective function was proposed to improve the Lower Upper Bound Estimation (LUBE) prediction intervals model. Then, based on the improved LUBE prediction intervals model, the particle swarm optimization algorithm (PSO) was further improved by adaptive inertia weight and escape strategy. Fi
+
+--- 92. [2024] cites=0
+Assessing the area of applicability of spatial prediction models through a local data point density approach
+venue: EGU General Assembly Conference Abstracts
+doi: 10.5194/egusphere-egu24-10278
+Machine learning is frequently used in the field of earth and environmental sciences to produce spatial or spatio-temporal predictions of environmental variables based on limited field samples - increasingly even on a global scale and far beyond the extent of available training data. Since new geographic space often goes along with new environmental properties, the spatial applicability and transferability of models is often questionable. Predictions should be constrained to environments that exhibit properties the model has been enabled to learn.Meyer and Pebesma (2021) have made a first proposal to estimate the area of applicability (AOA) of spatial prediction models. Their method is based
+
+--- 93. [2023] cites=0
+Research on Prediction Intervals of Greenhouse Tomato Yield Based on Interval Neural Networks
+venue: Chinese Control Conference (CCC)
+doi: 10.23919/ccc58697.2023.10240645
+Greenhouse environment is a complex system with multivariable, nonlinear and strong coupling, which can provide a suitable environment to ensure the growing period of crops and improve their yield. Tomato is the main cultivated crop in greenhouse in China, the yield prediction of greenhouse tomato can help us arrange the growth process of tomato reasonably, so as to ensure a good growing environment of greenhouse tomato and bring higher economic benefits. This paper first improves the Lower Upper Bound Estimation (LUBE) prediction intervals model, the neural network is trained by particle swarm optimization algorithm to minimize an objective function based on prediction intervals, the effect
+
+--- 94. [2022] cites=0
+Global maps from local data: Towards globally applicable spatial prediction models
+venue: EGU General Assembly Conference Abstracts
+doi: 10.5194/egusphere-egu22-7529
+Global-scale maps are an important tool to provide ecologically relevant environmental variables to researchers and decision makers. Usually, these maps are created by training a machine learning algorithm on field-sampled reference data and the application of the resulting model to associated information from satellite imagery or globally available environmental predictors. However, field samples are often sparse and clustered in geographic space, representing only parts of the global environment. Machine learning models are therefore prone to overfit to the specific environments they are trained on - especially when a large set of predictor variables is utilized. Consequently, model valida
+
+--- 95. [2022] cites=0
+Conformal prediction for spatial functional regression models
+venue: Archivio Istituzionale della Ricerca - Università degli Studi della Campania "Luigi Vanvitelli"
+doi: https://openalex.org/W7217087519
+In this work we propose and show a general framework of distribution-free predictive inference for Spatio-Functional Regression models using Conformal Prediction techniques. In particular we focus on Geographically Weighted Regression (GWR) and Heteroskedastic Geographically Weighted Regression (HGWR) with two novel choices of non-conformity measures to compute simultaneous prediction bands.
+
+--- 96. [2021] cites=0
+The spatial prediction sandbox - Investigating the use of spatially-explicit modelling and cross-validation strategies in spatial interpolation machine learning problems
+venue: Portuguese National Funding Agency for Science, Research and Technology (RCAAP Project by FCT)
+doi: https://openalex.org/W3199314541
+Machine Learning (ML) methods are increasingly used for spatial interpolation and di erent strategies have been proposed to introduce space into the modelling and validation phases. Nevertheless, a comparison of these methods under di erent landscape autocorrelation ranges and sampling designs is still missing. This Master Thesis investigates under which scenarios spatially-explicit ML modelling and validation strategies are appropriate for spatial interpolation problems. We designed a framework that allowed us to simulate predictor and outcome spatial elds with di erent autocorrelation ranges, as well as samples with di erent number of points and distributions. With these data, we tested di
+
+--- 97. [2014] cites=0
+Parameter-induced uncertainty quantification of crop yields, soil N2O and CO2 emission for 8 arable sites across Europe using the LandscapeDNDC model
+venue: EGU General Assembly Conference Abstracts
+doi: https://openalex.org/W3049429750
+(no abstract)
+

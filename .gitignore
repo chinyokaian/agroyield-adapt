@@ -7,3 +7,6 @@ __pycache__/
 .DS_Store
 .freebuff/
 ~$*
+
+# downloaded third-party articles (do not redistribute)
+papers/

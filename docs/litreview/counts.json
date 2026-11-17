@@ -1,0 +1,9 @@
+{
+ "executed": "2026-11-16",
+ "identified": 275,
+ "duplicates_removed": 11,
+ "screened_title_abstract": 264,
+ "excluded_title_abstract": 167,
+ "excluded_not_primary": 25,
+ "candidates": 97
+}
