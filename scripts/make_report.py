@@ -30,7 +30,7 @@ def setup():
     s = doc.sections[0]
     s.page_width, s.page_height = Cm(21.0), Cm(29.7)
     s.left_margin, s.right_margin = Cm(4.0), Cm(1.0)
-    s.top_margin, s.bottom_margin = Cm(3.0), Cm(2.5)
+    s.top_margin, s.bottom_margin = Cm(2.5), Cm(4.0)
     n = doc.styles["Normal"]
     n.font.name = "Times New Roman"
     n.font.size = Pt(12)
